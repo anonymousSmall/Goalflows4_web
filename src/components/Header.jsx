@@ -47,7 +47,7 @@ function Header() {
             style={{ backgroundImage: `url(${bgImage})` }}
         >
             {/* overlay */}
-           <div className="absolute inset-0 bg-black/35 opacity-50"></div>
+           {/* <div className="absolute inset-0 bg-black/35 opacity-50"></div> */}
 
             <div className="relative container mx-auto max-w-[1320px] px-6 py-12 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
 
@@ -62,7 +62,7 @@ function Header() {
                     />
 
                     {/* DESCRIPTION */}
-                    <p className="mt-6 text-sm sm:text-base md:text-lg lg:text-xl font-medium text-white leading-relaxed max-w-[600px]">
+                    <p className="mt-6 text-sm sm:text-base md:text-lg lg:text-xl font-medium text-[##4CAF4F] leading-relaxed max-w-[600px]">
                         จำหน่ายเครื่องมือวัดละเอียดด้านมิติ จำหน่ายเครื่องชั่งน้ำหนักทุกชนิด
                         บริการซ่อม สอบเทียบ และอบรมการใช้งาน
                     </p>
