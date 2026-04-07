@@ -62,7 +62,7 @@ function Header() {
                     />
 
                     {/* DESCRIPTION */}
-                    <p className="mt-6 text-sm sm:text-base md:text-lg lg:text-xl font-medium text-[##4CAF4F] leading-relaxed max-w-[600px]">
+                    <p className="mt-6 text-sm sm:text-base md:text-lg lg:text-xl font-medium text-[#4CAF4F] leading-relaxed max-w-[600px]">
                         จำหน่ายเครื่องมือวัดละเอียดด้านมิติ จำหน่ายเครื่องชั่งน้ำหนักทุกชนิด
                         บริการซ่อม สอบเทียบ และอบรมการใช้งาน
                     </p>
