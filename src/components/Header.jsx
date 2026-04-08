@@ -9,6 +9,7 @@ import slide1 from "../assets/img/clients/client-01.png";
 import BrandSlider from './BrandSlider';
 import bgImage from "../assets/image/new/01bg.png";
 import branner from "../assets/image/new/brand-gf.png"
+import bgImage1 from "../assets/image/new/01BG.png";
 
 
 const images = [
