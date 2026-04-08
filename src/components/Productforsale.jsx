@@ -9,7 +9,8 @@ import bgSection from "../assets/image/new/02BG.png"; // ✅ พื้นหล�
 const Productforsale = () => {
     return (
         <section
-            className="relative py-20 md:py-28 bg-cover bg-center"
+            {/* className="relative py-20 md:py-28 bg-cover bg-center" */}
+            className="relative py-2 md:py-2 bg-cover bg-center"
             style={{ backgroundImage: `url(${bgSection})` }}
         >
             {/* Overlay */}
