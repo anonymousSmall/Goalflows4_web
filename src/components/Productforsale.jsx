@@ -13,7 +13,7 @@ const Productforsale = () => {
             style={{ backgroundImage: `url(${bgSection})` }}
         >
             {/* Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-white/40 backdrop-blur-sm"></div>
+            <div className="absolute inset-0"></div>
 
             <div className="relative max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-16 items-center">
 
