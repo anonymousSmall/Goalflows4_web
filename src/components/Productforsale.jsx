@@ -38,11 +38,11 @@ const Productforsale = () => {
                         </div>
 
                     {/* Company Label */}
-                    <img
+                    {/* <img
                         className="absolute bottom-4 left-6 w-[160px] sm:w-[200px] md:w-[300px] drop-shadow-lg"
                         src={logogf1}
                         alt="GF Instrument"
-                    />
+                    /> */}
                 </div>
 
                 {/* RIGHT SIDE */}
