@@ -21,16 +21,21 @@ const Productforsale = () => {
                 <div className="relative flex justify-center">
 
                     {/* Glow effect */}
-                    <div className="absolute w-[420px] h-[420px] bg-blue-400/20 blur-3xl rounded-full"></div>
+                      <div className="absolute w-[500px] h-[500px] md:w-[600px] md:h-[600px] bg-blue-400/20 blur-3xl rounded-full"></div>
 
-                    {/* Circle Image */}
-                    <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[420px] md:h-[420px]">
-                        <img
+                      {/* Circle Image */}
+                        <div className="relative 
+                           w-[360px] h-[360px] 
+                           sm:w-[460px] sm:h-[460px] 
+                           md:w-[550px] md:h-[550px] 
+                           lg:w-[600px] lg:h-[600px]">
+    
+                          <img
                             src={company1}
                             alt="company"
-                            className="w-full h-full object-cover hover:scale-105 transition duration-500"
-                        />
-                    </div>
+                            className="w-full h-full object-cover hover:scale-105 transition duration-500 drop-shadow-2xl"
+                          />
+                        </div>
 
                     {/* Company Label */}
                     <img
