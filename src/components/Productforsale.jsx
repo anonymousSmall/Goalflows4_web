@@ -13,10 +13,6 @@ import bgImage from "../assets/image/new/02BG.png";
 const Productforsale = () => {
     return (
         <section className="py-16 md:py-24 bg-gray-50">
-             <div
-              className="relative w-full min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center bg-cover bg-center"
-              style={{ backgroundImage: `url(${bgImage})` }}
-             >
             <div className="max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center">
 
                 {/* LEFT SIDE */}
