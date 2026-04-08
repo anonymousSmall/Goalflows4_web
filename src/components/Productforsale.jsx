@@ -4,7 +4,7 @@ import logogf1 from "../assets/image/new/2.02.png";
 import product1 from "../assets/image/new/2.03.png";
 import product2 from "../assets/image/new/2.04.png";
 import product3 from "../assets/image/new/2.05.png";
-import bgSection from "../assets/image/new/01.png"; // ✅ พื้นหลังใหม่
+import bgSection from "../assets/image/new/02BG.png"; // ✅ พื้นหลังใหม่
 
 const Productforsale = () => {
     return (
@@ -24,7 +24,7 @@ const Productforsale = () => {
                     <div className="absolute w-[420px] h-[420px] bg-blue-400/20 blur-3xl rounded-full"></div>
 
                     {/* Circle Image */}
-                    <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[420px] md:h-[420px] rounded-full overflow-hidden shadow-2xl border-4 md:border-8 border-white">
+                    <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[420px] md:h-[420px]">
                         <img
                             src={company1}
                             alt="company"
