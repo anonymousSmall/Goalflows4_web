@@ -1,16 +1,22 @@
 import React from 'react'
 import { Ruler, Microscope, Scale } from "lucide-react";
 import company from "../assets/image/company.png";
-import company1 from "../assets/image/new/2.01.png";
+import company2 from "../assets/image/new/2.01.png";
+import company1 from "../assets/image/new/02.png";
 import logogf1 from "../assets/image/new/2.02.png";
 import product1 from "../assets/image/new/2.03.png";
 import product2 from "../assets/image/new/2.04.png";
 import product3 from "../assets/image/new/2.05.png";
+import bgImage from "../assets/image/new/02BG.png";
 
 
 const Productforsale = () => {
     return (
         <section className="py-16 md:py-24 bg-gray-50">
+             <div
+              className="relative w-full min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center bg-cover bg-center"
+              style={{ backgroundImage: `url(${bgImage})` }}
+             >
             <div className="max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center">
 
                 {/* LEFT SIDE */}
