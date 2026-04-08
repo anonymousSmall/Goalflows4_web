@@ -64,9 +64,11 @@ function Header() {
                     />
 
                     {/* DESCRIPTION */}
-                    <p className="mt-6 text-sm sm:text-base md:text-lg lg:text-xl font-medium text-[#003b6e] leading-relaxed max-w-[600px]">
-                        จำหน่ายเครื่องมือวัดละเอียดด้านมิติ จำหน่ายเครื่องชั่งน้ำหนักทุกชนิด
-                        บริการซ่อม สอบเทียบ และอบรมการใช้งาน
+                    <p className="mt-6 text-sm sm:text-base md:text-lg lg:text-xl font-medium text-white leading-relaxed max-w-[600px]">
+                        จำหน่ายเครื่องมือวัดละเอียดด้านมิติ <br/>
+                        จำหน่ายเครื่องชั่งน้ำหนักทุกชนิด <br/>
+                        จำหน่ายเครื่องมือทดสอบชิ้นงานผลิต<br/>
+                        พร้อมบริการซ่อม สอบเทียบ อบรมการใช้งาน<br/>
                     </p>
                     <button className="mt-6 px-6 py-3 bg-[#003b6e] text-white rounded-lg hover:bg-[#002a4d] transition">
                         ติดต่อเรา
