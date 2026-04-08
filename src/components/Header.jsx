@@ -10,6 +10,7 @@ import BrandSlider from './BrandSlider';
 import bgImage from "../assets/image/new/01bg.png";
 import branner from "../assets/image/new/brand-gf.png"
 import bgImage1 from "../assets/image/new/01BG.png";
+import branner1 from "../assets/image/new/01.png";
 
 
 const images = [
@@ -45,7 +46,7 @@ function Header() {
 
         <div
             className="relative w-full min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center bg-cover bg-center"
-            style={{ backgroundImage: `url(${bgImage})` }}
+            style={{ backgroundImage: `url(${bgImage1})` }}
         >
             {/* overlay */}
            {/* <div className="absolute inset-0 bg-black/35 opacity-50"></div> */}
@@ -57,7 +58,7 @@ function Header() {
 
                     {/* LOGO */}
                     <img
-                        src={branner}
+                        src={branner1}
                         alt="GOAL FLOW INSTRUMENT"
                         className="w-[220px] sm:w-[300px] md:w-[420px] lg:w-[500px] object-contain"
                     />
