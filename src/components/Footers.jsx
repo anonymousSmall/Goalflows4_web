@@ -30,7 +30,6 @@ function Footers() {
                       alt="logo"
                       className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] lg:max-w-[380px] object-contain mb-6"
                     />
-                             </div>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       Copyright © 2025 GoalFlow ltd. <br />
                       All rights reserved
@@ -48,6 +47,7 @@ function Footers() {
                     </p>
                   </div>
                 </div>
+            </div>
             {/* End Left */}
             
             {/* Start Right */}
