@@ -3,6 +3,7 @@ import { FaRegPaperPlane, FaInstagram, FaDribbble, FaTwitter, FaYoutube } from '
 import logoWhite from '../assets/img/logo-white.png'
 import Logo from '../assets/image/new/01logo.png'
 import { Link, NavLink } from "react-router-dom";
+import iconfacebook from '../assets/image/new/01logo.png'
 
 function Footers() {
   return (
@@ -25,10 +26,14 @@ function Footers() {
             </p>
 
             <ul className="flex gap-4 mt-6 justify-center md:justify-start">
-              <li><a className="text-white text-xl hover:text-blue-400 transition"><FaInstagram /></a></li>
-              <li><a className="text-white text-xl hover:text-pink-400 transition"><FaDribbble /></a></li>
-              <li><a className="text-white text-xl hover:text-sky-400 transition"><FaTwitter /></a></li>
-              <li><a className="text-white text-xl hover:text-red-500 transition"><FaYoutube /></a></li>
+              <li>
+                <a className="text-white text-xl hover:text-blue-400 transition">
+                  <img
+              src={iconfacebook}
+              alt="logo" />
+                </a>
+              </li>
+              
             </ul>
           </div>
 
