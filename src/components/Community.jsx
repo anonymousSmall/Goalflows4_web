@@ -22,7 +22,7 @@ function Community() {
                         alt="GOAL FLOW INSTRUMENT"
                         className="w-[220px] sm:w-[300px] md:w-[420px] lg:w-[500px] object-contain"
                     /> */}
-                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#0d3f66] mb-10 text-center md:text-left leading-tight tracking-wide">
+                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-10 text-center md:text-left leading-tight tracking-wide">
                         สินค้าที่จำหน่าย
                     </h1>
 
@@ -33,9 +33,6 @@ function Community() {
                         ● บำรุงรักษาเครื่องมือ เครื่องจักร<br/>
                         ● ด้วยทีมงานผู้เชี่ยวชาญด้านเครื่องมือเฉพาะทางสำหรับอุตสาหกรรม<br/>
                     </p>
-                    <button className="mt-6 px-6 py-3 bg-[#003b6e] text-white rounded-lg hover:bg-[#002a4d] transition">
-                        ติดต่อโกลโฟลฯ
-                    </button>
                 </div>
             </div>
 
