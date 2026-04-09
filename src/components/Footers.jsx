@@ -13,12 +13,12 @@ import telegram from "../assets/image/new/icon/6.png";
 function Footers() {
 
     const socialIcons = [
-    { img: tiktok, alt: "tiktok" },
-    { img: facebook, alt: "facebook" },
-    { img: instagram, alt: "instagram" },
-    { img: youtube, alt: "youtube" },
-    { img: telegram, alt: "telegram" },
-  ];
+      { img: tiktok, alt: "tiktok", name: "tiktok" },
+      { img: facebook, alt: "facebook", name: "facebook" },
+      { img: instagram, alt: "instagram", name: "instagram" }, // 👈 ต้องมี
+      { img: youtube, alt: "youtube", name: "youtube" },
+      { img: telegram, alt: "telegram", name: "telegram" },
+      ];
   return (
     <div className="bg-gradient-to-br from-[#0f2f4a] via-[#123a5c] to-[#081f33] text-white border-t border-white/10">
       <div className="container mx-auto max-w-[1320px] px-6 py-12">
