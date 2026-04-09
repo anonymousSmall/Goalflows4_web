@@ -37,14 +37,6 @@ function Community() {
                         ติดต่อโกลโฟลฯ
                     </button>
                 </div>
-
-                {/* RIGHT (SLIDER) */}
-                <div className="w-full md:w-[50%] flex justify-center">
-                    <div className="w-[80%] sm:w-[70%] md:w-full">
-                        <BrandSlider />
-                    </div>
-                </div>
-
             </div>
 
         </div>
