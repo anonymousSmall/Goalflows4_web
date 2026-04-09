@@ -73,9 +73,9 @@ function Footers() {
                     <img
                       src={mail}
                       alt="icon mail"
-                      className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] lg:max-w-[380px] object-contain mb-6"
+                      className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] lg:max-w-[380px] object-contain"
                     />
-                    <ul className="space-y-2">
+                    <ul className="space-y-2 px-4">
                     <li>
                       <a href="/" className="text-gray-300 hover:text-white text-md transition">หน้าแรก</a>
                     </li>
