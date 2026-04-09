@@ -20,17 +20,6 @@ function Community() {
                 <div className="absolute inset-0 flex items-center">
 
                     {/* Diagonal Modern Panel */}
-                    <div
-                        className="
-          relative w-full md:w-[60%] h-full 
-          flex items-center
-          backdrop-blur-[2px]
-        "
-                        style={{
-                            clipPath: "polygon(0 0, 88% 0, 68% 100%, 0% 100%)"
-                        }}
-                    >
-
                         {/* Gradient Base */}
                         <div className="absolute inset-0 bg-gradient-to-r from-[#0b3c66]/95 via-[#0b3c66]/85 to-[#0b3c66]/60" />
 
