@@ -11,7 +11,7 @@ function Community() {
                 <div className="h-[320px] sm:h-[380px] md:h-[460px]">
                     <img
                         src={bgImage}
-                        alt="bgImage"
+                        alt="BGGF"
                         className="w-full h-full object-cover scale-105 group-hover:scale-110 transition duration-700"
                     />
                 </div>
