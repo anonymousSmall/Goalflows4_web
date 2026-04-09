@@ -4,10 +4,10 @@ import bgImage from "../assets/image/new/03.1BG.png";
 
 function Community() {
     return (
-       <div
-            className="relative w-full min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center bg-cover bg-center"
-            style={{ backgroundImage: `url(${bgImage})` }}
-        >
+      <div
+  className="relative w-full h-[400px] sm:h-[450px] md:h-[520px] lg:h-[600px] flex items-center bg-cover bg-center"
+  style={{ backgroundImage: `url(${bgImage})` }}
+>
             <div className="relative container mx-auto max-w-[1320px] px-6 py-12 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
 
                 {/* LEFT */}
