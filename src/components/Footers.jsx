@@ -24,7 +24,29 @@ function Footers() {
       <div className="container mx-auto max-w-[1320px] px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             {/* Start Left */}
-                <h1>123</h1>
+                <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-[520px] w-full mx-auto md:mx-0">
+                    <img
+                      src={Logo}
+                      alt="logo"
+                      className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] lg:max-w-[380px] object-contain mb-6"
+                    />
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      Copyright © 2025 GoalFlow ltd. <br />
+                      All rights reserved
+                    </p>
+                <div className="flex items-start gap-4">
+                  <img src={qr} alt="qr" className="w-[80px] h-[80px]"/>
+                  <div className="text-sm leading-relaxed">
+                    <p className="font-semibold">
+                      บริษัท โกลด์โฟล อินสตรูเมนท์ จำกัด
+                    </p>
+                    <p>
+                      1/35 ซอยรังสิต-นครนายก 3/1 <br />
+                      ต.ประชาธิปัตย์ อ.ธัญบุรี <br />
+                      จ.ปทุมธานี 12130
+                    </p>
+                  </div>
+                </div>
             {/* End Left */}
             
             {/* Start Right */}
