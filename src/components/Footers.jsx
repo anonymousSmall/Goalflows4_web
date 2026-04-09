@@ -5,7 +5,7 @@ import Logo from '../assets/image/new/01logo.png'
 import { Link, NavLink } from "react-router-dom";
 import qr from "../assets/image/new/icon/7.png";
 import facebook from "../assets/image/new/icon/3.png";
-import instagram from "../assets/image/new/icon/4.png";
+import instagram from "../assets/image/new/icon/ig.png";
 import youtube from "../assets/image/new/icon/5.png";
 import tiktok from "../assets/image/new/icon/2.png";
 import telegram from "../assets/image/new/icon/6.png";
@@ -52,10 +52,7 @@ function Footers() {
                     {socialIcons.map((item, i) => (
                       <div
                         key={i}
-                        className={`
-                            w-12 h-12 flex items-center justify-center rounded-full transition hover:scale-110
-                            ${item.name === "instagram" ? "bg-blue-500" : "bg-white"}
-                            `}
+                        className={"w-12 h-12 flex items-center justify-center rounded-full transition hover:scale-110"}
                       >
                       <img
                         src={item.img}
