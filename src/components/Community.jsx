@@ -1,5 +1,6 @@
 import React from 'react'
 import services from '../assets/image/service-gf.png'
+import bgImage from "../assets/image/new/03.1BG.png";
 
 function Community() {
     return (
@@ -9,8 +10,8 @@ function Community() {
                 {/* Background */}
                 <div className="h-[320px] sm:h-[380px] md:h-[460px]">
                     <img
-                        src={services}
-                        alt="Service Background"
+                        src={bgImage}
+                        alt="bgImage"
                         className="w-full h-full object-cover scale-105 group-hover:scale-110 transition duration-700"
                     />
                 </div>
