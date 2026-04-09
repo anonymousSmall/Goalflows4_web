@@ -20,7 +20,7 @@ function Footers() {
     { img: telegram, alt: "telegram" },
   ];
   return (
-    <div className="bg-[#1f4a78] text-white">
+    <div className="bg-[#0f2f4a] text-white">
       <div className="container mx-auto max-w-[1320px] px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             {/* Start Left */}
