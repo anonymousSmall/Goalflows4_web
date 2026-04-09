@@ -71,7 +71,7 @@ function Header() {
                         พร้อมบริการซ่อม สอบเทียบ อบรมการใช้งาน<br/>
                     </p>
                     <button className="mt-6 px-6 py-3 bg-[#003b6e] text-white rounded-lg hover:bg-[#002a4d] transition">
-                        ติดต่อโกลโฟลฯ
+                        <a href="/contact" className="text-gray-300 hover:text-white text-xl transition">ติดต่อโกลโฟลฯ</a>
                     </button>
                 </div>
 
