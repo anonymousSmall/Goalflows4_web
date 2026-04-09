@@ -53,14 +53,14 @@ function Footers() {
                       <div
                         key={i}
                         className={`
-                            w-14 h-14 flex items-center justify-center rounded-full transition hover:scale-110
-                            ${item.name === "instagram" ? "bg-blue-500" : "bg-white"}
+                            w-12 h-12 flex items-center justify-center rounded-full transition hover:scale-110
+                            ${item.img === "instagram" ? "bg-blue-500" : "bg-white"}
                             `}
                       >
                       <img
                         src={item.img}
                         alt={item.alt}
-                        className="w-7 h-7 object-contain scale-110"
+                        className="w-12 h-12 object-contain scale-110"
                       />
                     </div>
                   ))}
