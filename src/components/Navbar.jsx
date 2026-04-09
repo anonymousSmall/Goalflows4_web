@@ -49,7 +49,7 @@ function Navbar() {
 
                                 <ul className="py-2 max-h-[420px] overflow-y-auto">
                                     <li className=" group px-5 py-2.5 text-[15px] text-gray-700 hover:bg-gray-200 flex justify-between items-center cursor-pointer border-b border-gray-200 last:border-none">
-                                        <a href="../pages/Home.jsx" className='relative font-medium px-4 py-2 rounded-md transition-colors duration-200 hover:bg-[#003b6e]/10 md:px-0 
+                                        <a href="#" className='relative font-medium px-4 py-2 rounded-md transition-colors duration-200 hover:bg-[#003b6e]/10 md:px-0 
                                         md:py-0 md:mx-0 md:rounded-none md:hover:bg-transparent md:after:absolute md:after:left-0 
                                         md:after:-bottom-1 md:after:h-[2px] md:after:w-0 md:after:bg-[#003b6e] md:after:transition-all 
                                         md:after:duration-300 md:hover:after:w-full'>เครื่องวัดขนาดชิ้นงานผลิต <span className="text-gray-400 text-sm">{">"}</span></a>
