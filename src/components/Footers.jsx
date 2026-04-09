@@ -29,7 +29,7 @@ function Footers() {
 
           {/* LEFT */}
           <div>
-            <img src={logo} alt="logo" className="w-[180px] mb-4" />
+            <img src={Logo} alt="logo" className="w-[180px] mb-4" />
 
             <p className="text-sm opacity-80 mb-4">
               Copyright © 2025 GoldFlow ltd. <br />
