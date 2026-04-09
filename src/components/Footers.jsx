@@ -1,45 +1,51 @@
 import React from 'react'
-import { FaRegPaperPlane, FaInstagram, FaDribbble, FaTwitter, FaYoutube } from 'react-icons/fa6'
-import logoWhite from '../assets/img/logo-white.png'
 import Logo from '../assets/image/new/01logo.png'
-import { Link, NavLink } from "react-router-dom";
+import qr from '../assets/image/new/qr.png'
+
 // 🔹 import icon images
-import qr from "../assets/image/new/icon/7.png";
 import facebook from "../assets/image/new/icon/3.png";
 import instagram from "../assets/image/new/icon/4.png";
 import youtube from "../assets/image/new/icon/5.png";
 import tiktok from "../assets/image/new/icon/2.png";
 import telegram from "../assets/image/new/icon/6.png";
 
+import { Link } from "react-router-dom";
 
 function Footers() {
+
   const socialIcons = [
     { img: tiktok, alt: "tiktok" },
     { img: facebook, alt: "facebook" },
     { img: instagram, alt: "instagram" },
     { img: youtube, alt: "youtube" },
-    { img: telegram, alt: "telegram" },
   ];
-  return (
-    <footer className="bg-[#1f4a78] text-white">
-      <div className="max-w-[1320px] mx-auto px-6 py-12">
 
-        {/* GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+  return (
+    <div className="bg-[#263238] py-16 text-white">
+      <div className="container mx-auto max-w-[1320px] px-6">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
 
           {/* LEFT */}
-          <div>
-            <img src={Logo} alt="logo" className="w-[180px] mb-4" />
+          <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-[520px] w-full mx-auto md:mx-0">
 
-            <p className="text-sm opacity-80 mb-4">
+            <img
+              src={Logo}
+              alt="logo"
+              className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] lg:max-w-[380px] object-contain mb-6"
+            />
+
+            <p className="text-gray-300 text-sm leading-relaxed mb-4">
               Copyright © 2025 GoldFlow ltd. <br />
               All rights reserved
             </p>
 
-            <div className="flex items-start gap-4">
+            {/* QR + ADDRESS */}
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 mb-6">
               <img src={qr} alt="qr" className="w-[80px] h-[80px]" />
-              <div className="text-sm leading-relaxed">
-                <p className="font-semibold">
+
+              <div className="text-sm text-gray-300 leading-relaxed text-center sm:text-left">
+                <p className="font-semibold text-white">
                   บริษัท โกลด์โฟล อินสตรูเมนท์ จำกัด
                 </p>
                 <p>
@@ -50,108 +56,79 @@ function Footers() {
               </div>
             </div>
 
-            {/* SOCIAL ICONS */}
-            <div className="flex gap-3 mt-6">
+            {/* SOCIAL */}
+            <ul className="flex gap-3 justify-center md:justify-start">
               {socialIcons.map((item, i) => (
-                <div
-                  key={i}
-                  className="w-10 h-10 flex items-center justify-center bg-white rounded-full hover:scale-110 transition"
-                >
-                  <img
-                    src={item.img}
-                    alt={item.alt}
-                    className="w-5 h-5 object-contain"
-                  />
-                </div>
+                <li key={i}>
+                  <a className="w-10 h-10 flex items-center justify-center bg-white rounded-full hover:scale-110 transition">
+                    <img
+                      src={item.img}
+                      alt={item.alt}
+                      className="w-5 h-5 object-contain"
+                    />
+                  </a>
+                </li>
               ))}
-            </div>
-          </div>
-
-          {/* MIDDLE */}
-          <div className="lg:pl-10">
-            <h3 className="text-lg font-semibold mb-4">เมนู</h3>
-            <ul className="space-y-2 text-sm opacity-90">
-              <li className="hover:translate-x-1 transition cursor-pointer">หน้าแรก</li>
-              <li className="hover:translate-x-1 transition cursor-pointer">สินค้า</li>
-              <li className="hover:translate-x-1 transition cursor-pointer">
-                ดาวน์โหลดแคตตาล็อกบริษัท
-              </li>
-              <li className="hover:translate-x-1 transition cursor-pointer">
-                ติดต่อโกลโฟล
-              </li>
             </ul>
           </div>
 
           {/* RIGHT */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Subscribe</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-[520px] w-full mx-auto md:mx-0">
 
-            <div className="flex items-center bg-white rounded-full overflow-hidden w-full max-w-[320px]">
-              <input
-                type="email"
-                placeholder="Your E-Mail"
-                className="flex-1 px-4 py-2 text-black outline-none text-sm"
-              />
-              <button className="bg-blue-400 px-4 py-2 hover:bg-blue-500 transition">
-                <img
-                  src={telegram}
-                  alt="send"
-                  className="w-5 h-5"
-                />
-              </button>
+            {/* MENU */}
+            <div>
+              <h3 className="text-white font-semibold mb-4">เมนู</h3>
+              <ul className="space-y-2">
+                <li>
+                  <Link to="/" className="text-gray-300 hover:text-white text-md transition">
+                    หน้าแรก
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#" className="text-gray-300 hover:text-white text-md transition">
+                    Catalog
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/Catalog" className="text-gray-300 hover:text-white text-md transition">
+                    ดาวน์โหลดแคตตาล็อก
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" className="text-gray-300 hover:text-white text-md transition">
+                    ติดต่อเรา
+                  </Link>
+                </li>
+              </ul>
             </div>
 
-            <p className="text-xs opacity-70 mt-3">
-              รับข่าวสารและโปรโมชั่นใหม่ก่อนใคร
-            </p>
+            {/* SUBSCRIBE */}
+            <div>
+              <h3 className="text-white font-semibold mb-4">สมัครรับข่าวสาร</h3>
+
+              <form className="flex items-center bg-white rounded-full overflow-hidden max-w-[320px]">
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  className="text-black px-4 py-2 w-full text-sm focus:outline-none"
+                />
+                <button className="bg-blue-400 px-4 py-2 hover:bg-blue-500 transition">
+                  <img src={telegram} alt="send" className="w-5 h-5" />
+                </button>
+              </form>
+            </div>
+
           </div>
+
         </div>
 
         {/* BOTTOM */}
-        <div className="border-t border-white/20 mt-10 pt-6 text-center text-sm opacity-70">
+        <div className="border-t border-white/10 mt-12 pt-6 text-center text-sm text-gray-400">
           © 2025 GoldFlow Instrument Co., Ltd.
         </div>
-      </div>
-    </footer>
-    // <div className='bg-[#263238] py-20'>
-    //   <div className='container mx-auto max-w-[1320px]'>
-    //     <div className='grid grid-cols-1 m-10 md:m-0 md:grid-cols-2'>
-    //       <div className="flex flex-col items-start md:items-start text-center md:text-left">
-    //         <img src={Logo} alt="logo"
-    //           className='w-full max-w-[220px] md:max-w-[260px] lg:max-w-[300px]' />
-    //         <p className='my-6 text-white text-sm sm:text-base'>
-    //           Copyright © 2025 GoldFlow ltd. <br />
-    //           All rights reserved
-    //         </p>
-    //         <ul className='flex gap-4'>
-    //           <li><a className='text-white text-xl hover:text-blue-400 transition'><FaInstagram /></a></li>
-    //           <li><a className='text-white text-xl hover:text-pink-400 transition'><FaDribbble /></a></li>
-    //           <li><a className='text-white text-xl hover:text-sky-400 transition'><FaTwitter /></a></li>
-    //           <li><a className='text-white text-xl hover:text-red-500 transition'><FaYoutube /></a></li>
-    //         </ul>
-    //       </div>
 
-    //       <div className='grid grid-cols-1 md:grid-cols-3'>
-    //         <div>
-    //           <ul className='flex flex-col mb-5'>
-    //             <li className='mt-2'><a className='text-white text-[0.875rem]' href="#">หน้าแรก</a></li>
-    //             <li className='mt-2'><a className='text-white text-[0.875rem]' href="#">Catalog</a></li>
-    //             <li className='mt-2'><a className='text-white text-[0.875rem]' href="#">ดาวน์โหลดแคตตาล็อกบริษัท</a></li>
-    //             <li className='mt-2'><a className='text-white text-[0.875rem]' href="#">ติดต่อเรา</a></li>
-    //           </ul>
-    //         </div>
-    //         <div>
-    //           <form action="" className='flex mt-5'>
-    //             <div className='relative'>
-    //               <input type="text" className='bg-white/20 text-white text-[0.875rem] px-4 py-2 rounded-md' placeholder='Your email address' />
-    //               <button className='absolute top-[10px] right-[10px] cursor-pointer' type="submit"><FaRegPaperPlane className='text-white' /></button>
-    //             </div>
-    //           </form>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
+      </div>
+    </div>
   )
 }
 
