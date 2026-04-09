@@ -52,7 +52,10 @@ function Footers() {
                     {socialIcons.map((item, i) => (
                       <div
                         key={i}
-                        className="w-10 h-10 flex items-center justify-center bg-white rounded-full hover:scale-110 transition"
+                        className={`
+                            w-12 h-12 flex items-center justify-center rounded-full transition hover:scale-110
+                            ${item.name === "instagram" ? "bg-blue-500" : "bg-white"}
+                            `}
                       >
                       <img
                         src={item.img}
