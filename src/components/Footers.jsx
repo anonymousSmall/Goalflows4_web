@@ -15,7 +15,7 @@ function Footers() {
     const socialIcons = [
     { img: tiktok, alt: "tiktok" },
     { img: facebook, alt: "facebook" },
-    { img: instagram, alt: "instagram" className="bg-[#1f4a78]" },
+    { img: instagram, alt: "instagram" },
     { img: youtube, alt: "youtube" },
     { img: telegram, alt: "telegram" },
   ];
@@ -35,7 +35,7 @@ function Footers() {
                       All rights reserved
                     </p>
                 <div className="flex items-start gap-4">
-                  <img src={qr} alt="qr" className="w-[80px] h-[80px]"/>
+                  <img src={qr} alt="qr" className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px]"/>
                   <div className="text-sm leading-relaxed">
                     <p className="font-semibold">
                       บริษัท โกลด์โฟล อินสตรูเมนท์ จำกัด
