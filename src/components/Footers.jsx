@@ -66,18 +66,37 @@ function Footers() {
             {/* End Left */}
             
             {/* Start Right */}
-            {/* SUBSCRIBE */}
-            <div>
-                <form className="flex items-center bg-white/10 rounded-lg overflow-hidden">
-                    <input
-                      type="email"
-                      placeholder="Your email address"
-                      className="bg-transparent text-white px-4 py-2 w-full text-sm focus:outline-none"
-                    />
-                    <button className="px-4 text-white hover:text-blue-400 transition">
-                      <FaRegPaperPlane />
-                    </button>
-                </form>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-[520px] w-full mx-auto md:mx-0">
+                {/* SUBSCRIBE */}
+                <div>
+                    <form className="flex items-center bg-white/10 rounded-lg overflow-hidden">
+                        <input
+                          type="email"
+                          placeholder="Your email address"
+                          className="bg-transparent text-white px-4 py-2 w-full text-sm focus:outline-none"
+                        />
+                        <button className="px-4 text-white hover:text-blue-400 transition">
+                          <FaRegPaperPlane />
+                        </button>
+                    </form>
+                </div>
+                {/* MENU */}
+                <div>
+                    <ul className="space-y-2">
+                    <li>
+                      <a href="/" className="text-gray-300 hover:text-white text-md transition">หน้าแรก</a>
+                    </li>
+                    <li>
+                      <a href="#" className="text-gray-300 hover:text-white text-md transition">Catalog</a>
+                    </li>
+                    <li>
+                      <a href="/Catalog" className="text-gray-300 hover:text-white text-md transition">ดาวน์โหลดแคตตาล็อก</a>
+                    </li>
+                    <li>
+                      <a href="/contact" className="text-gray-300 hover:text-white text-md transition">ติดต่อเรา</a>
+                    </li>
+                  </ul>
+                </div>
             </div>
             {/* End Right */}
         </div>
