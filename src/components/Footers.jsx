@@ -20,7 +20,7 @@ function Footers() {
     { img: telegram, alt: "telegram" },
   ];
   return (
-    <div className="bg-[#0f2f4a] text-white">
+    <div className="bg-gradient-to-br from-[#0f2f4a] via-[#123a5c] to-[#081f33] text-white border-t border-white/10">
       <div className="container mx-auto max-w-[1320px] px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             {/* Start Left */}
@@ -57,7 +57,7 @@ function Footers() {
                       <img
                         src={item.img}
                         alt={item.alt}
-                        className="w-18 h-18 object-contain"
+                        className="w-6 h-6 object-contain"
                       />
                     </div>
                   ))}
