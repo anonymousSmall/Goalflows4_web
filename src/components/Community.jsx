@@ -23,11 +23,11 @@ function Community() {
                         className="w-[220px] sm:w-[300px] md:w-[420px] lg:w-[500px] object-contain"
                     /> */}
                      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-10 text-center md:text-left leading-tight tracking-wide">
-                        สินค้าที่จำหน่าย
+                        บริการ
                     </h1>
 
                     {/* DESCRIPTION */}
-                    <p className="mt-6 text-sm sm:text-base md:text-lg lg:text-xl font-medium text-white leading-relaxed max-w-[600px]">
+                    <p className="text-3xl sm:text-3xl md:text-4xl font-bold text-white mb-10 text-center md:text-left leading-tight tracking-wide">
                         ● ซ่อม / สอบเทียบ <br/>
                         ● อบรมการใช้งาน <br/>
                         ● บำรุงรักษาเครื่องมือ เครื่องจักร<br/>
