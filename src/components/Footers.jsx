@@ -15,7 +15,7 @@ function Footers() {
     const socialIcons = [
     { img: tiktok, alt: "tiktok" },
     { img: facebook, alt: "facebook" },
-    { img: instagram, alt: "instagram" },
+    { img: instagram, alt: "instagram" className="bg-[#1f4a78]" },
     { img: youtube, alt: "youtube" },
     { img: telegram, alt: "telegram" },
   ];
