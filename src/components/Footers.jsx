@@ -66,36 +66,62 @@ function Footers() {
             {/* End Left */}
             
             {/* Start Right */}
-            <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-[520px] w-full mx-auto md:mx-0">
-                {/* SUBSCRIBE */}
-                <div>
-                    <form className="flex items-center bg-white/10 rounded-lg overflow-hidden">
-                        <input
-                          type="email"
-                          placeholder="Your email address"
-                          className="bg-transparent text-white px-4 py-2 w-full text-sm focus:outline-none"
-                        />
-                        <button className="px-4 text-white hover:text-blue-400 transition">
-                          <FaRegPaperPlane />
-                        </button>
-                    </form>
-                    <ul className="space-y-2">
-                    <li>
-                      <a href="/" className="text-gray-300 hover:text-white text-md transition">หน้าแรก</a>
-                    </li>
-                    <li>
-                      <a href="#" className="text-gray-300 hover:text-white text-md transition">Catalog</a>
-                    </li>
-                    <li>
-                      <a href="/Catalog" className="text-gray-300 hover:text-white text-md transition">ดาวน์โหลดแคตตาล็อก</a>
-                    </li>
-                    <li>
-                      <a href="/contact" className="text-gray-300 hover:text-white text-md transition">ติดต่อเรา</a>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-            {/* End Right */}
+<div className="w-full max-w-[520px] mx-auto md:mx-0">
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+
+    {/* SUBSCRIBE */}
+    <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
+      <h3 className="text-white font-semibold mb-3">สมัครรับข่าวสาร</h3>
+
+      <form className="flex items-center bg-white rounded-full overflow-hidden w-full max-w-[300px] shadow-md">
+        <input
+          type="email"
+          placeholder="Your email address"
+          className="text-black px-4 py-2 w-full text-sm focus:outline-none"
+        />
+        <button className="bg-blue-500 px-4 py-2 hover:bg-blue-600 transition flex items-center justify-center">
+          <FaRegPaperPlane className="text-white" />
+        </button>
+      </form>
+
+      <p className="text-gray-300 text-xs mt-2">
+        รับข่าวสารและโปรโมชั่นก่อนใคร
+      </p>
+    </div>
+
+    {/* MENU */}
+    <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
+      <h3 className="text-white font-semibold mb-3">เมนู</h3>
+
+      <ul className="space-y-2">
+        <li>
+          <a href="/" className="text-gray-300 hover:text-white text-sm transition hover:translate-x-1 inline-block">
+            หน้าแรก
+          </a>
+        </li>
+        <li>
+          <a href="#" className="text-gray-300 hover:text-white text-sm transition hover:translate-x-1 inline-block">
+            Catalog
+          </a>
+        </li>
+        <li>
+          <a href="/Catalog" className="text-gray-300 hover:text-white text-sm transition hover:translate-x-1 inline-block">
+            ดาวน์โหลดแคตตาล็อก
+          </a>
+        </li>
+        <li>
+          <a href="/contact" className="text-gray-300 hover:text-white text-sm transition hover:translate-x-1 inline-block">
+            ติดต่อเรา
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>
+{/* End Right */}
         </div>
       </div>
     </div>
