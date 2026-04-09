@@ -79,7 +79,7 @@ function Footers() {
                           <FaRegPaperPlane />
                         </button>
                     </form>
-                    <ul className="space-y-2">
+                    <ul className="space-y-2 px-4 py-4 p-4 mt-4">
                     <li>
                       <a href="/" className="text-gray-300 hover:text-white text-md transition">หน้าแรก</a>
                     </li>
