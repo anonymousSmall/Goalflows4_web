@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../assets/image/new/01logo.png'
-import qr from '../assets/image/new/qr.png'
+import qr from '../assets/image/new/icon/7.png'
 
 // 🔹 import icon images
 import facebook from "../assets/image/new/icon/3.png";
