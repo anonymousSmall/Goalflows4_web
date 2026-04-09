@@ -66,7 +66,19 @@ function Footers() {
             {/* End Left */}
             
             {/* Start Right */}
-                <h1>123</h1>
+            {/* SUBSCRIBE */}
+            <div>
+                <form className="flex items-center bg-white/10 rounded-lg overflow-hidden">
+                    <input
+                      type="email"
+                      placeholder="Your email address"
+                      className="bg-transparent text-white px-4 py-2 w-full text-sm focus:outline-none"
+                    />
+                    <button className="px-4 text-white hover:text-blue-400 transition">
+                      <FaRegPaperPlane />
+                    </button>
+                </form>
+            </div>
             {/* End Right */}
         </div>
       </div>
