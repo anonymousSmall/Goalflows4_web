@@ -109,7 +109,6 @@ function Footers() {
         </div>
 
       </div>
-    </div>
   )
 }
 
