@@ -5,13 +5,14 @@ import logo1 from "../assets/image/GF-1.png";
 import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
-
+    
     const [dropdown, setDropdown] = useState(false);
     const [dropdowns, setDropdowns] = useState(false);
     const [toggle, setToggle] = useState(false);
     const updateToggle = () => {
         setToggle(!toggle);
     };
+    const [activeSubmenu, setActiveSubmenu] = useState(null);
 
     return (
         <nav className='backdrop-blur-md bg-[#003b6e]/70 border-b border-[#003b6e]/40 shadow-xl transition-all fixed top-0 w-full z-50'>
@@ -48,13 +49,23 @@ function Navbar() {
                             <div className="absolute top-full left-0 w-[250px] pt-2 bg-[#f3f3f3] border border-gray-300 shadow-[0_10px_30px_rgba(0,0,0,0.2)] z-50">
 
                                 <ul className="py-2 max-h-[420px] overflow-y-auto">
-                                    <li className=" group px-5 py-2.5 text-[15px] text-gray-700 hover:bg-gray-200 flex justify-between items-center cursor-pointer border-b border-gray-200 last:border-none">
+                                    <li className=" group px-5 py-2.5 text-[15px] text-gray-700 hover:bg-gray-200 flex justify-between items-center cursor-pointer border-b border-gray-200 last:border-none"
+                                        onClick={() =>
+                                            setActiveSubmenu(activeSubmenu === 1 ? null : 1)
+                                        }>
                                         <a href="#" className='relative font-medium px-4 py-2 rounded-md transition-colors duration-200 hover:bg-[#003b6e]/10 md:px-0 
                                         md:py-0 md:mx-0 md:rounded-none md:hover:bg-transparent md:after:absolute md:after:left-0 
                                         md:after:-bottom-1 md:after:h-[2px] md:after:w-0 md:after:bg-[#003b6e] md:after:transition-all 
                                         md:after:duration-300 md:hover:after:w-full'>เครื่องวัดขนาดชิ้นงานผลิต <span className="text-gray-400 text-sm">{">"}</span></a>
                                         {/* 🔥 SUBMENU */}
-                                        <div className="absolute top-0 left-full ml-[1px] w-[260px] bg-[#f3f3f3] border-l border-gray-300 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-[9999]">
+                                        <div className={`
+                                              md:absolute md:top-0 md:left-full md:ml-[1px]
+                                              w-[260px] bg-[#f3f3f3] border-l border-gray-300 shadow-xl
+                                              transition-all duration-200 z-[9999]
+
+                                              ${activeSubmenu === 1 ? 'block' : 'hidden'}
+                                              md:block md:opacity-0 md:invisible md:group-hover:opacity-100 md:group-hover:visible
+                                            `}>
                                             <ul className="py-2 max-h-[320px] overflow-y-auto">
                                                 <li className="px-5 py-2.5 text-[15px] text-gray-700 hover:bg-gray-200 flex justify-between items-center cursor-pointer border-b border-gray-200 last:border-none">
                                                     <p className='relative font-medium px-4 py-2 rounded-md transition-colors duration-200 hover:bg-[#003b6e]/10 md:px-0 
