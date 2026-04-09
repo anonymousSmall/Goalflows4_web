@@ -66,7 +66,7 @@ function Footers() {
             {/* End Left */}
             
             {/* Start Right */}
-            <div className="grid grid-cols-1 gap-12 max-w-[520px] w-full mx-auto md:mx-0">
+            <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-[520px] w-full mx-auto md:mx-0">
                 {/* SUBSCRIBE */}
                 <div>
                     <form className="flex items-center bg-white/10 rounded-lg overflow-hidden">
