@@ -66,7 +66,7 @@ function Footers() {
             {/* End Left */}
             
             {/* Start Right */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-[520px] w-full mx-auto md:mx-0">
+            <div className="grid grid-cols-1 gap-12 max-w-[520px] w-full mx-auto md:mx-0">
                 {/* SUBSCRIBE */}
                 <div>
                     <form className="flex items-center bg-white/10 rounded-lg overflow-hidden">
@@ -79,9 +79,6 @@ function Footers() {
                           <FaRegPaperPlane />
                         </button>
                     </form>
-                </div>
-                {/* MENU */}
-                <div>
                     <ul className="space-y-2">
                     <li>
                       <a href="/" className="text-gray-300 hover:text-white text-md transition">หน้าแรก</a>
@@ -96,7 +93,6 @@ function Footers() {
                       <a href="/contact" className="text-gray-300 hover:text-white text-md transition">ติดต่อเรา</a>
                     </li>
                   </ul>
-                </div>
             </div>
             {/* End Right */}
         </div>
