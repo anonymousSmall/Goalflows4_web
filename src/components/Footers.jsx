@@ -47,7 +47,21 @@ function Footers() {
                     </p>
                   </div>
                 </div>
-            </div>
+                {/* SOCIAL ICONS */}
+                  <div className="flex gap-3 mt-6">
+                    {socialIcons.map((item, i) => (
+                      <div
+                        key={i}
+                        className="w-10 h-10 flex items-center justify-center bg-white rounded-full hover:scale-110 transition"
+                      >
+                      <img
+                        src={item.img}
+                        alt={item.alt}
+                        className="w-5 h-5 object-contain"
+                      />
+                    </div>
+                  ))}
+              </div>
             {/* End Left */}
             
             {/* Start Right */}
