@@ -70,11 +70,13 @@ function Footers() {
             <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-[520px] w-full mx-auto md:mx-0">
                 {/* SUBSCRIBE */}
                 <div>
-                    <img
-                      src={mail}
-                      alt="icon mail"
-                      className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] lg:max-w-[380px] object-contain"
-                    />
+                    <a href="/contact" className="text-gray-300 hover:text-white text-md transition">
+                        <img
+                          src={mail}
+                          alt="icon mail"
+                          className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] lg:max-w-[380px] object-contain"
+                        />
+                    </a>
                     <ul className="space-y-2 px-4">
                     <li>
                       <a href="/" className="text-gray-300 hover:text-white text-md transition">หน้าแรก</a>
