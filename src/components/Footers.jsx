@@ -9,7 +9,7 @@ import youtube from "../assets/image/new/icon/5.png";
 import tiktok from "../assets/image/new/icon/2.png";
 import telegram from "../assets/image/new/icon/6.png";
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Footers() {
 
