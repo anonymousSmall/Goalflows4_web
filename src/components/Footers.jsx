@@ -62,6 +62,7 @@ function Footers() {
                     </div>
                   ))}
               </div>
+            </div>
             {/* End Left */}
             
             {/* Start Right */}
