@@ -93,6 +93,7 @@ function Footers() {
                       <a href="/contact" className="text-gray-300 hover:text-white text-md transition">ติดต่อเรา</a>
                     </li>
                   </ul>
+                </div>
             </div>
             {/* End Right */}
         </div>
