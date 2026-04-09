@@ -79,16 +79,16 @@ function Footers() {
                     </a>
                     <ul className="space-y-2 px-4">
                     <li>
-                      <a href="/" className="text-gray-300 hover:text-white text-md transition">หน้าแรก</a>
+                      <a href="/" className="text-gray-300 hover:text-white text-xl transition">หน้าแรก</a>
                     </li>
                     <li>
-                      <a href="#" className="text-gray-300 hover:text-white text-md transition">Catalog</a>
+                      <a href="#" className="text-gray-300 hover:text-white text-xl transition">Catalog</a>
                     </li>
                     <li>
-                      <a href="/Catalog" className="text-gray-300 hover:text-white text-md transition">ดาวน์โหลดแคตตาล็อก</a>
+                      <a href="/Catalog" className="text-gray-300 hover:text-white text-xl transition">ดาวน์โหลดแคตตาล็อก</a>
                     </li>
                     <li>
-                      <a href="/contact" className="text-gray-300 hover:text-white text-md transition">ติดต่อเรา</a>
+                      <a href="/contact" className="text-gray-300 hover:text-white text-xl transition">ติดต่อเรา</a>
                     </li>
                   </ul>
                 </div>
