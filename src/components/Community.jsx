@@ -6,7 +6,7 @@ function Community() {
     return (
         <div
             className="relative w-full min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center bg-cover bg-center"
-            style={{ backgroundImage: `url(${bgImage1})` }}
+            style={{ backgroundImage: `url(${bgImage})` }}
         >
             {/* overlay */}
            {/* <div className="absolute inset-0 bg-black/35 opacity-50"></div> */}
