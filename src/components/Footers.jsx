@@ -57,7 +57,7 @@ function Footers() {
                       <img
                         src={item.img}
                         alt={item.alt}
-                        className="w-5 h-5 object-contain"
+                        className="w-18 h-18 object-contain"
                       />
                     </div>
                   ))}
