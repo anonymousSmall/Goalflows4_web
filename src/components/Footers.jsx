@@ -9,6 +9,7 @@ import instagram from "../assets/image/new/icon/ig.png";
 import youtube from "../assets/image/new/icon/5.png";
 import tiktok from "../assets/image/new/icon/2.png";
 import telegram from "../assets/image/new/icon/6.png";
+import mail from "../assets/image/new/icon/icon-mail.png";
 
 function Footers() {
 
@@ -69,16 +70,11 @@ function Footers() {
             <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-[520px] w-full mx-auto md:mx-0">
                 {/* SUBSCRIBE */}
                 <div>
-                    <form className="flex items-center bg-white/10 rounded-lg overflow-hidden">
-                        <input
-                          type="email"
-                          placeholder="Your email address"
-                          className="bg-transparent text-white px-4 py-2 w-full text-sm focus:outline-none"
-                        />
-                        <button className="px-4 text-white hover:text-blue-400 transition">
-                          <FaRegPaperPlane />
-                        </button>
-                    </form>
+                    <img
+                      src={mail}
+                      alt="icon mail"
+                      className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] lg:max-w-[380px] object-contain mb-6"
+                    />
                     <ul className="space-y-2 px-4 py-4 p-4 mt-4">
                     <li>
                       <a href="/" className="text-gray-300 hover:text-white text-md transition">หน้าแรก</a>
