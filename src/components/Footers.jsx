@@ -34,8 +34,8 @@ function Footers() {
                       Copyright © 2025 GoalFlow ltd. <br />
                       All rights reserved
                     </p>
-                <div className="flex items-start gap-4">
-                  <img src={qr} alt="qr" className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px]"/>
+                <div className="flex items-start gap-5 mt-4">
+                  <img src={qr} alt="qr" className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] rounded-lg shadow-lg"/>
                   <div className="text-sm leading-relaxed">
                     <p className="font-semibold">
                       บริษัท โกลด์โฟล อินสตรูเมนท์ จำกัด
