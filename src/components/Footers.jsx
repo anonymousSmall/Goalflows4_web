@@ -54,7 +54,7 @@ function Footers() {
                         key={i}
                         className={`
                             w-12 h-12 flex items-center justify-center rounded-full transition hover:scale-110
-                            ${item.img === "instagram" ? "bg-blue-500" : "bg-white"}
+                            ${item.name === "instagram" ? "bg-blue-500" : "bg-white"}
                             `}
                       >
                       <img
