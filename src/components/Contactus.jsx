@@ -42,6 +42,20 @@ export default function Contactus() {
         className="absolute inset-0 -z-20 bg-no-repeat bg-center opacity-40 bg-[length:120%_auto] sm:bg-[length:110%_auto] md:bg-cover"style={{ backgroundImage: `url(${bgImage})` }}
       ></motion.div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative z-10">
+           {/* HEADER */}
+          <motion.dev
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-14">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-blue-900 uppercase drop-shadow-sm">
+            GOAL FLOW INSTRUMENT CO., LTD.
+          </h2>
+          <p className="text-gray-600 text-lg mt-2">
+            บริษัท โกลโฟล อินตรูเมนท์ จำกัด
+          </p>
+          </motion.dev>
           {/* MAIN GRID*/}
          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
          {/* LEFT : MAP + CONTACT INFO */}
