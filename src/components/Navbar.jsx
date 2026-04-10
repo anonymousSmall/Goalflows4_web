@@ -16,7 +16,8 @@ function Navbar() {
 
     return (
         <nav className='backdrop-blur-md bg-[#003b6e]/70 border-b border-[#003b6e]/40 shadow-xl transition-all fixed top-0 w-full z-50'>
-            <div className='container mx-auto max-w-[1320px] relative h-auto p-10 flex flex-col md:flex-row md:justify-between md:items-center md:h-[80px]'>
+            {/* <div className='container mx-auto max-w-[1320px] relative h-auto p-10 flex flex-col md:flex-row md:justify-between md:items-center md:h-[80px]'> */}
+            <div className='container mx-auto max-w-[1320px] relative h-auto p-4 flex flex-col md:flex-row md:justify-between md:items-center md:h-[80px]'>
                 <div>
                     <a href="">
                         <img src={logo1} className='h-20 drop-shadow-md transition-transform hover:scale-105' alt="" />
