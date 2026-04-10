@@ -47,7 +47,7 @@ const OurCustomer = () => {
         a41,a42,a43,a44,a45,]; // สมมติว่ามีข้อมูลลูกค้าในรูปแบบอาร์เรย์
     return (
               <div
-            className="relative w-full h-[400px] sm:h-[450px] md:h-[520px] lg:h-[600px] flex items-center bg-cover bg-center"
+            className="relative w-full h-[400px] sm:h-[450px] md:h-[520px] lg:h-[600px] flex items-center bg-cover bg-center py-2 md:py-2 "
             style={{ backgroundImage: `url(${bgImage})` }}
         >
             <div className="max-w-[1320px] mx-auto px-6">
