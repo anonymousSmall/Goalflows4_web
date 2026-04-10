@@ -1,11 +1,6 @@
 import React from 'react'
-import clientImgLogo01 from '../assets/img/clients/client-01.png'
-import clientImgLogo02 from '../assets/img/clients/client-02.png'
-import clientImgLogo03 from '../assets/img/clients/client-03.png'
-import clientImgLogo04 from '../assets/img/clients/client-04.png'
-import clientImgLogo05 from '../assets/img/clients/client-05.png'
-import clientImgLogo06 from '../assets/img/clients/client-06.png'
-import clientImgLogo07 from '../assets/img/clients/client-07.png'
+import bgImage from "../assets/image/logocus/PAGE01.05BG.png";
+import logo from "../assets/image/logocus/PAGE01.05.1.png";
 
 // import รูปจาก assets
 import accretech from "../assets/image/logo/accretech.png";
