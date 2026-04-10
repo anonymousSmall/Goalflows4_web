@@ -47,15 +47,64 @@ const OurCustomer = () => {
         a41,a42,a43,a44,a45,]; // สมมติว่ามีข้อมูลลูกค้าในรูปแบบอาร์เรย์
     return (
         <div
-  className="relative w-full min-h-[60vh] md:min-h-[70vh] lg:min-h-[80vh] 
-             flex items-center justify-center 
-             bg-no-repeat bg-contain bg-center bg-black"
-  style={{ backgroundImage: `url(${bgImage})` }}
->
-  <div className="max-w-[1320px] mx-auto px-6 py-10 text-white">
-    123
-  </div>
-</div>
+            className="relative w-full min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center bg-cover bg-center"
+            style={{ backgroundImage: `url(${bgImage})` }}
+        >
+            {/* overlay */}
+            <div className="absolute inset-0 opacity-50"></div>
+
+            <div className="absolute top-1 left-1 md:top-2 md:left-1 z-20">
+                <img
+                    src={logo}
+                    alt="Product 1"
+                    className="w-[95%] sm:w-[85%] md:w-[40%] object-contain transition duration-500 group-hover:scale-110 group-hover:drop-shadow-2xl"
+                />
+            </div>
+            {/* Grid Logo */}
+            <div className="
+            mx-auto 
+            max-w-[1320px] 
+            px-6 
+            py-18
+            mt-12
+                  grid 
+                  grid-cols-3 
+                  sm:grid-cols-3 
+                  md:grid-cols-4 
+                  lg:grid-cols-8
+                  gap-6 md:gap-8
+                ">
+                {customers.map((logo, index) => (
+                    <motion.div
+                        key={index}
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ delay: index * 0.1 }}
+                        viewport={{ once: true }}
+                        className="
+                        flex items-center justify-center
+                        bg-white 
+                        rounded-2xl 
+                        p-4 md:p-6
+                        shadow-sm 
+                        hover:shadow-xl 
+                        transition-all duration-300
+                        hover:-translate-y-2
+                " >
+                        <img
+                            src={logo}
+                            alt={`customer-${index}`}
+                            className="
+                        max-h-[60px] sm:max-h-[70px] md:max-h-[80px]
+                      object-contain
+                      grayscale hover:grayscale-0
+                      opacity-70 hover:opacity-100
+                      transition duration-300
+                "/>
+                    </motion.div>
+                ))}
+            </div>
+        </div>
     )
 }
 
