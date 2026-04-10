@@ -31,13 +31,6 @@ import morewright from "../assets/image/logo/more&wright.png";
 import mikrosize from "../assets/image/logo/mokrosize.png";
 
 const clientsImgLogo = [
-    // clientImgLogo01,
-    // clientImgLogo02,
-    // clientImgLogo03,
-    // clientImgLogo04,
-    // clientImgLogo05,
-    // clientImgLogo06,
-    // clientImgLogo07,
     accretech,
     accud,
     aikoh,
@@ -69,36 +62,7 @@ const clientsImgLogo = [
 
 function Clients() {
     return (
-       // <div className="container mx-auto max-w-[1320px] py-10 text-center px-6">
-       //     <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#0d3f66] 
-       //     mb-6 md:mb-10 text-center md:text-center leading-tight tracking-wide">
-       //         แบรนด์ที่จัดจำหน่าย
-       //     <span className="block w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto mt-4 rounded-full"></span>
-       //     </h2>
-       //     <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 my-10 items-center">
-       //        {clientsImgLogo.map((client, index) => (
-       //             <li key={index} className="flex justify-center hover:scale-110 transition-transform duration-300">
-       //                 <img
-       //                     src={client}
-       //                     alt="brand"
-       //                     className="max-h-[60px] sm:max-h-[70px] md:max-h-[80px] object-contain grayscale hover:grayscale-0 transition duration-300"
-       //                 />
-       //             </li>
-       //         ))}
-       //     </ul>
-       //  </div>
-        // <div className='container mx-auto max-w-[1320px] py-10 text-center'>
-        //     <h2 className='text-[2.25rem] font-semibold text-[#1E3A8A]'>แบรนด์ที่จัดจำหน่าย</h2>
-
-        //     <ul className='flex flex-col items-center my-10 md:flex-row md:justify-between'>
-        //         {clientsImgLogo.map((client, index) => (
-        //             <li key={index}>
-        //                 <img src={client} alt="" />
-        //             </li>
-        //         ))}
-        //     </ul>
-        // </div>
-        <div
+       <div
             className="relative w-full min-h-[200px] md:min-h-[300px] lg:min-h-[400px] flex items-center justify-start bg-cover bg-center"
             style={{ backgroundImage: `url(${bgImage})` }}
         >
