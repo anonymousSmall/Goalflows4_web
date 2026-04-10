@@ -44,15 +44,24 @@ const OurCustomer = () => {
         a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,
         a21,a22,a23,a24,a25,a26,a27,a28,a29,a30,
         a31,a32,a33,a34,a35,a36,a37,a38,a39,a40,
-        a41,a42,a43,a44,a45,
-        
-                      ]; // สมมติว่ามีข้อมูลลูกค้าในรูปแบบอาร์เรย์
+        a41,a42,a43,a44,a45,]; // สมมติว่ามีข้อมูลลูกค้าในรูปแบบอาร์เรย์
     return (
-        <div
-          className="relative py-2 md:py-2 bg-cover bg-center"
-          style={{ backgroundImage: `url(${bgImage})` }}>
+              <section
+            className="relative py-2 md:py-2 bg-cover bg-center"
+            style={{ backgroundImage: `url(${bgImage})` }}
+        >
             <div className="max-w-[1320px] mx-auto px-6">
-<div className="relative max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-16 items-center">
+
+                {/* Title */}
+                <div className="text-center mb-12">
+                    <h2 className="text-2xl md:text-4xl font-bold text-gray-800">
+                        Our Customers
+                    </h2>
+                    <p className="mt-3 text-gray-500 text-sm md:text-base">
+                        Trusted by leading brands and companies
+                    </p>
+                </div>
+
                 {/* Grid Logo */}
                 <div className="
           grid 
@@ -94,9 +103,9 @@ const OurCustomer = () => {
                         </motion.div>
                     ))}
                 </div>
+
             </div>
-                  </div>
-        </div>
+        </section>
     )
 }
 
