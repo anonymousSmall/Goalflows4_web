@@ -62,8 +62,8 @@ const clientsImgLogo = [
 
 function Clients() {
     return (
-       <div
-            className="relative w-full min-h-[200px] md:min-h-[300px] lg:min-h-[400px] flex items-center justify-start bg-cover bg-center"
+        <div
+            className="relative w-full min-h-[200px] md:min-h-[300px] lg:min-h-[400px] flex items-center justify-start bg-cover bg-center bg-no-repeat md:bg-[length:50%_auto]"
             style={{ backgroundImage: `url(${bgImage})` }}
         >
             {/* overlay */}
