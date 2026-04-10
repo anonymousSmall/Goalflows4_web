@@ -35,17 +35,10 @@ export default function Contactus() {
   };
 
   return (
-     <section className="relative overflow-hidden min-h-screen">
-       {/*🔵 Background Parallax Layer 1*/}
-      <motion.div
-        style={{ y: y1 }}
-        className="absolute inset-0 bg-gradient-to-b from-blue-50 to-blue-200/80 -z-10"
-      ></motion.div>
-
+     <section className="relative overflow-hidden py-4 min-h-[100vh] sm:min-h-[90vh]">
         {/* 🌫️ Background Parallax Layer 2 */}
-      <motion.div
-        style={{ y: y2 }}
-        className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1526401485004-2fda9f4e6f97?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center opacity-30 -z-20"
+       <motion.div
+        className="absolute inset-0 -z-20 bg-no-repeat bg-center opacity-40 bg-[length:120%_auto] sm:bg-[length:110%_auto] md:bg-cover"style={{ backgroundImage: `url(${bgImage})` }}
       ></motion.div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative z-10">
         {/* HEADER */}
