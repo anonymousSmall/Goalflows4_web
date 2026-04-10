@@ -1,102 +1,76 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import bgImage from "../assets/image/logocus/04BG.png
 
-import accretech from "../assets/image/logo/accretech.png";
-import accud from "../assets/image/logo/accud.png";
-import aikoh from "../assets/image/logo/aikoh.png";
-import carmar from "../assets/image/logo/carmar.png";
-import carton from "../assets/image/logo/carton.png";
-import chuer from "../assets/image/logo/chuer.png";
-import digicon from "../assets/image/logo/digicon.png";
-import eisen from "../assets/image/logo/eisen.png";
-import fluk from "../assets/image/logo/fluk.png";
-import gin from "../assets/image/logo/gin.png";
-import hexagon from "../assets/image/logo/hexagon.png";
-import imada from "../assets/image/logo/imada.png";
-import insize from "../assets/image/logo/insize.png";
-import jadever from "../assets/image/logo/jadever.png";
-import mahr from "../assets/image/logo/mahr.png";
-import mitutoyo from "../assets/image/logo/mitutoyo.png";
-import ojiyas from "../assets/image/logo/ojiyas.png";
-import peacock from "../assets/image/logo/peacock.png";
-import shahe from "../assets/image/logo/shahe.png";
-import shimadzu from "../assets/image/logo/shimadzu.png";
-import zepper from "../assets/image/logo/zepper.png";
-import tboss from "../assets/image/logo/t-boss.png";
-import tanita from "../assets/image/logo/tanita.png";
-import vertex from "../assets/image/logo/vertex.png";
-import morewright from "../assets/image/logo/more&wright.png";
-import mikrosize from "../assets/image/logo/mokrosize.png";
+import a10 from "../assets/image/logocus/10.png";
+import a11 from "../assets/image/logocus/11.png";
+import a12 from "../assets/image/logocus/12.png";
+import a13 from "../assets/image/logocus/13.png";
+import a14 from "../assets/image/logocus/14.png";
+import a15 from "../assets/image/logocus/15.png";
+import a16 from "../assets/image/logocus/16.png";
+import a17 from "../assets/image/logocus/17.png";
+import a18 from "../assets/image/logocus/18.png";
+import a19 from "../assets/image/logocus/19.png";
+import a20 from "../assets/image/logocus/20.png";
+import a21 from "../assets/image/logocus/21.png";
+import a22 from "../assets/image/logocus/22.png";
+import a23 from "../assets/image/logocus/23.png";
+import a24 from "../assets/image/logocus/24.png";
+import a25 from "../assets/image/logocus/25.png";
+import a26 from "../assets/image/logocus/26.png";
+import a27 from "../assets/image/logocus/27.png";
+import a28 from "../assets/image/logocus/28.png";
+import a29 from "../assets/image/logocus/29.png";
+import a30 from "../assets/image/logocus/30.png";
+import a31 from "../assets/image/logocus/31.png";
+import a32 from "../assets/image/logocus/32.png";
+import a33 from "../assets/image/logocus/33.png";
+import a34 from "../assets/image/logocus/34.png";
+import a35 from "../assets/image/logocus/35.png";
+import a36 from "../assets/image/logocus/36.png";
+import a37 from "../assets/image/logocus/37.png";
+import a38 from "../assets/image/logocus/38.png";
+import a39 from "../assets/image/logocus/39.png";
+import a40 from "../assets/image/logocus/40.png";
+import a41 from "../assets/image/logocus/41.png";
+import a42 from "../assets/image/logocus/42.png";
+import a43 from "../assets/image/logocus/43.png";
+import a44 from "../assets/image/logocus/44.png";
+import a45 from "../assets/image/logocus/45.png";
 
 const OurCustomer = () => {
-    const customers = [accretech,
-        accud,
-        aikoh,
-        carmar,
-        carton,
-        chuer,
-        digicon,
-        eisen,
-        fluk,
-        gin,
-        hexagon,
-        imada,
-        mikrosize,
-        insize,
-        jadever,
-        mahr,
-        mitutoyo,
-        ojiyas,
-        peacock,
-        shahe,
-        shimadzu,
-        zepper,
-        tboss,
-        tanita,
-        vertex,
-        morewright,]; // สมมติว่ามีข้อมูลลูกค้าในรูปแบบอาร์เรย์
+    const customers = [
+        a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,
+        a21,a22,a23,a24,a25,a26,a27,a28,a29,a30,
+        a31,a32,a33,a34,a35,a36,a37,a38,a39,a40,
+        a41,a42,a43,a44,a45,
+        
+                      ]; // สมมติว่ามีข้อมูลลูกค้าในรูปแบบอาร์เรย์
     return (
-        <section className="w-full bg-gradient-to-b from-white to-gray-50 py-16 md:py-24">
+        <div
+          className="relative w-full h-[400px] sm:h-[450px] md:h-[520px] lg:h-[600px] flex items-center bg-cover bg-center"
+          style={{ backgroundImage: `url(${bgImage})` }}>
             <div className="max-w-[1320px] mx-auto px-6">
 
-                {/* Title */}
-                <div className="text-center mb-12">
-                    <h2 className="text-2xl md:text-4xl font-bold text-gray-800">
-                        Our Customers
-                    </h2>
-                    <p className="mt-3 text-gray-500 text-sm md:text-base">
-                        Trusted by leading brands and companies
-                    </p>
-                </div>
-
-                {/* Grid Logo */}
-                <div className="
-          grid 
-          grid-cols-2 
-          sm:grid-cols-3 
-          md:grid-cols-4 
-          lg:grid-cols-6 
-          gap-6 md:gap-8
-        ">
-                    {customers.map((logo, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ delay: index * 0.1 }}
-                            viewport={{ once: true }}
-                            className="
-                flex items-center justify-center
-                bg-white 
-                rounded-2xl 
-                p-4 md:p-6
-                shadow-sm 
-                hover:shadow-xl 
-                transition-all duration-300
-                hover:-translate-y-2
-              "
-                        >
-                            <img
+                {customers.map((logo, index) => (
+                    <motion.div
+                        key={index}
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ delay: index * 0.1 }}
+                        viewport={{ once: true }}
+                        className="
+                            flex items-center justify-center
+                            bg-white 
+                            rounded-2xl 
+                            p-4 md:p-6
+                            shadow-sm 
+                            hover:shadow-xl 
+                            transition-all duration-300
+                            hover:-translate-y-2
+                  ">
+                    <img
                                 src={logo}
                                 alt={`customer-${index}`}
                                 className="
@@ -109,10 +83,8 @@ const OurCustomer = () => {
                             />
                         </motion.div>
                     ))}
-                </div>
-
             </div>
-        </section>
+        </div>
     )
 }
 
