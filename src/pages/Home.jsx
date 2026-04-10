@@ -15,7 +15,7 @@ const Home = () => {
       <Header />
       <Productforsale />
       <Community />
-      {/* <OurCustomer/> */}
+      <OurCustomer/>
       {/* <Pixelgrade /> */}
       {/* <Clients /> */}
     </>
