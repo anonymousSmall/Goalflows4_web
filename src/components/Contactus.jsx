@@ -1,6 +1,7 @@
 import { Children, useState } from "react";
 import { FaLine, FaFacebook } from "react-icons/fa6";
 import { motion, useScroll, useTransform } from "framer-motion";
+import bgImage from "../assets/image/bg/PAGE05.png";
 
 export default function Contactus() {
   const [formData, setFormData] = useState({
