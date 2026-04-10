@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import bgImage from "../assets/image/logocus/04BG.png
+import bgImage from "../assets/image/logocus/04BG.png";
 
 import a10 from "../assets/image/logocus/10.png";
 import a11 from "../assets/image/logocus/11.png";
