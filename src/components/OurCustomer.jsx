@@ -46,14 +46,15 @@ const OurCustomer = () => {
         a31,a32,a33,a34,a35,a36,a37,a38,a39,a40,
         a41,a42,a43,a44,a45,]; // สมมติว่ามีข้อมูลลูกค้าในรูปแบบอาร์เรย์
     return (
-              <div
-            className="relative w-full h-[400px] sm:h-[450px] md:h-[520px] lg:h-[600px] flex items-center bg-cover bg-center py-2 md:py-2 "
-            style={{ backgroundImage: `url(${bgImage})` }}
-        >
-            <div className="max-w-[1320px] mx-auto px-6">
-                123
-
-            </div>
+        <div
+            className="relative w-full min-h-[60vh] md:min-h-[70vh] lg:min-h-[80vh] flex items-center bg-cover bg-center"
+            style={{ backgroundImage: `url(${bgImage})` }}>
+          {/* overlay (ช่วยให้ดูบาลานซ์ + อ่านง่ายขึ้น) */}
+          <div className="absolute inset-0 bg-black/40"></div>
+              {/* content */}
+                  <div className="relative max-w-[1320px] mx-auto px-6 py-10 md:py-16 text-white">
+                        123
+                  </div>
         </div>
     )
 }
