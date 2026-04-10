@@ -17,7 +17,7 @@ const Home = () => {
       <Community />
       <OurCustomer/>
       {/* <Pixelgrade /> */}
-      {/* <Clients /> */}
+      <Clients />
     </>
   )
 }
