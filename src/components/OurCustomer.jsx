@@ -46,53 +46,15 @@ const OurCustomer = () => {
         a31,a32,a33,a34,a35,a36,a37,a38,a39,a40,
         a41,a42,a43,a44,a45,]; // สมมติว่ามีข้อมูลลูกค้าในรูปแบบอาร์เรย์
     return (
-              <section
+              <div
             className="relative py-2 md:py-2 bg-cover bg-center"
             style={{ backgroundImage: `url(${bgImage})` }}
         >
             <div className="max-w-[1320px] mx-auto px-6">
-                {/* Grid Logo */}
-                <div className="
-                  grid 
-                  grid-cols-2 
-                  sm:grid-cols-3 
-                  md:grid-cols-4 
-                  lg:grid-cols-6 
-                  gap-6 md:gap-8
-                ">
-            {customers.map((logo, index) => (
-                <motion.div
-                    key={index}
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ delay: index * 0.1 }}
-                    viewport={{ once: true }}
-                    className="
-                        flex items-center justify-center
-                        bg-white 
-                        rounded-2xl 
-                        p-4 md:p-6
-                        shadow-sm 
-                        hover:shadow-xl 
-                        transition-all duration-300
-                        hover:-translate-y-2
-                " >
-                 <img
-                    src={logo}
-                    alt={`customer-${index}`}
-                    className="
-                        max-h-[60px] sm:max-h-[70px] md:max-h-[80px]
-                      object-contain
-                      grayscale hover:grayscale-0
-                      opacity-70 hover:opacity-100
-                      transition duration-300
-                "/>
-                        </motion.div>
-                    ))}
-                </div>
+                123
 
             </div>
-        </section>
+        </div>
     )
 }
 
