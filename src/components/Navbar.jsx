@@ -442,6 +442,7 @@ function Navbar() {
                         {/* <a href="#">ติดต่อเรา</a> */}
                         <Link
                         to="/contact"
+                        onClick={closeMenu}
                         >
                             ติดต่อเรา
                         </Link>
