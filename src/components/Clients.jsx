@@ -74,25 +74,24 @@ const clientsImgLogo = [
 
 function Clients() {
     return (
-        <div className="container mx-auto max-w-[1320px] py-10 text-center px-6">
-            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#0d3f66] 
-            mb-6 md:mb-10 text-center md:text-center leading-tight tracking-wide">
-                แบรนด์ที่จัดจำหน่าย
-            <span className="block w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto mt-4 rounded-full"></span>
-            </h2>
-
-            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 my-10 items-center">
-                {clientsImgLogo.map((client, index) => (
-                    <li key={index} className="flex justify-center hover:scale-110 transition-transform duration-300">
-                        <img
-                            src={client}
-                            alt="brand"
-                            className="max-h-[60px] sm:max-h-[70px] md:max-h-[80px] object-contain grayscale hover:grayscale-0 transition duration-300"
-                        />
-                    </li>
-                ))}
-            </ul>
-        </div>
+       // <div className="container mx-auto max-w-[1320px] py-10 text-center px-6">
+       //     <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#0d3f66] 
+       //     mb-6 md:mb-10 text-center md:text-center leading-tight tracking-wide">
+       //         แบรนด์ที่จัดจำหน่าย
+       //     <span className="block w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto mt-4 rounded-full"></span>
+       //     </h2>
+       //     <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 my-10 items-center">
+       //        {clientsImgLogo.map((client, index) => (
+       //             <li key={index} className="flex justify-center hover:scale-110 transition-transform duration-300">
+       //                 <img
+       //                     src={client}
+       //                     alt="brand"
+       //                     className="max-h-[60px] sm:max-h-[70px] md:max-h-[80px] object-contain grayscale hover:grayscale-0 transition duration-300"
+       //                 />
+       //             </li>
+       //         ))}
+       //     </ul>
+       //  </div>
         // <div className='container mx-auto max-w-[1320px] py-10 text-center'>
         //     <h2 className='text-[2.25rem] font-semibold text-[#1E3A8A]'>แบรนด์ที่จัดจำหน่าย</h2>
 
@@ -104,6 +103,49 @@ function Clients() {
         //         ))}
         //     </ul>
         // </div>
+        <div
+            className="relative w-full min-h-[200px] md:min-h-[300px] lg:min-h-[400px] flex items-center justify-start bg-cover bg-center"
+            style={{ backgroundImage: `url(${bgImage})` }}
+        >
+            {/* overlay */}
+            <div className="absolute inset-0 opacity-50"></div>
+
+            <div className="absolute top-1 left-1 md:top-2 md:left-1 z-20 ">
+                <img
+                    src={logo}
+                    alt="Product 1"
+                    className="w-[95%] sm:w-[85%] md:w-[40%] object-contain transition duration-500 group-hover:scale-110 group-hover:drop-shadow-2xl"
+                />
+            </div>
+            {/* Slider */}
+            <div className="relative w-full overflow-hidden">
+                <div className="flex w-max animate-scroll gap-12">
+
+                    {/* LOOP 1 */}
+                    {clientsImgLogo.map((client, index) => (
+                        <div key={`1-${index}`} className="flex items-center justify-center min-w-[120px]">
+                            <img
+                                src={client}
+                                alt="brand"
+                                className="h-[60px] sm:h-[70px] md:h-[80px] object-contain grayscale hover:grayscale-0 transition duration-300"
+                            />
+                        </div>
+                    ))}
+
+                    {/* LOOP 2 (copy) */}
+                    {clientsImgLogo.map((client, index) => (
+                        <div key={`2-${index}`} className="flex items-center justify-center min-w-[120px]">
+                            <img
+                                src={client}
+                                alt="brand"
+                                className="h-[60px] sm:h-[70px] md:h-[80px] object-contain grayscale hover:grayscale-0 transition duration-300"
+                            />
+                        </div>
+                    ))}
+
+                </div>
+            </div>
+        </div>
     )
 }
 
