@@ -77,31 +77,20 @@ function Clients() {
                 />
             </div>
             {/* Slider */}
-            <div className="relative w-full overflow-hidden">
-                <div className="flex w-max animate-scroll gap-12">
+            {/* Slider */}
+            <div className="relative w-full overflow-hidden mt-20 md:mt-24 lg:mt-28">
+                <div className="flex w-max animate-scroll gap-10 md:gap-14">
 
                     {/* LOOP 1 */}
                     {clientsImgLogo.map((client, index) => (
-                        <div key={`1-${index}`} className="flex items-center justify-center min-w-[120px]">
+                        <div key={`1-${index}`} className="flex items-center justify-center min-w-[100px] sm:min-w-[120px]">
                             <img
                                 src={client}
                                 alt="brand"
-                                className="h-[60px] sm:h-[70px] md:h-[80px] object-contain grayscale hover:grayscale-0 transition duration-300"
+                                className="h-[50px] sm:h-[60px] md:h-[70px] lg:h-[80px] object-contain grayscale hover:grayscale-0 opacity-80 hover:opacity-100 transition duration-300"
                             />
                         </div>
                     ))}
-
-                    {/* LOOP 2 (copy) */}
-                    {clientsImgLogo.map((client, index) => (
-                        <div key={`2-${index}`} className="flex items-center justify-center min-w-[120px]">
-                            <img
-                                src={client}
-                                alt="brand"
-                                className="h-[60px] sm:h-[70px] md:h-[80px] object-contain grayscale hover:grayscale-0 transition duration-300"
-                            />
-                        </div>
-                    ))}
-
                 </div>
             </div>
         </div>
