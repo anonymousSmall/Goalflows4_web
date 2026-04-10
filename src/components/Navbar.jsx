@@ -12,6 +12,9 @@ function Navbar() {
     const updateToggle = () => {
         setToggle(!toggle);
     };
+    const closeMenu = () => {
+        setToggle(false);
+    };
     const [activeSubmenu, setActiveSubmenu] = useState(null);
 
     return (
@@ -29,6 +32,7 @@ function Navbar() {
                         {/* <a href="#">หน้าแรก</a> */}
                         <Link
                             to="/"
+                            onClick={closeMenu}
                         >
                             หน้าแรก
                         </Link>
