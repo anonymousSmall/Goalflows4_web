@@ -35,21 +35,94 @@ export default function Navbar() {
           </li>
 
           {/* PRODUCT */}
-          <li className="relative group cursor-pointer">
-            <div className="flex items-center gap-1">
-              สินค้าของเรา ▼
-            </div>
+<li className="relative group cursor-pointer">
+  <div className="flex items-center gap-1">
+    สินค้าของเรา ▼
+  </div>
 
-            <div className="absolute left-0 top-full w-[260px] bg-white text-black shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-              <div className="p-3 hover:bg-gray-100">เครื่องวัดขนาดชิ้นงานผลิต</div>
-              <div className="p-3 hover:bg-gray-100">เครื่องวัดชิ้นงานแบบสัมผัส</div>
-              <div className="p-3 hover:bg-gray-100">เครื่องเทสชิ้นงาน</div>
-              <div className="p-3 hover:bg-gray-100">เครื่องมือวัดชิ้นงาน</div>
-              <div className="p-3 hover:bg-gray-100">เครื่องมือตรวจสอบต่างๆ</div>
-              <div className="p-3 hover:bg-gray-100">เครื่องมือทดสอบห้องปฏิบัติการ</div>
-              <div className="p-3 hover:bg-gray-100">เครื่องชั่งน้ำหนัก</div>
-            </div>
-          </li>
+  {/* MAIN DROPDOWN */}
+  <div className="absolute left-0 top-full w-[280px] bg-white text-black shadow-2xl 
+  opacity-0 invisible translate-y-3 
+  group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 
+  transition-all duration-300 z-50">
+
+    <ul className="py-2">
+
+      {/* ITEM 1 */}
+      <li className="relative group/item">
+        <div className="p-3 hover:bg-gray-100 flex justify-between items-center cursor-pointer">
+          เครื่องวัดขนาดชิ้นงานผลิต
+          <span>›</span>
+        </div>
+
+        {/* SUBMENU RIGHT */}
+        <div className="absolute top-0 left-full w-[260px] bg-white shadow-xl 
+        opacity-0 invisible -translate-x-3 
+        group-hover/item:opacity-100 group-hover/item:visible group-hover/item:translate-x-0 
+        transition-all duration-300">
+
+          <div className="p-3 hover:bg-gray-100">กล้องวัด 2.5D</div>
+          <div className="p-3 hover:bg-gray-100">PROFILE PROJECTOR</div>
+          <div className="p-3 hover:bg-gray-100">CCD CAMERA</div>
+        </div>
+      </li>
+
+      {/* ITEM 2 */}
+      <li className="relative group/item">
+        <div className="p-3 hover:bg-gray-100 flex justify-between items-center cursor-pointer">
+          เครื่องวัดชิ้นงานแบบสัมผัส
+          <span>›</span>
+        </div>
+
+        <div className="absolute top-0 left-full w-[260px] bg-white shadow-xl 
+        opacity-0 invisible -translate-x-3 
+        group-hover/item:opacity-100 group-hover/item:visible group-hover/item:translate-x-0 
+        transition-all duration-300">
+
+          <div className="p-3 hover:bg-gray-100">CONTOUR</div>
+          <div className="p-3 hover:bg-gray-100">ROUGHNESS</div>
+          <div className="p-3 hover:bg-gray-100">CMM</div>
+        </div>
+      </li>
+
+      {/* ITEM 3 */}
+      <li className="relative group/item">
+        <div className="p-3 hover:bg-gray-100 flex justify-between items-center cursor-pointer">
+          เครื่องเทสชิ้นงาน
+          <span>›</span>
+        </div>
+
+        <div className="absolute top-0 left-full w-[260px] bg-white shadow-xl 
+        opacity-0 invisible -translate-x-3 
+        group-hover/item:opacity-100 group-hover/item:visible group-hover/item:translate-x-0 
+        transition-all duration-300">
+
+          <div className="p-3 hover:bg-gray-100">HARDNESS TEST</div>
+          <div className="p-3 hover:bg-gray-100">TENSILE</div>
+          <div className="p-3 hover:bg-gray-100">SALT SPRAY</div>
+        </div>
+      </li>
+
+      {/* ITEM ปกติ */}
+      <li className="p-3 hover:bg-gray-100 cursor-pointer">
+        เครื่องมือวัดชิ้นงาน
+      </li>
+
+      <li className="p-3 hover:bg-gray-100 cursor-pointer">
+        เครื่องมือตรวจสอบต่างๆ
+      </li>
+
+      <li className="p-3 hover:bg-gray-100 cursor-pointer">
+        เครื่องมือทดสอบห้องปฏิบัติการ
+      </li>
+
+      <li className="p-3 hover:bg-gray-100 cursor-pointer">
+        เครื่องชั่งน้ำหนัก
+      </li>
+
+    </ul>
+  </div>
+</li>
 
           {/* SERVICE */}
           <li className="relative group cursor-pointer">
