@@ -25,7 +25,8 @@ export default function Navbar() {
 
         {/* LOGO */}
         <Link to="/">
-          <img src={logo} className="h-12" alt="logo" />
+          {/* <img src={logo} className="h-12" alt="logo" /> */}
+          <img src={logo} className='h-20 drop-shadow-md transition-transform hover:scale-105' alt="" />
         </Link>
 
         {/* DESKTOP MENU */}
