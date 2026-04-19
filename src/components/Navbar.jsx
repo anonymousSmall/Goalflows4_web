@@ -168,7 +168,7 @@ export default function Navbar() {
             {/* SERVICE */}
             <li className="border-b">
               <div
-                className="p-4 flex justify-between cursor-pointer"
+                className="p-4 pr-6 flex justify-between items-center cursor-pointer"
                 onClick={() => handleToggle("service")}
               >
                 บริการ
