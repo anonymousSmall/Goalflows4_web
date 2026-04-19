@@ -99,11 +99,13 @@ export default function Navbar() {
 
               {/* LEVEL 1 */}
               <div
-                className="p-4 flex justify-between cursor-pointer"
+                 className="p-4 pr-6 flex justify-between items-center cursor-pointer"
                 onClick={() => handleToggle("product")}
               >
                 สินค้าของเรา
-                <span>{openMenu === "product" ? "−" : "+"}</span>
+                <span className="ml-2 text-lg font-semibold transition-transform duration-300">
+  {openMenu === "product" ? "−" : "+"}
+</span>
               </div>
 
               {/* LEVEL 2 */}
@@ -130,7 +132,13 @@ export default function Navbar() {
                   onClick={() => handleSubToggle("tool")}
                 >
                   เครื่องมือวัด
-                  <span>{subMenu === "tool" ? "−" : "+"}</span>
+                  <span
+                    className={`ml-2 text-lg transition-transform duration-300 ${
+                    openMenu === "tool" ? "rotate-45" : ""
+                    }`}
+                    >
+                      +
+                  </span>
                 </div>
 
                 <div className={`${subMenu === "tool" ? "block" : "hidden"} pl-10 bg-gray-100`}>
