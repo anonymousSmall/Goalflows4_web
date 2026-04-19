@@ -113,7 +113,7 @@ export default function Navbar() {
 
                 {/* SUB 1 */}
                 <div
-                  className="pl-6 py-3 flex justify-between cursor-pointer border-b"
+                  className="p-4 pl-6 py-3 flex justify-between cursor-pointer border-b"
                   onClick={() => handleSubToggle("measure")}
                 >
                   เครื่องวัดขนาด
@@ -128,7 +128,7 @@ export default function Navbar() {
 
                 {/* SUB 2 */}
                 <div
-                  className="pl-6 py-3 flex justify-between cursor-pointer border-b"
+                  className="p-4 pl-6 py-3 flex justify-between cursor-pointer border-b"
                   onClick={() => handleSubToggle("tool")}
                 >
                   เครื่องมือวัด
@@ -149,7 +149,7 @@ export default function Navbar() {
 
                 {/* SUB 3 */}
                 <div
-                  className="pl-6 py-3 flex justify-between cursor-pointer"
+                  className="p-4 pl-6 py-3 flex justify-between cursor-pointer"
                   onClick={() => handleSubToggle("test")}
                 >
                   เครื่องทดสอบ
