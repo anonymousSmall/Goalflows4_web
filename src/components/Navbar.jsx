@@ -60,10 +60,7 @@ export default function Navbar() {
                             <ul className="py-2">
                                 {/* ITEM 1 */}
                                 <li className="relative group/item">
-                                    <div className="relative p-3 item-center font-medium px-4 py-2 rounded-md transition-colors duration-200 hover:bg-[#003b6e]/10 md:px-0 
-                                        md:py-0 md:mx-0 md:rounded-none md:hover:bg-transparent md:after:absolute md:after:left-0 
-                                        md:after:-bottom-1 md:after:h-[2px] md:after:w-0 md:after:bg-[#003b6e] md:after:transition-all 
-                                        md:after:duration-300 md:hover:after:w-full">
+                                    <div className="p-3 hover:bg-gray-100 flex justify-between items-center cursor-pointer">
                                         เครื่องวัดชิ้นงานด้านมิติ(Measuring Machine)
                                         <span>›</span>
                                     </div>
