@@ -255,21 +255,16 @@ export default function Navbar() {
                                     className="p-4 pl-6 py-3 flex justify-between cursor-pointer border-b"
                                     onClick={() => handleSubToggle("measure")}
                                 >
-                                    เครื่องวัดชิ้นงานด้านมิติ(Measuring Machine)
+                                    เครื่องวัดขนาดชิ้นงานผลิต
                                     <span>{subMenu === "measure" ? "−" : "+"}</span>
                                 </div>
 
                                 <div
                                     className={`${subMenu === "measure" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
-                                    <p className="p-3 hover:bg-gray-100">Stereo Microscope (2D)</p>
-                                    <p className="p-3 hover:bg-gray-100">Profile Projector</p>
-                                    <p className="p-3 hover:bg-gray-100">CCD Camera (Software)</p>
-                                    <p className="p-3 hover:bg-gray-100">Coordinate Measuring Machine (CMM)</p>
-                                    <p className="p-3 hover:bg-gray-100">Protable CMM Arm</p>
-                                    <p className="p-3 hover:bg-gray-100">Contour Measuring Machine</p>
-                                    <p className="p-3 hover:bg-gray-100">Surface Texture Measuring Machine</p>
-                                    <p className="p-3 hover:bg-gray-100">Roundness Mesitn Machine</p>
+                                    <p className="py-2">กล้องวัดขนาดชิ้นงาน2.5D</p>
+                                    <p className="py-2">Profile Projector</p>
+                                    <p className="py-2">CCD Camera</p>
                                 </div>
 
                                 {/* SUB 2 */}
@@ -277,7 +272,7 @@ export default function Navbar() {
                                     className="p-4 pl-6 py-3 flex justify-between cursor-pointer border-b"
                                     onClick={() => handleSubToggle("tool")}
                                 >
-                                    เครื่องมือวัดชิ้นงาน(Measuring Tools)
+                                    เครื่องวัดชิ้นงานแบบสัมผัส
                                     <span
                                         className={`ml-2 text-lg transition-transform duration-300 ${openMenu === "tool" ? "rotate-45" : ""
                                             }`}
@@ -289,13 +284,11 @@ export default function Navbar() {
                                 <div
                                     className={`${subMenu === "tool" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
-                                        <p className="p-3 hover:bg-gray-100">Cutting / Grinding</p>
-                                        <p className="p-3 hover:bg-gray-100">Polishing / Mounting Machine</p>
-                                        <p className="p-3 hover:bg-gray-100">Hardness Tester Machine</p>
-                                        <p className="p-3 hover:bg-gray-100">Tensile Machine</p>
-                                        <p className="p-3 hover:bg-gray-100">Salt Spray Machine</p>
-                                        <p className="p-3 hover:bg-gray-100">Oven Machine</p>
-                                        <p className="p-3 hover:bg-gray-100">Temperature & Humidity Chamber</p>
+                                    <p className="py-2">CONTOUR</p>
+                                    <p className="py-2">ROUNGNESS</p>
+                                    <p className="py-2">SURFTEST</p>
+                                    <p className="py-2">COORDINATE MEASURING MACHINE</p>
+                                    <p className="py-2">PROTABLE CMM ARM</p>
                                 </div>
 
                                 {/* SUB 3 */}
@@ -303,45 +296,19 @@ export default function Navbar() {
                                     className="p-4 pl-6 py-3 flex justify-between cursor-pointer"
                                     onClick={() => handleSubToggle("test")}
                                 >
-                                    เครื่องมือวัดชิ้นงาน(Measuring Tools)
+                                    เครื่องเทสชิ้นงาน
                                     <span>{subMenu === "test" ? "−" : "+"}</span>
                                 </div>
 
                                 <div
                                     className={`${subMenu === "test" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
-                                        <p className="p-3 hover:bg-gray-100">Mitoyo</p>
-                                        <p className="p-3 hover:bg-gray-100">Insize</p>
-                                        <p className="p-3 hover:bg-gray-100">Teclock</p>
-                                        <p className="p-3 hover:bg-gray-100">Peacock</p>
-                                        <p className="p-3 hover:bg-gray-100">Shinwa</p>
-                                        <p className="p-3 hover:bg-gray-100">Mitsuwa</p>
-                                        <p className="p-3 hover:bg-gray-100">Fuji Tool</p>
-                                        <p className="p-3 hover:bg-gray-100">Hunter</p>
-                                        <p className="p-3 hover:bg-gray-100">Tsk</p>
-                                        <p className="p-3 hover:bg-gray-100">Issoku</p>
-                                        <p className="p-3 hover:bg-gray-100">Eisen</p>
-                                        <p className="p-3 hover:bg-gray-100">SK</p>
-                                        <p className="p-3 hover:bg-gray-100">Elcometer</p>
-                                        <p className="p-3 hover:bg-gray-100">Defelshko</p>
-                                        <p className="p-3 hover:bg-gray-100">Vertex</p>
-                                        <p className="p-3 hover:bg-gray-100">Gin</p>
-                                        <p className="p-3 hover:bg-gray-100">Noga</p>
-                                        <p className="p-3 hover:bg-gray-100">Kanetec</p>
-                                        <p className="p-3 hover:bg-gray-100">Fluke</p>
-                                        <p className="p-3 hover:bg-gray-100">Yamamoto</p>
-                                        <p className="p-3 hover:bg-gray-100">Kanon</p>
-                                        <p className="p-3 hover:bg-gray-100">Imada</p>
-                                        <p className="p-3 hover:bg-gray-100">Aikoh</p>
-                                        <p className="p-3 hover:bg-gray-100">Tohnichi</p>
-                                        <p className="p-3 hover:bg-gray-100">Hanna</p>
-                                        <p className="p-3 hover:bg-gray-100">Lutron</p>
-                                        <p className="p-3 hover:bg-gray-100">Extech</p>
-                                        <p className="p-3 hover:bg-gray-100">Digicon</p>
-                                        <p className="p-3 hover:bg-gray-100">CEM</p>
-                                        <p className="p-3 hover:bg-gray-100">Smart Sensor</p>
-                                        <p className="p-3 hover:bg-gray-100">Chuer</p>
-                                        <p className="p-3 hover:bg-gray-100">เครื่องมืออื่นๆ</p>
+                                    <p className="py-2">HARDNESS TEST</p>
+                                    <p className="py-2">PUSH PULL TESTER</p>
+                                    <p className="py-2">CUTTING / POLISHING MACHINE</p>
+                                    <p className="py-2">TENSILE MACHINE</p>
+                                    <p className="py-2">SALT SPRAY</p>
+                                    <p className="py-2">OVEN</p>
                                 </div>
 
                                 {/* SUB 4 */}
@@ -349,16 +316,81 @@ export default function Navbar() {
                                     className="p-4 pl-6 py-3 flex justify-between cursor-pointer"
                                     onClick={() => handleSubToggle("test1")}
                                 >
-                                    เครื่องชั่ง(Balance)
+                                    เครื่องมือวัดชิ้นงาน
                                     <span>{subMenu === "test1" ? "−" : "+"}</span>
                                 </div>
 
                                 <div
                                     className={`${subMenu === "test1" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
-                                    <p className="p-3 hover:bg-gray-100">INDUSTRIAL BALANCE</p>
-                                    <p className="p-3 hover:bg-gray-100">HOSPITAL BALANCE</p>
-                                    <p className="p-3 hover:bg-gray-100">ANIMAL BALANCE</p>
+                                    <p className="py-2">VERNIER CALIPER</p>
+                                    <p className="py-2">MICROMETER</p>
+                                    <p className="py-2">DIAL INDICATOR / DIAL TEST</p>
+                                    <p className="py-2">HEIGHT GAUGE</p>
+                                    <p className="py-2">THICKNESS GAUGE</p>
+                                    <p className="py-2">HOLE TEST / BORE GAUGE</p>
+                                    <p className="py-2">DIAL TEST</p>
+                                </div>
+
+                                {/* SUB 5 */}
+                                <div
+                                    className="p-4 pl-6 py-3 flex justify-between cursor-pointer"
+                                    onClick={() => handleSubToggle("test2")}
+                                >
+                                    เครื่องมือตรวจสอบต่างๆ
+                                    <span>{subMenu === "test2" ? "−" : "+"}</span>
+                                </div>
+
+                                <div
+                                    className={`${subMenu === "test2" ? "block" : "hidden"} pl-10 bg-gray-100`}
+                                >
+                                    <p className="py-2">FEELIER GAUGE</p>
+                                    <p className="py-2">SCALE LUPE</p>
+                                    <p className="py-2">PIN GAUGE / GAUGE BLOCK</p>
+                                    <p className="py-2">PLUG GAUGE / RING GAUGE</p>
+                                    <p className="py-2">TORQUE WRENCH</p>
+                                    <p className="py-2">GRANIT / CAST IRON SURFACE</p>
+                                </div>
+
+                                {/* SUB 6 */}
+                                <div
+                                    className="p-4 pl-6 py-3 flex justify-between cursor-pointer"
+                                    onClick={() => handleSubToggle("test3")}
+                                >
+                                    เครื่องมือทดสอบห้องปฏิบัติการ
+                                    <span>{subMenu === "test3" ? "−" : "+"}</span>
+                                </div>
+
+                                <div
+                                    className={`${subMenu === "test3" ? "block" : "hidden"} pl-10 bg-gray-100`}
+                                >
+                                    <p className="py-2">THERMOMETER</p>
+                                    <p className="py-2">CONDUCTIVITY</p>
+                                    <p className="py-2">BRIX METER</p>
+                                    <p className="py-2">TRUE METER</p>
+                                    <p className="py-2">LIGHT METER</p>
+                                    <p className="py-2">VOICE METER / SOUND METER</p>
+                                    <p className="py-2">GAUSS METER</p>
+                                    <p className="py-2">GLOSS METER</p>
+                                    <p className="py-2">MAGNETIC FIELD TESTER</p>
+                                    <p className="py-2">DEMAGNETIZER</p>
+                                </div>
+
+                                {/* SUB 7 */}
+                                <div
+                                    className="p-4 pl-6 py-3 flex justify-between cursor-pointer"
+                                    onClick={() => handleSubToggle("test4")}
+                                >
+                                    เครื่องชั่งน้ำหนัก
+                                    <span>{subMenu === "test4" ? "−" : "+"}</span>
+                                </div>
+
+                                <div
+                                    className={`${subMenu === "test4" ? "block" : "hidden"} pl-10 bg-gray-100`}
+                                >
+                                    <p className="py-2">INDUSTRIAL BALANCE</p>
+                                    <p className="py-2">HOSPITAL BALANCE</p>
+                                    <p className="py-2">ANIMAL SCALE</p>
                                 </div>
                             </div>
                         </li>
