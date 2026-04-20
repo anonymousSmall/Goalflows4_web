@@ -34,11 +34,11 @@ export default function Navbar() {
 
         {/* DESKTOP MENU */}
         <ul className="hidden md:flex items-center gap-8 text-white font-medium">
-          <li>
+          <li className="drop-shadow-md transition-transform hover:scale-105">
             <Link to="/">หน้าแรก</Link>
           </li>
 
-          <li>
+          <li className="drop-shadow-md transition-transform hover:scale-105">
             <Link to="#">เกี่ยวกับโกลโฟลฯ</Link>
           </li>
 
