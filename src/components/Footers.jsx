@@ -83,13 +83,13 @@ function Footers() {
                       <a href="/" className="text-gray-300 hover:text-white text-xl transition">หน้าแรก</a>
                     </li>
                     <li>
-                      <a href="#" className="text-gray-300 hover:text-white text-xl transition">Catalog</a>
+                      <a href="#" className="text-gray-300 hover:text-white text-xl transition">รายการสินค้าทั้งหมด</a>
                     </li>
                     <li>
-                      <a href="/Catalog" className="text-gray-300 hover:text-white text-xl transition">ดาวน์โหลดแคตตาล็อก</a>
+                      <a href="/Catalog" className="text-gray-300 hover:text-white text-xl transition">บริการของเรา</a>
                     </li>
                     <li>
-                      <a href="/contact" className="text-gray-300 hover:text-white text-xl transition">ติดต่อเรา</a>
+                      <a href="/contact" className="text-gray-300 hover:text-white text-xl transition">ติดต่อโกลโฟลฯ</a>
                     </li>
                   </ul>
                 </div>
