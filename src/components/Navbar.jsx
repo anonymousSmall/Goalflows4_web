@@ -38,6 +38,10 @@ export default function Navbar() {
             <Link to="/">หน้าแรก</Link>
           </li>
 
+          <li>
+            <Link to="#">เกี่ยวกับโกลโฟลฯ</Link>
+          </li>
+
           {/* PRODUCT */}
           <li className="relative group cursor-pointer">
             <div className="flex items-center gap-1">สินค้าของเรา ▼</div>
@@ -172,6 +176,12 @@ export default function Navbar() {
             <li className="p-4 border-b">
               <Link to="/" onClick={() => setMenuOpen(false)}>
                 หน้าแรก
+              </Link>
+            </li>
+            {/* Contact */}
+            <li className="p-4 border-b">
+              <Link to="#" onClick={() => setMenuOpen(false)}>
+                เกี่ยวกับโกลโฟลฯ
               </Link>
             </li>
 
