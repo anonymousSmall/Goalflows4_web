@@ -43,7 +43,7 @@ export default function Navbar() {
                     </li>
 
                     <li className="drop-shadow-md transition-transform hover:scale-105">
-                        <Link to="#">เกี่ยวกับโกลโฟลฯ</Link>
+                        <Link to="/Workandservices">เกี่ยวกับโกลโฟลฯ</Link>
                     </li>
 
                     {/* PRODUCT */}
