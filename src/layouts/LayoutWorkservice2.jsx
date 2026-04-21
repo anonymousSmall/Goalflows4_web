@@ -6,17 +6,6 @@ import bgSection from "../assets/image/workservice/PAGE04.02BG.png";
 
 const LayoutWorkservice2 = () => {
     return (
-        <section
-            className="
-                relative 
-                pt-24 md:pt-32 lg:pt-40   /* ✅ ให้ spacing เหมือนตัวแรก */
-                pb-12 md:pb-16
-                bg-cover
-            "
-            style={{ 
-                backgroundImage: `url(${bgSection})`}}
-        >
-
             {/* ✅ Overlay ให้โทนเดียวกัน */}
         <div className="
             absolute inset-0 
@@ -103,7 +92,6 @@ const LayoutWorkservice2 = () => {
                 </div>
 
             </div>
-        </section>
     )
 }
 
