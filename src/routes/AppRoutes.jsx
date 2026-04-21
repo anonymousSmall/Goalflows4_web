@@ -10,6 +10,7 @@ import Pixelgrade from "../components/Pixelgrade";
 import AllArticlesPage from "../pages/AllArticlesPage";
 import Contactus from "../components/Contactus";
 import CatalogProduct from "../catalog/CatalogProduct";
+import Workandservices from "../pages/Workandservices";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
       { path: "articles", element: <AllArticlesPage /> },
       { path: "contact", element: <Contactus /> },
       { path: "Catalog", element: <CatalogProduct /> },
+      { path: "Workandservices", element: <Workandservices /> },
     //   { path: "details", element: <ProductDetails /> },
     //   { path: "productuser/:id", element: <ProductUser /> },
     //   { path: "hardness", element: <PHardness /> },
