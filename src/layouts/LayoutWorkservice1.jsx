@@ -5,14 +5,7 @@ import bgSection from "../assets/image/workservice/BG04.01BG.png";
 
 const LayoutWorkservice1 = () => {
   return (
-      <div className="
-        relative 
-        max-w-7xl mx-auto 
-        px-4 md:px-8 
-        grid md:grid-cols-2 
-        gap-10 md:gap-16 
-        items-center
-      ">
+    <div className="relative max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-16 items-center">
 
         {/* LEFT SIDE */}
         <div className="relative flex justify-center">
