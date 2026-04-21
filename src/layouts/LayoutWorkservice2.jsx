@@ -14,9 +14,7 @@ const LayoutWorkservice2 = () => {
                 bg-cover
             "
             style={{ 
-                backgroundImage: `url(${bgSection})`,
-                backgroundPosition: "30% center"   // ✅ ตรงกับ LayoutWorkservice1
-            }}
+                backgroundImage: `url(${bgSection})`}}
         >
 
             {/* ✅ Overlay ให้โทนเดียวกัน */}
