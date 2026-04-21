@@ -23,7 +23,7 @@ const LayoutWorkservice1 = () => {
         absolute inset-0 
         bg-gradient-to-r 
         from-black/90 via-black/70 to-black/50   /* 📱 Mobile */
-        md:from-black/40 md:via-black/20 md:to-transparent  /* 🖥 Desktop */
+        md:to-transparent  /* 🖥 Desktop */
       "></div>
 
       <div className="
