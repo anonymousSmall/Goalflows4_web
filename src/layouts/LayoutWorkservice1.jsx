@@ -5,19 +5,6 @@ import bgSection from "../assets/image/workservice/BG04.01BG.png";
 
 const LayoutWorkservice1 = () => {
   return (
-    <section
-      className="
-        relative 
-        pt-24 md:pt-32 lg:pt-40
-        pb-12 md:pb-16
-        bg-cover
-      "
-      style={{ 
-        backgroundImage: `url(${bgSection})`,
-        backgroundPosition: "30% center"
-      }}
-    >
-
       {/* ✅ Overlay: Mobile เข้ม / Desktop จาง */}
       <div className="
         absolute inset-0 
@@ -113,7 +100,6 @@ const LayoutWorkservice1 = () => {
         </div>
 
       </div>
-    </section>
   )
 }
 
