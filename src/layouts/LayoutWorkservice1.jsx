@@ -84,7 +84,7 @@ const LayoutWorkservice1 = () => {
             backdrop-blur-sm md:backdrop-blur-0
             px-4 py-2 rounded-lg
           ">
-            สินค้าที่จำหน่าย
+            งานบริการ
           </h1>
 
           {/* Product Image */}
