@@ -10,8 +10,12 @@ const LayoutWorkservice2 = () => {
             className="relative py-2 md:py-2 bg-cover bg-center"
             style={{ backgroundImage: `url(${bgSection})` }}
         >
-            {/* Overlay */}
-            <div className="absolute inset-0"></div>
+        <div className="
+            absolute inset-0 
+            bg-gradient-to-r 
+            from-black/10 via-black/5 to-transparent   /* 📱 Mobile */
+            md:from-black/10 md:via-black/5 md:to-transparent  /* 🖥 Desktop */
+        "></div>
 
             <div className="relative max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-16 items-center">
 
