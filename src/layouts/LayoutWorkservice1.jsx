@@ -12,7 +12,10 @@ const LayoutWorkservice1 = () => {
         pb-12 md:pb-16
         bg-cover bg-center
       "
-      style={{ backgroundImage: `url(${bgSection})` }}
+     style={{ 
+    backgroundImage: `url(${bgSection})`,
+    backgroundPosition: "30% center"  // ✅ ขยับไปซ้าย (ลอง 20% - 40%)
+  }}
     >
       {/* Overlay */}
       <div className="absolute inset-0"></div>
@@ -49,7 +52,7 @@ const LayoutWorkservice1 = () => {
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center md:items-start">
 
           <h1 className="
             text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
