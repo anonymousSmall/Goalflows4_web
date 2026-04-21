@@ -8,17 +8,22 @@ const LayoutWorkservice1 = () => {
     <section
       className="
         relative 
-        pt-24 md:pt-32 lg:pt-40   /* ✅ ดันลงจาก navbar */
+        pt-24 md:pt-32 lg:pt-40
         pb-12 md:pb-16
-        bg-cover bg-center
+        bg-cover
       "
-     style={{ 
-    backgroundImage: `url(${bgSection})`,
-    backgroundPosition: "30% center"  // ✅ ขยับไปซ้าย (ลอง 20% - 40%)
-  }}
+      style={{ 
+        backgroundImage: `url(${bgSection})`,
+        backgroundPosition: "30% center"
+      }}
     >
-      {/* Overlay */}
-      <div className="absolute inset-0"></div>
+
+      {/* ✅ Overlay แก้ตัวหนังสืออ่านไม่ออก */}
+      <div className="
+        absolute inset-0 
+        bg-gradient-to-r 
+        from-black/70 via-black/40 to-transparent
+      "></div>
 
       <div className="
         relative 
@@ -35,44 +40,67 @@ const LayoutWorkservice1 = () => {
           {/* Glow */}
           <div className="absolute w-[400px] h-[400px] md:w-[600px] md:h-[600px] bg-blue-400/20 blur-3xl rounded-full"></div>
 
-          {/* Image */}
+          {/* ✅ Responsive Image */}
           <div className="
             relative 
-            w-[260px] h-[260px] 
-            sm:w-[360px] sm:h-[360px] 
-            md:w-[480px] md:h-[480px] 
-            lg:w-[550px] lg:h-[550px]
+            w-full 
+            max-w-[320px]
+            sm:max-w-[420px]
+            md:max-w-[500px]
+            lg:max-w-[550px]
           ">
             <img
               src={company1}
               alt="company"
-              className="w-full h-full object-cover hover:scale-105 transition duration-500 drop-shadow-2xl"
+              className="
+                w-full h-auto
+                object-contain
+                hover:scale-105 
+                transition duration-500 
+                drop-shadow-2xl
+              "
             />
           </div>
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="flex flex-col items-center md:items-start">
+        <div className="
+          flex flex-col 
+          items-center md:items-start
+          px-2 sm:px-0
+        ">
 
+          {/* ✅ หัวข้ออ่านชัดขึ้น */}
           <h1 className="
             text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
             font-bold text-white 
-            text-center leading-tight tracking-wide
+            text-center md:text-left
+            leading-tight tracking-wide
+            drop-shadow-[0_4px_20px_rgba(0,0,0,0.8)]
           ">
             สินค้าที่จำหน่าย
           </h1>
 
+          {/* ✅ รูปสินค้า Responsive */}
           <div className="
             mt-6
-            w-[260px] h-[260px] 
-            sm:w-[360px] sm:h-[360px] 
-            md:w-[480px] md:h-[480px] 
-            lg:w-[550px] lg:h-[550px]
+            w-full 
+            max-w-[320px]
+            sm:max-w-[420px]
+            md:max-w-[500px]
+            lg:max-w-[550px]
+            mx-auto md:mx-0
           ">
             <img
               src={product1}
               alt="product1"
-              className="w-full h-full object-cover hover:scale-105 transition duration-500 drop-shadow-2xl"
+              className="
+                w-full h-auto
+                object-contain
+                hover:scale-105 
+                transition duration-500 
+                drop-shadow-2xl
+              "
             />
           </div>
 
