@@ -86,7 +86,7 @@ export default function Navbar() {
                                 {/* ITEM 2 */}
                                 <li className="relative group/item">
                                     <div className="p-3 hover:bg-gray-100 flex justify-between items-center cursor-pointer">
-                                        เครื่องมือวัดชิ้นงาน(Measuring Tools)
+                                        เครื่องทดสอบชิ้นงาน (Testing Machine)
                                         <span>›</span>
                                     </div>
 
@@ -96,8 +96,7 @@ export default function Navbar() {
         group-hover/item:opacity-100 group-hover/item:visible group-hover/item:translate-x-0 
         transition-all duration-300 rounded-md"
                                     >
-                                        <div className="p-3 hover:bg-gray-100">Cutting / Grinding</div>
-                                        <div className="p-3 hover:bg-gray-100">Polishing / Mounting Machine</div>
+                                        <div className="p-3 hover:bg-gray-100">Cutting / Grinding Polishing / Mounting Machine</div>
                                         <div className="p-3 hover:bg-gray-100">Hardness Tester Machine</div>
                                         <div className="p-3 hover:bg-gray-100">Tensile Machine</div>
                                         <div className="p-3 hover:bg-gray-100">Salt Spray Machine</div>
