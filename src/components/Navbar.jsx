@@ -270,7 +270,6 @@ export default function Navbar() {
                                 <div
                                     className={`${subMenu === "measure" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
-                                    <p className="py-2">Stereo Microscope (2D)</p>
                                     <p className="p-3 hover:bg-gray-100">Video Measuring (VMM)</p>
                                     <p className="p-3 hover:bg-gray-100">Profile Projector</p>
                                     <p className="p-3 hover:bg-gray-100">CCD Camera / Stereo Microscope</p>
