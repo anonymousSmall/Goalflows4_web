@@ -5,7 +5,7 @@ import BackgroundStack from '../components/BackgroundStack'
 
 const Workandservice = () => {
     return (
-        <div className="relative">
+        <div className="relative min-h-screen">
 
             {/* 🔥 Background ต่อกัน */}
             <BackgroundStack />
