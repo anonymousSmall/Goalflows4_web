@@ -178,6 +178,9 @@ export default function Navbar() {
                                         <div className="p-3 hover:bg-gray-100">ANIMAL BALANCE</div>
                                     </div>
                                 </li>
+                                <li className="drop-shadow-md transition-transform hover:scale-105">
+                                    <Link to="#">Catalog</Link>
+                                </li>
                             </ul>
                         </div>
                     </li>
