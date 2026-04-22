@@ -181,9 +181,6 @@ export default function Navbar() {
                             </ul>
                         </div>
                     </li>
-                    <li className="drop-shadow-md transition-transform hover:scale-105">
-                        <Link to="#">Catalog</Link>
-                    </li>
 
                     {/* SERVICE */}
                     <li className="relative group cursor-pointer">
@@ -200,6 +197,9 @@ export default function Navbar() {
                                 <Link to="/Workandservices">อบรม</Link>
                             </div>
                         </div>
+                    </li>
+                    <li className="drop-shadow-md transition-transform hover:scale-105">
+                        <Link to="#">Catalog</Link>
                     </li>
 
                     <li>
