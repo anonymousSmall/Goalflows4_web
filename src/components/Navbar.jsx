@@ -188,13 +188,16 @@ export default function Navbar() {
 
                         <div className="absolute left-0 top-full w-[220px] bg-white text-black shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                             <div className="p-3 hover:bg-gray-100">
-                                <Link to="/Workandservices">สอบเทียบ</Link>
+                                <Link to="/Workandservices">สอบเทียบ ISO17025</Link>
                             </div>
                             <div className="p-3 hover:bg-gray-100">
                                 <Link to="/Workandservices">ซ่อมเครื่องมือ</Link>
                             </div>
                             <div className="p-3 hover:bg-gray-100">
-                                <Link to="/Workandservices">อบรม</Link>
+                                <Link to="/Workandservices">ำรุงรักษาเครื่องมือ เครื่องจักร</Link>
+                            </div>
+                             <div className="p-3 hover:bg-gray-100">
+                                <Link to="/Workandservices">อบรมการใช้งาน</Link>
                             </div>
                         </div>
                     </li>
