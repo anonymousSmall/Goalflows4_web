@@ -16,6 +16,7 @@ const BackgroundStack = () => {
             w-full 
             h-full 
             object-cover   /* ✅ เต็มจอ */
+            object-center
           "
         />
       </div>
