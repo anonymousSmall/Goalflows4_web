@@ -99,7 +99,6 @@ const OurCustomer = () => {
                         max-h-[60px] sm:max-h-[70px] md:max-h-[80px]
                       object-contain
                       grayscale hover:grayscale-0
-                      opacity-70 hover:opacity-100
                       transition duration-300
                 "/>
                     </motion.div>
