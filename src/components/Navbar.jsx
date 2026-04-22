@@ -43,7 +43,7 @@ export default function Navbar() {
                     </li>
 
                     <li className="drop-shadow-md transition-transform hover:scale-105">
-                        <Link to="#">เกี่ยวกับโกลโฟลฯ</Link>
+                        <Link to="/Goalflows">เกี่ยวกับโกลโฟลฯ</Link>
                     </li>
 
                     {/* PRODUCT */}
@@ -239,7 +239,7 @@ export default function Navbar() {
                         </li>
                         {/* Contact */}
                         <li className="p-4 border-b">
-                            <Link to="#" onClick={() => setMenuOpen(false)}>
+                            <Link to="/Goalflows" onClick={() => setMenuOpen(false)}>
                                 เกี่ยวกับโกลโฟลฯ
                             </Link>
                         </li>
@@ -366,9 +366,15 @@ export default function Navbar() {
                                 <div
                                     className={`${subMenu === "test1" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
-                                    <p className="p-3 hover:bg-gray-100">INDUSTRIAL BALANCE</p>
-                                    <p className="p-3 hover:bg-gray-100">HOSPITAL BALANCE</p>
-                                    <p className="p-3 hover:bg-gray-100">ANIMAL BALANCE</p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        INDUSTRIAL BALANCE
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        HOSPITAL BALANCE
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        ANIMAL BALANCE
+                                    </p>
                                 </div>
                             </div>
                         </li>
@@ -392,10 +398,26 @@ export default function Navbar() {
                             <div
                                 className={`${openMenu === "service" ? "block" : "hidden"} pl-6 bg-gray-50`}
                             >
-                                <p className="py-2">สอบเทียบ ISO17025</p>
-                                <p className="py-2">ซ่อมเครื่องมือ</p>
-                                <p className="py-2">บำรุงรักษาเครื่องมือ เครื่องจักร</p>
-                                <p className="py-2">อบรมการใช้งาน</p>
+                                <p className="py-2 hover:bg-gray-100">
+                                    <Link to="/Workandservices" onClick={() => setMenuOpen(false)}>
+                                        สอบเทียบ ISO17025
+                                    </Link>
+                                </p>
+                                <p className="py-2 hover:bg-gray-100">
+                                    <Link to="/Workandservices" onClick={() => setMenuOpen(false)}>
+                                        ซ่อมเครื่องมือ
+                                    </Link> 
+                                </p>
+                                <p className="py-2 hover:bg-gray-100">
+                                    <Link to="/Workandservices" onClick={() => setMenuOpen(false)}>
+                                        บำรุงรักษาเครื่องมือ เครื่องจักร
+                                    </Link>
+                                </p>
+                                <p className="py-2 hover:bg-gray-100">
+                                    <Link to="/Workandservices" onClick={() => setMenuOpen(false)}>
+                                        อบรมการใช้งาน
+                                    </Link>
+                                </p>
                             </div>
                         </li>
 
