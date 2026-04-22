@@ -31,10 +31,6 @@ function Footers() {
                       alt="logo"
                       className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] lg:max-w-[380px] object-contain mb-6"
                     />
-                    <p className="text-gray-300 text-sm leading-relaxed">
-                      Copyright © 2025 GoalFlow ltd. <br />
-                      All rights reserved
-                    </p>
                 <div className="flex items-start gap-5 mt-4">
                   <img src={qr} alt="qr" className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] rounded-lg shadow-lg"/>
                   <div className="text-sm leading-relaxed">
@@ -97,6 +93,11 @@ function Footers() {
             {/* End Right */}
         </div>
       </div>
+        <p className="text-gray-300 text-sm text-center leading-relaxed">
+          Copyright © 2025 GoalFlow ltd. <br />
+          All rights reserved <br/>
+          <a href="#" className="text-gray-300 hover:text-white text-sm transition">Powered by Littlebug.dev</a>
+        </p>
     </div>
   )
 }
