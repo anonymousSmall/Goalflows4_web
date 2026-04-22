@@ -108,7 +108,8 @@ function Clients() {
                                 src={client}
                                 alt="brand"
                                 //className="h-[50px] sm:h-[60px] md:h-[70px] lg:h-[80px] object-contain grayscale hover:grayscale-0 opacity-80 hover:opacity-100 transition duration-300"
-                                className="h-[50px] sm:h-[60px] md:h-[70px] lg:h-[80px] object-contain hover:grayscale-0 opacity-80 hover:opacity-100 transition duration-300"
+                                //className="h-[50px] sm:h-[60px] md:h-[70px] lg:h-[80px] object-contain hover:grayscale-0 opacity-80 hover:opacity-100 transition duration-300"
+                                className="h-[60px] sm:h-[75px] md:h-[90px] lg:h-[110px] object-contain opacity-80 hover:opacity-100 transition duration-300"
                             />
                         </div>
                     ))}
