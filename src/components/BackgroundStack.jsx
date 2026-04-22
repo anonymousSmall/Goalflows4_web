@@ -38,10 +38,10 @@ const BackgroundStack = () => {
             w-full 
             h-auto 
             block
-            -mt-[2px]
+            -mt-[0px]
 
             translate-x-[20px]
-            lg:translate-x-[40px]
+            lg:translate-x-[2px]
           "
         />
 
