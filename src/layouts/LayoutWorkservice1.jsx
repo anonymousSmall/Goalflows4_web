@@ -5,9 +5,13 @@ import bgSection from "../assets/image/workservice/BG04.01BG.png"; // ✅ พื
 
 const LayoutWorkservice1 = () => {
   return (
-    <section
-
-            >
+<section
+  className="
+    relative
+    pt-24 md:pt-32 lg:pt-40   /* ✅ ดันลงจาก navbar */
+    pb-12 md:pb-16
+  "
+>
                 {/* Overlay */}
                 <div className="absolute inset-0"></div>
     
