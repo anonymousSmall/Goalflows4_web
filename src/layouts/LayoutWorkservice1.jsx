@@ -5,6 +5,9 @@ import bgSection from "../assets/image/workservice/BG04.01BG.png";
 
 const LayoutWorkservice1 = () => {
   return (
+      <section>
+            {/* Overlay */}
+            <div className="absolute inset-0"></div>
     <div className="relative max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-16 items-center">
 
         {/* LEFT SIDE */}
@@ -85,6 +88,7 @@ const LayoutWorkservice1 = () => {
         </div>
 
       </div>
+    </section>
   )
 }
 
