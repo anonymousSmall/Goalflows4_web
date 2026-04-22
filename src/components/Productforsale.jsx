@@ -1,9 +1,10 @@
 import React from 'react'
 import company1 from "../assets/image/new/02.1.png";
 import logogf1 from "../assets/image/new/2.02.png";
-import product1 from "../assets/image/new/2.03.png";
-import product2 from "../assets/image/new/2.04.png";
-import product3 from "../assets/image/new/2.05.png";
+import product1 from "../assets/image/new/12.png";
+import product2 from "../assets/image/new/13.png";
+import product3 from "../assets/image/new/14.png";
+import product4 from "../assets/image/new/15.png";
 import bgSection from "../assets/image/new/02BG.png"; // ✅ พื้นหลังใหม่
 
 const Productforsale = () => {
@@ -76,6 +77,15 @@ const Productforsale = () => {
                             <img
                                 src={product3}
                                 alt="Product 3"
+                                className="w-[95%] sm:w-[85%] md:w-[75%] object-contain transition duration-500 group-hover:scale-110 group-hover:drop-shadow-2xl"
+                            />
+                        </div>
+
+                        {/* ITEM 4 */}
+                        <div className="flex justify-end group">
+                            <img
+                                src={product4}
+                                alt="Product 4"
                                 className="w-[95%] sm:w-[85%] md:w-[75%] object-contain transition duration-500 group-hover:scale-110 group-hover:drop-shadow-2xl"
                             />
                         </div>
