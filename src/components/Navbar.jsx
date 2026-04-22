@@ -178,11 +178,11 @@ export default function Navbar() {
                                         <div className="p-3 hover:bg-gray-100">ANIMAL BALANCE</div>
                                     </div>
                                 </li>
-                                <li className="drop-shadow-md transition-transform hover:scale-105">
-                                    <Link to="#">Catalog</Link>
-                                </li>
                             </ul>
                         </div>
+                    </li>
+                    <li className="drop-shadow-md transition-transform hover:scale-105">
+                        <Link to="#">Catalog</Link>
                     </li>
 
                     {/* SERVICE */}
@@ -363,6 +363,12 @@ export default function Navbar() {
                                     <p className="p-3 hover:bg-gray-100">ANIMAL BALANCE</p>
                                 </div>
                             </div>
+                        </li>
+                        {/* Contact */}
+                        <li className="p-4 border-b">
+                            <Link to="#" onClick={() => setMenuOpen(false)}>
+                                Catalog
+                            </Link>
                         </li>
 
                         {/* SERVICE */}
