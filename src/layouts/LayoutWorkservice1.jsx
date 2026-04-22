@@ -71,7 +71,7 @@ const LayoutWorkservice1 = () => {
             font-bold text-white
             leading-tight tracking-wide
           ">
-            สินค้าที่จำหน่าย
+            บริการ
           </h1>
 
           {/* Product Image */}
