@@ -43,7 +43,7 @@ export default function Navbar() {
                     </li>
 
                     <li className="drop-shadow-md transition-transform hover:scale-105">
-                        <Link to="/Workandservices">เกี่ยวกับโกลโฟลฯ</Link>
+                        <Link to="#">เกี่ยวกับโกลโฟลฯ</Link>
                     </li>
 
                     {/* PRODUCT */}
@@ -190,9 +190,15 @@ export default function Navbar() {
                         <div className="flex items-center gap-1">บริการ ▼</div>
 
                         <div className="absolute left-0 top-full w-[220px] bg-white text-black shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-                            <div className="p-3 hover:bg-gray-100">สอบเทียบ</div>
-                            <div className="p-3 hover:bg-gray-100">ซ่อมเครื่องมือ</div>
-                            <div className="p-3 hover:bg-gray-100">อบรม</div>
+                            <div className="p-3 hover:bg-gray-100">
+                                <Link to="/Workandservices">สอบเทียบ</Link>
+                            </div>
+                            <div className="p-3 hover:bg-gray-100">
+                                <Link to="/Workandservices">ซ่อมเครื่องมือ</Link>
+                            </div>
+                            <div className="p-3 hover:bg-gray-100">
+                                <Link to="/Workandservices">อบรม</Link>
+                            </div>
                         </div>
                     </li>
 
