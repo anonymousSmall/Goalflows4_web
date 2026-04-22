@@ -35,7 +35,7 @@ function Footers() {
                   <img src={qr} alt="qr" className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] rounded-lg shadow-lg"/>
                   <div className="text-sm leading-relaxed">
                     <p className="font-semibold">
-                      บริษัท โกลด์โฟล อินสตรูเมนท์ จำกัด
+                      บริษัท โกลโฟล อินสตรูเมนท์ จำกัด
                     </p>
                     <p>
                       1/35 ซอยรังสิต-นครนายก 63/1 <br />
