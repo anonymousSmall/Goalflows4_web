@@ -5,10 +5,10 @@ import bgSection from "../assets/image/workservice/BG04.01BG.png"; // ✅ พื
 
 const LayoutWorkservice1 = () => {
     return (
-    <section
+  <section
       className="
         relative
-        pt-2
+        pt-24 md:pt-32 lg:pt-40
         pb-12 md:pb-16
       "
     >
