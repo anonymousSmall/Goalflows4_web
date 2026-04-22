@@ -75,16 +75,20 @@ const LayoutWorkservice2 = () => {
                         />
                     </div>
                 </div> */}
-                <div className="flex flex-col items-end text-right">
+                <div className="flex flex-col   items-center md:items-end   /* ✅ Mobile กลาง / Desktop ขวา */
+  text-center md:text-right   /* ✅ Mobile กลาง / Desktop ขวา */">
 
                     <h1 className="
         mt-2 
-        text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
+        text-4xl sm:text-4xl md:text-5xl lg:text-6xl
         font-bold 
         text-[#003b6e] 
         leading-tight 
         tracking-wide
-        space-y-2
+        space-y-1 md:space-y-2
+        bg-white/90 backdrop-blur-sm   /* ✅ ดู premium */
+    rounded-lg md:rounded-xl 
+    shadow-lg
     ">
                         <div>ซ่อมบำรุงเครื่องมือ</div>
                         <div>บำรุงรักษาเครื่องมือ</div>
