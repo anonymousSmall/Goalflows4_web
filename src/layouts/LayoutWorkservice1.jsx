@@ -66,9 +66,27 @@ const LayoutWorkservice1 = () => {
 
                 {/* RIGHT SIDE */}
                 <div>
-                    <p className="mt-2 text-7xl text-center sm:text-base md:text-lg lg:text-xl font-medium text-white leading-relaxed max-w-[600px]">
+                    <h1
+                            className="
+    absolute 
+    left-20 sm:left-4 md:left-6 lg:left-180   /* ✅ ขยับตามจอ */
+    -top-[-380px] sm:-top-60 md:-top-6 lg:-top-8  /* ✅ ระยะบน responsive */
+
+    px-3 sm:px-4 md:px-6 
+    py-1.5 sm:py-2 md:py-3   /* ✅ padding ตามจอ */
+
+    text-5xl sm:text-xl md:text-3xl lg:text-4xl  /* ✅ font scale */
+    font-bold text-[#003b6e]
+
+    bg-white/90 backdrop-blur-sm   /* ✅ ดู premium */
+    rounded-lg md:rounded-xl 
+    shadow-lg
+
+    z-40
+  "
+                        >
                             งานบริการ
-                        </p>
+                        </h1>
                     <div className="relative 
                                    w-[360px] h-[360px] 
                                    sm:w-[460px] sm:h-[460px] 
