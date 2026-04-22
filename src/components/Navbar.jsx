@@ -72,9 +72,9 @@ export default function Navbar() {
         group-hover/item:opacity-100 group-hover/item:visible group-hover/item:translate-x-0 
         transition-all duration-300 rounded-md"
                                     >
-                                        <div className="p-3 hover:bg-gray-100">Stereo Microscope (2D)</div>
+                                        <div className="p-3 hover:bg-gray-100">Video Measuring (VMM)</div>
                                         <div className="p-3 hover:bg-gray-100">Profile Projector</div>
-                                        <div className="p-3 hover:bg-gray-100">CCD Camera (Software)</div>
+                                        <div className="p-3 hover:bg-gray-100">CCD Camera / Stereo Microscope</div>
                                         <div className="p-3 hover:bg-gray-100">Coordinate Measuring Machine (CMM)</div>
                                         <div className="p-3 hover:bg-gray-100">Protable CMM Arm</div>
                                         <div className="p-3 hover:bg-gray-100">Contour Measuring Machine</div>
@@ -262,9 +262,9 @@ export default function Navbar() {
                                     className={`${subMenu === "measure" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
                                     <p className="py-2">Stereo Microscope (2D)</p>
-                                    <p className="p-3 hover:bg-gray-100">Stereo Microscope (2D)</p>
+                                    <p className="p-3 hover:bg-gray-100">Video Measuring (VMM)</p>
                                     <p className="p-3 hover:bg-gray-100">Profile Projector</p>
-                                    <p className="p-3 hover:bg-gray-100">CCD Camera (Software)</p>
+                                    <p className="p-3 hover:bg-gray-100">CCD Camera / Stereo Microscope</p>
                                     <p className="p-3 hover:bg-gray-100">Coordinate Measuring Machine (CMM)</p>
                                     <p className="p-3 hover:bg-gray-100">Protable CMM Arm</p>
                                     <p className="p-3 hover:bg-gray-100">Contour Measuring Machine</p>
