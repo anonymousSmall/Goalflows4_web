@@ -9,7 +9,7 @@ const LayoutWorkservice2 = () => {
     <section
       className="
         relative
-        pt-24 md:pt-32 lg:pt-40
+        pt-2
         pb-12 md:pb-16
       "
     >
