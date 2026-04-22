@@ -6,9 +6,13 @@ import bgSection from "../assets/image/workservice/PAGE04.02BG.png"; // ✅ พ�
 
 const LayoutWorkservice2 = () => {
     return (
-        <section
-
-        >
+    <section
+      className="
+        relative
+        pt-24 md:pt-32 lg:pt-40
+        pb-12 md:pb-16
+      "
+    >
             {/* Overlay */}
             <div className="absolute inset-0"></div>
 
