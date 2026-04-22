@@ -11,6 +11,8 @@ import AllArticlesPage from "../pages/AllArticlesPage";
 import Contactus from "../components/Contactus";
 import CatalogProduct from "../catalog/CatalogProduct";
 import Workandservices from "../pages/Workandservices";
+import Goalflows from "../pages/Goalflows";
+
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,8 @@ const router = createBrowserRouter([
       { path: "contact", element: <Contactus /> },
       { path: "Catalog", element: <CatalogProduct /> },
       { path: "Workandservices", element: <Workandservices /> },
+      { path: "Goalflows", element: <Goalflows /> },
+
     //   { path: "details", element: <ProductDetails /> },
     //   { path: "productuser/:id", element: <ProductUser /> },
     //   { path: "hardness", element: <PHardness /> },
