@@ -194,7 +194,7 @@ export default function Navbar() {
                                 <Link to="/Workandservices">ซ่อมเครื่องมือ</Link>
                             </div>
                             <div className="p-3 hover:bg-gray-100">
-                                <Link to="/Workandservices">ำรุงรักษาเครื่องมือ เครื่องจักร</Link>
+                                <Link to="/Workandservices">บำรุงรักษาเครื่องมือ เครื่องจักร</Link>
                             </div>
                              <div className="p-3 hover:bg-gray-100">
                                 <Link to="/Workandservices">อบรมการใช้งาน</Link>
