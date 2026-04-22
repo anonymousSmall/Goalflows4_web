@@ -32,7 +32,27 @@ const LayoutWorkservice1 = () => {
             md:w-[500px] md:h-[500px] 
             bg-blue-400/20 blur-3xl rounded-full
           "></div>
+<h1
+                            className="
+    absolute 
+    left-2 sm:left-4 md:left-6 lg:left-10   /* ✅ ขยับตามจอ */
+    -top-4 sm:-top-4 md:-top-6 lg:-top-8  /* ✅ ระยะบน responsive */
 
+    px-3 sm:px-4 md:px-6 
+    py-1.5 sm:py-2 md:py-3   /* ✅ padding ตามจอ */
+
+    text-xl sm:text-2xl md:text-3xl lg:text-4xl  /* ✅ font scale */
+    font-bold text-[#003b6e]
+
+    bg-white/90 backdrop-blur-sm   /* ✅ ดู premium */
+    rounded-lg md:rounded-xl 
+    shadow-lg
+
+    z-40
+  "
+                        >
+                            สอบเทียบ
+                        </h1>
           {/* Image */}
           <div className="
             relative 
@@ -71,7 +91,7 @@ const LayoutWorkservice1 = () => {
             font-bold text-white
             leading-tight tracking-wide
           ">
-            บริการ
+            งานบริการ
           </h1>
 
           {/* Product Image */}
