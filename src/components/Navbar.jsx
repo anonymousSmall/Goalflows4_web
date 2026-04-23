@@ -72,7 +72,11 @@ export default function Navbar() {
         group-hover/item:opacity-100 group-hover/item:visible group-hover/item:translate-x-0 
         transition-all duration-300 rounded-md"
                                     >
-                                        <div className="p-3 hover:bg-gray-100">Video Measuring (VMM)</div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Videomeasuring" onClick={() => setMenuOpen(false)}>
+                                                Video Measuring (VMM)
+                                            </Link>
+                                        </div>
                                         <div className="p-3 hover:bg-gray-100">Profile Projector</div>
                                         <div className="p-3 hover:bg-gray-100">CCD Camera / Stereo Microscope</div>
                                         <div className="p-3 hover:bg-gray-100">Coordinate Measuring Machine (CMM)</div>
@@ -273,7 +277,11 @@ export default function Navbar() {
                                 <div
                                     className={`${subMenu === "measure" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
-                                    <p className="p-3 hover:bg-gray-100">Video Measuring (VMM)</p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Videomeasuring" onClick={() => setMenuOpen(false)}>
+                                            Video Measuring (VMM)
+                                        </Link>
+                                    </p>
                                     <p className="p-3 hover:bg-gray-100">Profile Projector</p>
                                     <p className="p-3 hover:bg-gray-100">CCD Camera / Stereo Microscope</p>
                                     <p className="p-3 hover:bg-gray-100">Coordinate Measuring Machine (CMM)</p>
