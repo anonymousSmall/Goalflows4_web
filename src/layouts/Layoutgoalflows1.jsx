@@ -12,10 +12,10 @@ const Layoutgoalflows1 = () => {
                     src={header1}
                     alt="header"
                     className="
-                        w-[180px]
+                        w-[320px]
                         sm:w-[240px]
                         md:w-[320px]
-                        lg:w-[420px]
+                        lg:w-[800px]
                         object-contain
                     "
                 />
