@@ -12,7 +12,7 @@ import Contactus from "../components/Contactus";
 import CatalogProduct from "../catalog/CatalogProduct";
 import Workandservices from "../pages/Workandservices";
 import Goalflows from "../pages/Goalflows";
-
+import Videomeasuring from "../pages/product/Videomeasuring";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +29,7 @@ const router = createBrowserRouter([
       { path: "Catalog", element: <CatalogProduct /> },
       { path: "Workandservices", element: <Workandservices /> },
       { path: "Goalflows", element: <Goalflows /> },
+      { path: "Videomeasuring", element: <Videomeasuring/> },
 
     //   { path: "details", element: <ProductDetails /> },
     //   { path: "productuser/:id", element: <ProductUser /> },
