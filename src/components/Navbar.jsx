@@ -83,7 +83,7 @@ export default function Navbar() {
                                         <div className="p-3 hover:bg-gray-100">Protable CMM Arm</div>
                                         <div className="p-3 hover:bg-gray-100">Contour Measuring Machine</div>
                                         <div className="p-3 hover:bg-gray-100">Surface Texture Measuring Machine</div>
-                                        <div className="p-3 hover:bg-gray-100">Roundness Mesitn Machine</div>
+                                        <div className="p-3 hover:bg-gray-100">Roundness Measuring Machine</div>
                                     </div>
                                 </li>
 
@@ -288,7 +288,7 @@ export default function Navbar() {
                                     <p className="p-3 hover:bg-gray-100">Protable CMM Arm</p>
                                     <p className="p-3 hover:bg-gray-100">Contour Measuring Machine</p>
                                     <p className="p-3 hover:bg-gray-100">Surface Texture Measuring Machine</p>
-                                    <p className="p-3 hover:bg-gray-100">Roundness Mesitn Machine</p>
+                                    <p className="p-3 hover:bg-gray-100">Roundness Measuring Machine</p>
                                 </div>
 
                                 {/* SUB 2 */}
