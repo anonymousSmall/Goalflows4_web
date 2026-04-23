@@ -24,7 +24,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className='fixed w-full z-50 bg-[#003b6e]/70 backdrop-blur-md border-b border-[#003b6e]/40  shadow-xl transition-all top-0'>
+        <nav className='fixed w-full z-50 bg-[#003b6e]/80 backdrop-blur-md border-b border-[#003b6e]/40  shadow-xl transition-all top-0'>
             <div className="max-w-[1320px] mx-auto px-4 flex justify-between items-center h-[70px]">
                 {/* LOGO */}
                 <Link to="/">
