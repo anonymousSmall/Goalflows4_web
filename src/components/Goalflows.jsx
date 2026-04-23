@@ -7,6 +7,7 @@ const goalflows = () => {
     <>
       <Layoutgoalflows1 />
       <Layoutgoalflows2 />
+       <Clients />
     </>
   )
 }
