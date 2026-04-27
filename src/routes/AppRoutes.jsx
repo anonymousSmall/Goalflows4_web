@@ -13,6 +13,9 @@ import CatalogProduct from "../catalog/CatalogProduct";
 import Workandservices from "../pages/Workandservices";
 import Goalflows from "../pages/Goalflows";
 import Videomeasuring from "../pages/product/Videomeasuring";
+import ProductCncVideo from "../components/ViewProducts/ProductCncVideo";
+import ProductCncAutoVideo from "../components/ViewProducts/ProductCncAutoVideo";
+import ProductManualVideo from "../components/ViewProducts/ProductManualVideo";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +33,10 @@ const router = createBrowserRouter([
       { path: "Workandservices", element: <Workandservices /> },
       { path: "Goalflows", element: <Goalflows /> },
       { path: "Videomeasuring", element: <Videomeasuring/> },
+      { path: "ProductCncVideo", element: <ProductCncVideo/> },
+      { path: "ProductCncAutoVideo", element: <ProductCncAutoVideo/> },
+      { path: "ProductManualVideo", element: <ProductManualVideo/> },
+
 
     //   { path: "details", element: <ProductDetails /> },
     //   { path: "productuser/:id", element: <ProductUser /> },
