@@ -8,26 +8,29 @@ import p3 from "../../assets/image/Productgoalflow/MVMM.png"
 import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
 
 const products = [
-    {
+        {
         id: 1,
         name: "CNC Video Measuring System",
         img: p1,
         spec: specFile,
-        lineid: "https://lin.ee/v7Kf7rD"
+        lineid: "https://lin.ee/v7Kf7rD",
+        url: "/ProductCncVideo"
     },
     {
         id: 2,
-        name: "CNC Video Measuring System",
+        name: "CNC Auto Video Measuring System(Moving Gantry)",
         img: p2,
         spec: specFile,
-        lineid: "https://lin.ee/v7Kf7rD"
+        lineid: "https://lin.ee/v7Kf7rD",
+        url: "/ProductCncAutoVideo"
     },
     {
         id: 3,
         name: "Manual Video Measuring System",
         img: p3,
         spec: specFile,
-        lineid: "https://lin.ee/v7Kf7rD"
+        lineid: "https://lin.ee/v7Kf7rD",
+        url: "/ProductManualVideo"
     },
 ];
 
@@ -77,11 +80,13 @@ const Pvideomeasuring = () => {
 
                         {/* 🔷 IMAGE */}
                         <div className="overflow-hidden">
-                            <img
-                                src={item.img}
-                                alt={item.name}
-                                className="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500"
-                            />
+                            <Link to={item.url}>
+                                <img
+                                    src={item.img}
+                                    alt={item.name}
+                                    className="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500"
+                                />
+                            </Link>
                         </div>
 
                         {/* 🔷 CONTENT */}
