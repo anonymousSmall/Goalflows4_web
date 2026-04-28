@@ -126,7 +126,7 @@ export default function Navbar() {
   pointer-events-auto rounded-md
   "
                                     >
-                                        <div className="p-3 hover:bg-gray-100">Mitoyo</div>
+                                        <div className="p-3 hover:bg-gray-100">Mitutoyo</div>
                                         <div className="p-3 hover:bg-gray-100">Insize</div>
                                         <div className="p-3 hover:bg-gray-100">Teclock</div>
                                         <div className="p-3 hover:bg-gray-100">Peacock</div>
@@ -328,7 +328,7 @@ export default function Navbar() {
                                 <div
                                     className={`${subMenu === "test" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
-                                    <p className="p-3 hover:bg-gray-100">Mitoyo</p>
+                                    <p className="p-3 hover:bg-gray-100">Mitutoyo</p>
                                     <p className="p-3 hover:bg-gray-100">Insize</p>
                                     <p className="p-3 hover:bg-gray-100">Teclock</p>
                                     <p className="p-3 hover:bg-gray-100">Peacock</p>
