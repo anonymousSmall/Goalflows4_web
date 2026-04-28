@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import { FaSearch, FaLine } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import product1 from "../../assets/image/Productgoalflow/auto.png"
-import specvmm from "../../assets/image/spec/M-VMM-spec.png";
+import specvmm from "../../assets/image/spec/auto-spec.png";
 import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
-import p1 from "../../assets/image/brandsale/22.png"
+import p1 from "../../assets/image/brandsale/22.png";
+import Stand from "../../assets/image/spec/standard-dilivery.png";
 
 const products = [
   {
@@ -16,6 +17,7 @@ const products = [
 
 const ProductCncVideo = () => {
 
+  const [activeTab, setActiveTab] = useState("spec");
   const [open, setOpen] = useState(false);
   const [currentSpec, setCurrentSpec] = useState(null);
   const handlePreview = (spec) => {
@@ -130,7 +132,7 @@ const ProductCncVideo = () => {
       </div>
 
       {/* 🔷 SPEC */}
-      <div className="max-w-6xl mx-auto mt-10">
+      {/* <div className="max-w-6xl mx-auto mt-10">
         <h2 className="text-lg md:text-xl font-semibold text-gray-800 mb-4">
           Specification
         </h2>
@@ -142,7 +144,61 @@ const ProductCncVideo = () => {
             className="w-full object-contain transition duration-500"
           />
         </div>
+      </div> */}
+
+      <div className="max-w-6xl mx-auto mt-10 bg-white rounded-2xl shadow-md p-4 md:p-6">
+
+        {/* 🔷 TAB HEADER */}
+        <div className="flex border-b mb-2">
+          <button
+            onClick={() => setActiveTab("spec")}
+            className={`px-4 py-2 text-sm font-semibold transition
+        ${activeTab === "spec"
+                ? "border-b-2 border-[#003b6e] text-[#003b6e]"
+                : "text-gray-500 hover:text-[#003b6e]"}`}
+          >
+            Specification
+          </button>
+
+          <button
+            onClick={() => setActiveTab("delivery")}
+            className={`px-4 py-2 text-sm font-semibold transition
+        ${activeTab === "delivery"
+                ? "border-b-2 border-[#003b6e] text-[#003b6e]"
+                : "text-gray-500 hover:text-[#003b6e]"}`}
+          >
+            Standard Delivery
+          </button>
+        </div>
+
+        {/* 🔷 CONTENT */}
+        <div className="mt-0"> {/* 🔥 ตัดช่องว่างตรงนี้ */}
+
+          {/* 🟦 SPEC TAB */}
+          {activeTab === "spec" && (
+            <div className="overflow-x-auto">
+              <img
+                src={specvmm}
+                alt="Specification"
+                className="w-full object-contain block -mt-8 md:-mt-36 transition duration-500"
+              />
+            </div>
+          )}
+
+          {/* 🟩 DELIVERY TAB */}
+          {activeTab === "delivery" && (
+            <div className="overflow-x-auto">
+              <img
+                src={Stand}
+                alt="Specification"
+                className="w-full object-contain block -mt-8 md:-mt-30 transition duration-500"
+              />
+            </div>
+          )}
+
+        </div>
       </div>
+
 
       {/* 🔷 MODAL PREVIEW */}
       {open && (
