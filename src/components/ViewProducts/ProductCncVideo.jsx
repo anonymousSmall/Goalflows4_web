@@ -64,10 +64,22 @@ const ProductCncVideo = () => {
 
             {/* 🔷 DETAIL */}
             <div>
-              <div>
-                <h2 className="text-lg md:text-lg font-semibold text-gray-800 mb-4">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+
+                {/* 🔷 TITLE */}
+                <h2 className="text-lg md:text-xl font-semibold text-gray-800 leading-tight">
                   VMU CNC Automatic Video Measuring System
                 </h2>
+
+                {/* 🔷 LOGO */}
+                <div className="flex justify-start sm:justify-end">
+                  <img
+                    src={p1}
+                    alt="logo"
+                    className="h-[50px] sm:h-[60px] md:h-[80px] w-auto object-contain"
+                  />
+                </div>
+
               </div>
 
 
