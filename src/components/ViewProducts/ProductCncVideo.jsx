@@ -90,24 +90,24 @@ const ProductCncVideo = () => {
                   {/* <img src={p1} alt="Product Feature" className='w-auto h-32 justify-end' /> */}
                 </div>
                 <ul className="text-sm text-gray-600 space-y-1 leading-relaxed">
-                  <li>• Automatic measurement capabilities</li>
-                  <li>• High-precision imaging technology</li>
-                  <li>• User-friendly interface</li>
-                  <li>• ระบบ CNC อัตโนมัติ พร้อม Closed-loop Control</li>
-                  <li>• โครงสร้างหินแกรนิต ลดการสั่นสะเทือน</li>
-                  <li>• ความละเอียด 1 µm แม่นยำสูง</li>
-                  <li>• กล้อง CCD + เลนส์ซูม</li>
-                  <li>• LED Multi-zone + Contour LED 256 ระดับ</li>
+                  <li>• ระบบวัด CNC อัตโนมัติเต็มรูปแบบ พร้อม Closed-loop Control ให้ความแม่นยำสูง และรองรับการวัดแบบอัตโนมัติอย่างมีประสิทธิภาพ</li>
+                  <li>• โครงสร้างฐานหินแกรนิตเกรด 00 ระดับอุตสาหกรรม ให้ความเสถียรสูง ลดการสั่นสะเทือน เพื่อความเที่ยงตรงในการวัด</li>
+                  <li>• ระบบขับเคลื่อนคุณภาพสูงด้วย Precision Linear Guide, Grinding Ball Screw และ AC Servo Motor มอบความแม่นยำและความนุ่มนวลในการเคลื่อนที่</li>
+                  <li>• ความละเอียดการวัดระดับ 1 ไมครอน (1 µm) ให้ผลลัพธ์ที่เชื่อถือได้และมีเสถียรภาพ</li>
+                  <li>• กล้อง CCD สีความละเอียดสูง พร้อมเลนส์ซูม รองรับการตรวจสอบชิ้นงานอย่างคมชัด</li>
+                  <li>• ระบบไฟส่องสว่าง LED แบบ Multi-zone ควบคุมผ่านซอฟต์แวร์ พร้อมฟังก์ชันบันทึกค่า เพิ่มความสะดวกในการใช้งาน</li>
+                  <li>• ระบบไฟ Contour LED ปรับความสว่างได้ 256 ระดับ เพื่อการมองเห็นขอบชิ้นงานที่ชัดเจนยิ่งขึ้น</li>
+                  <li>• รองรับการติดตั้ง Touch Probe (Option) สำหรับการวัดงาน 3 มิติอย่างครบวงจร</li>
                 </ul>
               </div>
 
               {/* Application */}
               <div className="mb-6">
-                <h3 className="font-semibold text-[#003b6e] mb-2">Application</h3>
+                <h3 className="font-semibold text-[#003b6e] mb-2">Product Application</h3>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• เครื่องจักรกล / อิเล็กทรอนิกส์ / ยานยนต์</li>
-                  <li>• ตรวจสอบชิ้นงาน (Inspection)</li>
-                  <li>• Measurement & Process Control</li>
+                  <li>• เหมาะสำหรับการใช้งานในหลากหลายอุตสาหกรรม เช่น เครื่องจักรกล อิเล็กทรอนิกส์ ยานยนต์ ฮาร์ดแวร์ พลาสติก และแม่พิมพ์</li>
+                  <li>• สามารถวัดขนาด รูปร่าง และค่าความคลาดเคลื่อนของตำแหน่งชิ้นงานได้อย่างแม่นยำสูง</li>
+                  <li>• รองรับงานตรวจสอบชิ้นส่วน (Inspection) การวัดรูปทรง (Measurement) และการควบคุมกระบวนการผลิต (Process Control) ได้อย่างมีประสิทธิภาพ</li>
                 </ul>
               </div>
 
