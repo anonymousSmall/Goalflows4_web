@@ -9,7 +9,7 @@ import p3 from "../../assets/image/Productgoalflow/MVMM.png"
 import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
 
 const products = [
-        {
+    {
         id: 1,
         name: "CNC Video Measuring System",
         img: p1,
