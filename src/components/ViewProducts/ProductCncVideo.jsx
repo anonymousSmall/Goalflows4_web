@@ -64,6 +64,22 @@ const ProductCncVideo = () => {
 
             {/* 🔷 DETAIL */}
             <div>
+              {/*  <h2 className="text-lg md:text-lg font-semibold text-gray-800 mb-4">
+                VMU CNC Automatic Video Measuring System
+              </h2>
+              <div className="flex items-start justify-end gap-4 flex-wrap">
+                <div className="flex-shrink-0">
+                  <div className="w-[80px] h-[80px] md:w-[100px] md:h-[100px] 
+      bg-gradient-to-br from-[#003b6e] to-blue-500 
+      rounded-xl flex flex-col items-center justify-center 
+      text-white shadow-md">
+
+                    <span className="text-xs">GF</span>
+                    <span className="text-lg font-bold leading-none">TECH</span>
+                    <span className="text-[10px] opacity-80">MEASURE</span>
+                  </div>
+                </div>
+              </div> */}
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
 
                 {/* 🔷 TITLE */}
@@ -90,24 +106,24 @@ const ProductCncVideo = () => {
                   {/* <img src={p1} alt="Product Feature" className='w-auto h-32 justify-end' /> */}
                 </div>
                 <ul className="text-sm text-gray-600 space-y-1 leading-relaxed">
-                  <li>• ระบบวัด CNC อัตโนมัติเต็มรูปแบบ พร้อม Closed-loop Control ให้ความแม่นยำสูง และรองรับการวัดแบบอัตโนมัติอย่างมีประสิทธิภาพ</li>
-                  <li>• โครงสร้างฐานหินแกรนิตเกรด 00 ระดับอุตสาหกรรม ให้ความเสถียรสูง ลดการสั่นสะเทือน เพื่อความเที่ยงตรงในการวัด</li>
-                  <li>• ระบบขับเคลื่อนคุณภาพสูงด้วย Precision Linear Guide, Grinding Ball Screw และ AC Servo Motor มอบความแม่นยำและความนุ่มนวลในการเคลื่อนที่</li>
-                  <li>• ความละเอียดการวัดระดับ 1 ไมครอน (1 µm) ให้ผลลัพธ์ที่เชื่อถือได้และมีเสถียรภาพ</li>
-                  <li>• กล้อง CCD สีความละเอียดสูง พร้อมเลนส์ซูม รองรับการตรวจสอบชิ้นงานอย่างคมชัด</li>
-                  <li>• ระบบไฟส่องสว่าง LED แบบ Multi-zone ควบคุมผ่านซอฟต์แวร์ พร้อมฟังก์ชันบันทึกค่า เพิ่มความสะดวกในการใช้งาน</li>
-                  <li>• ระบบไฟ Contour LED ปรับความสว่างได้ 256 ระดับ เพื่อการมองเห็นขอบชิ้นงานที่ชัดเจนยิ่งขึ้น</li>
-                  <li>• รองรับการติดตั้ง Touch Probe (Option) สำหรับการวัดงาน 3 มิติอย่างครบวงจร</li>
+                  <li>• Automatic measurement capabilities</li>
+                  <li>• High-precision imaging technology</li>
+                  <li>• User-friendly interface</li>
+                  <li>• ระบบ CNC อัตโนมัติ พร้อม Closed-loop Control</li>
+                  <li>• โครงสร้างหินแกรนิต ลดการสั่นสะเทือน</li>
+                  <li>• ความละเอียด 1 µm แม่นยำสูง</li>
+                  <li>• กล้อง CCD + เลนส์ซูม</li>
+                  <li>• LED Multi-zone + Contour LED 256 ระดับ</li>
                 </ul>
               </div>
 
               {/* Application */}
               <div className="mb-6">
-                <h3 className="font-semibold text-[#003b6e] mb-2">Product Application</h3>
+                <h3 className="font-semibold text-[#003b6e] mb-2">Application</h3>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• เหมาะสำหรับการใช้งานในหลากหลายอุตสาหกรรม เช่น เครื่องจักรกล อิเล็กทรอนิกส์ ยานยนต์ ฮาร์ดแวร์ พลาสติก และแม่พิมพ์</li>
-                  <li>• สามารถวัดขนาด รูปร่าง และค่าความคลาดเคลื่อนของตำแหน่งชิ้นงานได้อย่างแม่นยำสูง</li>
-                  <li>• รองรับงานตรวจสอบชิ้นส่วน (Inspection) การวัดรูปทรง (Measurement) และการควบคุมกระบวนการผลิต (Process Control) ได้อย่างมีประสิทธิภาพ</li>
+                  <li>• เครื่องจักรกล / อิเล็กทรอนิกส์ / ยานยนต์</li>
+                  <li>• ตรวจสอบชิ้นงาน (Inspection)</li>
+                  <li>• Measurement & Process Control</li>
                 </ul>
               </div>
 
@@ -213,52 +229,54 @@ const ProductCncVideo = () => {
 
 
       {/* 🔷 MODAL PREVIEW */}
-      {open && (
-        <div
-          className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-2 md:p-6"
-          onClick={() => setOpen(false)}
-        >
+      {
+        open && (
           <div
-            className="bg-white rounded-xl w-full max-w-5xl h-[85vh] relative flex flex-col overflow-hidden"
-            onClick={(e) => e.stopPropagation()}
+            className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-2 md:p-6"
+            onClick={() => setOpen(false)}
           >
+            <div
+              className="bg-white rounded-xl w-full max-w-5xl h-[85vh] relative flex flex-col overflow-hidden"
+              onClick={(e) => e.stopPropagation()}
+            >
 
-            {/* HEADER */}
-            <div className="flex justify-between items-center p-3 border-b">
-              <h2 className="font-semibold text-[#003b6e]">
-                Preview Specification
-              </h2>
+              {/* HEADER */}
+              <div className="flex justify-between items-center p-3 border-b">
+                <h2 className="font-semibold text-[#003b6e]">
+                  Preview Specification
+                </h2>
 
-              <button
-                onClick={() => setOpen(false)}
-                className="text-gray-500 hover:text-black text-xl"
-              >
-                ✕
-              </button>
+                <button
+                  onClick={() => setOpen(false)}
+                  className="text-gray-500 hover:text-black text-xl"
+                >
+                  ✕
+                </button>
+              </div>
+
+              {/* PDF */}
+              <iframe
+                src={currentSpec}
+                title="Specification"
+                className="w-full flex-1"
+              />
+
+              {/* FOOTER */}
+              <div className="p-3 border-t flex justify-end">
+                <a
+                  href={currentSpec}
+                  download
+                  className="bg-[#003b6e] text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-800"
+                >
+                  Download
+                </a>
+              </div>
+
             </div>
-
-            {/* PDF */}
-            <iframe
-              src={currentSpec}
-              title="Specification"
-              className="w-full flex-1"
-            />
-
-            {/* FOOTER */}
-            <div className="p-3 border-t flex justify-end">
-              <a
-                href={currentSpec}
-                download
-                className="bg-[#003b6e] text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-800"
-              >
-                Download
-              </a>
-            </div>
-
           </div>
-        </div>
-      )}
-    </section>
+        )
+      }
+    </section >
   )
 }
 
