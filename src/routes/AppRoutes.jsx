@@ -16,6 +16,32 @@ import Videomeasuring from "../pages/product/Videomeasuring";
 import ProductCncVideo from "../components/ViewProducts/ProductCncVideo";
 import ProductCncAutoVideo from "../components/ViewProducts/ProductCncAutoVideo";
 import ProductManualVideo from "../components/ViewProducts/ProductManualVideo";
+import Pprofileprojecter from "../components/Products/Pprofileprojecter";
+import ProductProfileVertical from "../components/ViewProducts/ProductProfileVertical";
+import PccdCamera from "../components/Products/PccdCamera";
+import Pcoordinate from "../components/Products/Pcoordinate";
+import Pprotablecmm from "../components/Products/Pprotablecmm";
+import Pcontourmeasuring from "../components/Products/Pcontourmeasuring";
+import Psurfacetexture from "../components/Products/Psurfacetexture";
+import Proundness from "../components/Products/Proundness";
+import Pcustting from "../components/Products/Pcustting";
+import Phardness from "../components/Products/Phardness";
+import Ptensilemachine from "../components/Products/Ptensilemachine";
+import Povenmachine from "../components/Products/Povenmachine";
+import Psaltspray from "../components/Products/Psaltspray";
+import Ptemperature from "../components/Products/Ptemperature";
+import ProductCcdCamera from "../components/ViewProducts/ProductCcdCamera";
+import ProductCoordinate from "../components/ViewProducts/ProductCoordinate";
+import ProductContourMeasuring from "../components/ViewProducts/ProductContourMeasuring";
+import ProductSurfaceTexture from "../components/ViewProducts/ProductSurfaceTexture";
+import ProductRoundness from "../components/ViewProducts/ProductRoundness";
+import ProductManualCutting from "../components/ViewProducts/ProductManualCutting";
+import ProductMetallographic from "../components/ViewProducts/ProductMetallographic";
+import ProductAutoMetallographic from "../components/ViewProducts/ProductAutoMetallographic";
+import ProductManualMetallographic from "../components/ViewProducts/ProductManualMetallographic";
+import ProductHardness from "../components/ViewProducts/ProductHardness";
+import ProductTouchhardness from "../components/ViewProducts/ProductTouchhardness";
+import ProductMicrovickers from "../components/ViewProducts/ProductMicroVickers";
 
 const router = createBrowserRouter([
   {
@@ -36,7 +62,31 @@ const router = createBrowserRouter([
       { path: "ProductCncVideo", element: <ProductCncVideo/> },
       { path: "ProductCncAutoVideo", element: <ProductCncAutoVideo/> },
       { path: "ProductManualVideo", element: <ProductManualVideo/> },
-
+      { path: "Pprofileprojecter", element: <Pprofileprojecter /> },
+      { path: "ProductProfileVertical", element: <ProductProfileVertical /> },
+      { path: "PccdCamera", element: <PccdCamera /> },
+      { path: "Pcoordinate", element: <Pcoordinate /> },
+      { path: "Pprotablecmm", element: <Pprotablecmm /> },
+      { path: "Pcontourmeasuring", element: <Pcontourmeasuring /> },
+      { path: "Psurfacetexture", element: <Psurfacetexture /> },
+      { path: "Proundness", element: <Proundness /> },
+      { path: "Pcustting", element: <Pcustting /> },
+      { path: "Phardness", element: <Phardness /> },
+      { path: "Ptensilemachine", element: <Ptensilemachine /> },
+      { path: "Povenmachine", element: <Povenmachine /> },
+      { path: "Psaltspray", element: <Psaltspray /> },
+      { path: "Ptemperature", element: <Ptemperature /> },
+      { path: "ProductCcdCamera", element: <ProductCcdCamera /> },
+      { path: "ProductCoordinate", element: <ProductCoordinate /> },
+      { path: "ProductContourMeasuring", element: <ProductContourMeasuring /> },
+      { path: "ProductSurfaceTexture", element: <ProductSurfaceTexture /> },
+      { path: "ProductRoundness", element: <ProductRoundness /> },
+      { path: "ProductManualCutting", element: <ProductManualCutting /> },
+      { path: "ProductMetallographic", element: <ProductMetallographic /> },
+      { path: "ProductAutoMetallographic", element: <ProductAutoMetallographic /> },
+      { path: "ProductManualMetallographic", element: <ProductManualMetallographic /> },
+      { path: "ProductTouchhardness", element: <ProductTouchhardness /> },
+      { path: "ProductMicrovickers", element: <ProductMicrovickers /> },
 
     //   { path: "details", element: <ProductDetails /> },
     //   { path: "productuser/:id", element: <ProductUser /> },
