@@ -77,13 +77,41 @@ export default function Navbar() {
                                                 Video Measuring (VMM)
                                             </Link>
                                         </div>
-                                        <div className="p-3 hover:bg-gray-100">Profile Projector</div>
-                                        <div className="p-3 hover:bg-gray-100">CCD Camera / Stereo Microscope</div>
-                                        <div className="p-3 hover:bg-gray-100">Coordinate Measuring Machine (CMM)</div>
-                                        <div className="p-3 hover:bg-gray-100">Protable CMM Arm</div>
-                                        <div className="p-3 hover:bg-gray-100">Contour Measuring Machine</div>
-                                        <div className="p-3 hover:bg-gray-100">Surface Texture Measuring Machine</div>
-                                        <div className="p-3 hover:bg-gray-100">Roundness Measuring Machine</div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pprofileprojecter" onClick={() => setMenuOpen(false)}>
+                                                Profile Projector
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/PccdCamera" onClick={() => setMenuOpen(false)}>
+                                                CCD Camera / Stereo Microscope
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pcoordinate" onClick={() => setMenuOpen(false)}>
+                                                Coordinate Measuring Machine (CMM)
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pprotablecmm" onClick={() => setMenuOpen(false)}>
+                                                Portable CMM Arm
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pcontourmeasuring" onClick={() => setMenuOpen(false)}>
+                                                Contour Measuring Machine
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Psurfacetexture" onClick={() => setMenuOpen(false)}>
+                                                Surface Texture Measuring Machine
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Proundness" onClick={() => setMenuOpen(false)}>
+                                                Roundness Measuring Machine
+                                            </Link>
+                                        </div>
                                     </div>
                                 </li>
 
@@ -100,12 +128,36 @@ export default function Navbar() {
         group-hover/item:opacity-100 group-hover/item:visible group-hover/item:translate-x-0 
         transition-all duration-300 rounded-md"
                                     >
-                                        <div className="p-3 hover:bg-gray-100">Cutting / Grinding Polishing / Mounting Machine</div>
-                                        <div className="p-3 hover:bg-gray-100">Hardness Tester Machine</div>
-                                        <div className="p-3 hover:bg-gray-100">Tensile Machine</div>
-                                        <div className="p-3 hover:bg-gray-100">Salt Spray Machine</div>
-                                        <div className="p-3 hover:bg-gray-100">Oven Machine</div>
-                                        <div className="p-3 hover:bg-gray-100">Temperature & Humidity Chamber</div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pcustting" onClick={() => setMenuOpen(false)}>
+                                                Cutting / Grinding Polishing / Mounting Machine
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Phardness" onClick={() => setMenuOpen(false)}>
+                                                Hardness Tester Machine
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Ptensilemachine" onClick={() => setMenuOpen(false)}>
+                                                Tensile Machine
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Psaltspray" onClick={() => setMenuOpen(false)}>
+                                                Salt Spray Machine
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Povenmachine" onClick={() => setMenuOpen(false)}>
+                                                Oven Machine
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Ptemperature" onClick={() => setMenuOpen(false)}>
+                                                Temperature & Humidity Chamber
+                                            </Link>
+                                        </div>
                                     </div>
                                 </li>
 
@@ -282,13 +334,41 @@ export default function Navbar() {
                                             Video Measuring (VMM)
                                         </Link>
                                     </p>
-                                    <p className="p-3 hover:bg-gray-100">Profile Projector</p>
-                                    <p className="p-3 hover:bg-gray-100">CCD Camera / Stereo Microscope</p>
-                                    <p className="p-3 hover:bg-gray-100">Coordinate Measuring Machine (CMM)</p>
-                                    <p className="p-3 hover:bg-gray-100">Protable CMM Arm</p>
-                                    <p className="p-3 hover:bg-gray-100">Contour Measuring Machine</p>
-                                    <p className="p-3 hover:bg-gray-100">Surface Texture Measuring Machine</p>
-                                    <p className="p-3 hover:bg-gray-100">Roundness Measuring Machine</p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Videomeasuring" onClick={() => setMenuOpen(false)}>
+                                            Profile Projector
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/CCDCamera" onClick={() => setMenuOpen(false)}>
+                                            CCD Camera / Stereo Microscope
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/CMM" onClick={() => setMenuOpen(false)}>
+                                            Coordinate Measuring Machine (CMM)
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/PortableCMM" onClick={() => setMenuOpen(false)}>
+                                            Portable CMM Arm
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/ContourMeasuring" onClick={() => setMenuOpen(false)}>
+                                            Contour Measuring Machine
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/SurfaceTexture" onClick={() => setMenuOpen(false)}>
+                                            Surface Texture Measuring Machine
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Roundness" onClick={() => setMenuOpen(false)}>
+                                            Roundness Measuring Machine
+                                        </Link>
+                                    </p>
                                 </div>
 
                                 {/* SUB 2 */}
@@ -308,12 +388,36 @@ export default function Navbar() {
                                 <div
                                     className={`${subMenu === "tool" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
-                                    <p className="p-3 hover:bg-gray-100">Cutting / Grinding Polishing / Mounting Machine</p>
-                                    <p className="p-3 hover:bg-gray-100">Hardness Tester Machine</p>
-                                    <p className="p-3 hover:bg-gray-100">Tensile Machine</p>
-                                    <p className="p-3 hover:bg-gray-100">Salt Spray Machine</p>
-                                    <p className="p-3 hover:bg-gray-100">Oven Machine</p>
-                                    <p className="p-3 hover:bg-gray-100">Temperature & Humidity Chamber</p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/CuttingMachine" onClick={() => setMenuOpen(false)}>
+                                            Cutting / Grinding Polishing / Mounting Machine
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/HardnessTester" onClick={() => setMenuOpen(false)}>
+                                            Hardness Tester Machine
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/TensileMachine" onClick={() => setMenuOpen(false)}>
+                                            Tensile Machine
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/SaltSprayMachine" onClick={() => setMenuOpen(false)}>
+                                            Salt Spray Machine
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/OvenMachine" onClick={() => setMenuOpen(false)}>
+                                            Oven Machine
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/TemperatureChamber" onClick={() => setMenuOpen(false)}>
+                                            Temperature & Humidity Chamber
+                                        </Link>
+                                    </p>
                                 </div>
 
                                 {/* SUB 3 */}
