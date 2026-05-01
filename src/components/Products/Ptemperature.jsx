@@ -9,6 +9,7 @@ import p2 from "../../assets/image/Productgoalflow/Single Column Electronic  Uni
 import specFile from "../../assets/image/spec/ProgrammableTemperatureAndHumidityTestChamberspec.pdf";
 import specFile1 from "../../assets/image/spec/SingleColumnElectronicUniversalTestingMachinespec.pdf";
 
+
 const products = [
   {
     id: 1,
