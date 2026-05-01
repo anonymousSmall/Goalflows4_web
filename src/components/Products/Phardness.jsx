@@ -12,6 +12,7 @@ import specFile1 from "../../assets/image/spec/TOUCHSCREENROCKWELLHARDNESSTESTER
 import specFile2 from "../../assets/image/spec/TOUCHSCREENMICROVICKERSHARDNESSspec.pdf";
 import specFile3 from "../../assets/image/spec/ManualDigitalBrinellHardnessTesterspec.pdf";
 
+
 const products = [
   {
     id: 1,
