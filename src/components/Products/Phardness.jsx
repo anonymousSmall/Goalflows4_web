@@ -5,15 +5,19 @@ import { Link } from "react-router-dom";
 import p1 from "../../assets/image/Productgoalflow/HardnessRockwellTester.png"
 import p2 from "../../assets/image/Productgoalflow/TOUCH SCREEN ROCKWELL HARDNESS TESTER.png"
 import p3 from "../../assets/image/Productgoalflow/TOUCH SCREEN MICRO VICKERS HARDNESS TESTER.png"
+import p4 from "../../assets/image/Productgoalflow/DigitalBrinellHardnessTester.png"
 
-import specFile from "../../assets/image/spec/RONDCOMMEASURINGspec.pdf";
+import specFile from "../../assets/image/spec/ManualHardnessRockwellTesterSPEC.pdf";
+import specFile1 from "../../assets/image/spec/TOUCHSCREENROCKWELLHARDNESSTESTERspec.pdf";
+import specFile2 from "../../assets/image/spec/TOUCHSCREENMICROVICKERSHARDNESSspec.pdf";
+import specFile3 from "../../assets/image/spec/ManualDigitalBrinellHardnessTesterspec.pdf";
 
 const products = [
   {
     id: 1,
     name: "Hardness Tester Machine",
     img: p1,
-    spec: "",
+    spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/ProductHardness"
   },
@@ -21,7 +25,7 @@ const products = [
     id: 2,
     name: "Touch Screen Rockwell Hardness Tester",
     img: p2,
-    spec: "",
+    spec: specFile1,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/ProductTouchhardness"
   },
@@ -29,9 +33,17 @@ const products = [
     id: 3,
     name: "Touch Screen Micro Vickers Hardness Tester",
     img: p3,
-    spec: "",
+    spec: specFile2,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/ProductMicrovickers"
+  },
+  {
+    id: 4,
+    name: "Manual Digital Brinell Hardness Tester",
+    img: p4,
+    spec: specFile3,
+    lineid: "https://lin.ee/v7Kf7rD",
+    url: "/ProductDigitalhardness"
   },
 ];
 
