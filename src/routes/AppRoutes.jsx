@@ -42,6 +42,12 @@ import ProductManualMetallographic from "../components/ViewProducts/ProductManua
 import ProductHardness from "../components/ViewProducts/ProductHardness";
 import ProductTouchhardness from "../components/ViewProducts/ProductTouchhardness";
 import ProductMicrovickers from "../components/ViewProducts/ProductMicroVickers";
+import ProductDigitalhardness from "../components/ViewProducts/ProductDigitalhardness";
+import ProductDualColumn from "../components/ViewProducts/ProductDualColumn";
+import ProductSingleColumn from "../components/ViewProducts/ProductSingleColumn";
+import ProductSaltspray from "../components/ViewProducts/ProductSaltspray";
+import ProductOvenmachine from "../components/ViewProducts/ProductOvenmachine";
+import ProductTemperature from "../components/ViewProducts/ProductTemperature";
 
 const router = createBrowserRouter([
   {
@@ -87,6 +93,12 @@ const router = createBrowserRouter([
       { path: "ProductManualMetallographic", element: <ProductManualMetallographic /> },
       { path: "ProductTouchhardness", element: <ProductTouchhardness /> },
       { path: "ProductMicrovickers", element: <ProductMicrovickers /> },
+      { path: "ProductDigitalhardness", element: <ProductDigitalhardness /> },
+      { path: "ProductDualColumn", element: <ProductDualColumn /> },
+      { path: "ProductSingleColumn", element: <ProductSingleColumn /> },
+      { path: "ProductSaltspray", element: <ProductSaltspray /> },
+      { path: "ProductOvenmachine", element: <ProductOvenmachine /> },
+      { path: "ProductTemperature", element: <ProductTemperature /> },
 
     //   { path: "details", element: <ProductDetails /> },
     //   { path: "productuser/:id", element: <ProductUser /> },
