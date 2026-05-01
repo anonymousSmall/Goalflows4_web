@@ -9,14 +9,14 @@ import p2 from "../../assets/image/Productgoalflow/Absolute Arm (CMM Arm).png"
 import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
 
 const products = [
-  {
-    id: 1,
-    name: "Programmable Temperature And Humidity Test Chamber",
-    img: p1,
-    spec: "",
-    lineid: "https://lin.ee/v7Kf7rD",
-    url: "#"
-  },
+  // {
+  //   id: 1,
+  //   name: "Programmable Temperature And Humidity Test Chamber",
+  //   img: p1,
+  //   spec: "",
+  //   lineid: "https://lin.ee/v7Kf7rD",
+  //   url: "#"
+  // },
   {
     id: 2,
     name: "Absolute Arm (CMM Arm)",
