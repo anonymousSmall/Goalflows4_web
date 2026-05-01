@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import p1 from "../../assets/image/Productgoalflow/Programmable Temperature And Humidity Test Chamber.png"
 import p2 from "../../assets/image/Productgoalflow/Absolute Arm (CMM Arm).png"
 // import p3 from "../../assets/image/Productgoalflow/MVMM.png"
-
 import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
 
 const products = [
