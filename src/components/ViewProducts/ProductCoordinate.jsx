@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 import product1 from "../../assets/image/Productgoalflow/Coordinate Measuring Machines (CMMs).png"
 import specvmm from "../../assets/image/spec/CoordinateMeasuringMachines(CMMs)spec01.png";
 import Stand from "../../assets/image/spec/CoordinateMeasuringMachines(CMMs)spec02.png";
-import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
+import specFile from "../../assets/image/spec/CoordinateMeasuringMachines(CMMs).pdf";
 import p1 from "../../assets/image/brandsale/38.png";
 
 
 const products = [
   {
     id: 1,
-    spec: "",
+    spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
   },
 ];
