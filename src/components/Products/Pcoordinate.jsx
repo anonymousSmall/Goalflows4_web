@@ -6,14 +6,14 @@ import p1 from "../../assets/image/Productgoalflow/Coordinate Measuring Machines
 // import p2 from "../../assets/image/Productgoalflow/Horizontal Measuring Profile Projector.png"
 // import p3 from "../../assets/image/Productgoalflow/MVMM.png"
 
-import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
+import specFile from "../../assets/image/spec/CoordinateMeasuringMachines(CMMs).pdf";
 
 const products = [
   {
     id: 1,
     name: "Coordinate Measuring Machines (CMMs)",
     img: p1,
-    spec: "",
+    spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/ProductCoordinate"
   },
