@@ -16,7 +16,7 @@ import specFile3 from "../../assets/image/spec/ManualDigitalBrinellHardnessTeste
 const products = [
   {
     id: 1,
-    name: "Hardness Tester Machine",
+    name: "Manual Hardness Rockwell Tester",
     img: p1,
     spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
