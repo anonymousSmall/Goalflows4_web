@@ -6,14 +6,14 @@ import p1 from "../../assets/image/Productgoalflow/SURFACETEXTUREMEASURING.png"
 // import p2 from "../../assets/image/Productgoalflow/Horizontal Measuring Profile Projector.png"
 // import p3 from "../../assets/image/Productgoalflow/MVMM.png"
 
-import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
+import specFile from "../../assets/image/spec/SURFACETEXTUREMEASURINGspec.pdf";
 
 const products = [
   {
     id: 1,
     name: "Surface Texture Measuring Machine",
     img: p1,
-    spec: "",
+    spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/ProductSurfaceTexture"
   },
