@@ -93,6 +93,7 @@ const router = createBrowserRouter([
       { path: "ProductMetallographic", element: <ProductMetallographic /> },
       { path: "ProductAutoMetallographic", element: <ProductAutoMetallographic /> },
       { path: "ProductManualMetallographic", element: <ProductManualMetallographic /> },
+      { path: "ProductHardness", element: <ProductHardness /> },
       { path: "ProductTouchhardness", element: <ProductTouchhardness /> },
       { path: "ProductMicrovickers", element: <ProductMicrovickers /> },
       { path: "ProductDigitalhardness", element: <ProductDigitalhardness /> },
