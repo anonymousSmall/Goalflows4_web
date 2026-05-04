@@ -10,6 +10,7 @@ import p4 from "../../assets/image/Productgoalflow/METALLOGRAPHICAUTOGRINDERPOLI
 import specFile from "../../assets/image/spec/cutting.pdf";
 import specFile1 from "../../assets/image/spec/METALLOGRAPHIC MANUAL GRINDER POLISHER.pdf";
 import specFile2 from "../../assets/image/spec/AutoMetallographicMountingPress.pdf";
+import specFile3 from "../../assets/image/spec/METALLOGRAPHICAUTOGRINDERPOLISHERspec.pdf";
 
 const products = [
   {
@@ -40,7 +41,7 @@ const products = [
     id: 4,
     name: "Metallographic Auto Grunder Polisher",
     img: p4,
-    spec: specFile2,
+    spec: specFile3,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/ProductManualMetallographic"
   },
