@@ -23,7 +23,7 @@ const products = [
     img: p2,
     spec: "",
     lineid: "https://lin.ee/v7Kf7rD",
-    url: "/ProductCncAutoVideo"
+    url: "/ProductProfileHorizontal"
   },
   // {
   //     id: 3,
