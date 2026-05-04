@@ -14,7 +14,7 @@ import specFile2 from "../../assets/image/spec/AutoMetallographicMountingPress.p
 const products = [
   {
     id: 1,
-    name: "Manual Metallographic Abrasive Cutting Machine",
+    name: "Manual Cutting Machine",
     img: p1,
     spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
@@ -22,7 +22,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Manual Metallographic Abrasive Cutting Machine",
+    name: "Metallographic Manual Grinder Polisher",
     img: p2,
     spec: specFile1,
     lineid: "https://lin.ee/v7Kf7rD",
@@ -30,7 +30,7 @@ const products = [
   },
   {
     id: 3,
-    name: "Manual Metallographic Abrasive Cutting Machine",
+    name: "Auto Metallographic Mounting Press",
     img: p3,
     spec: specFile2,
     lineid: "https://lin.ee/v7Kf7rD",
@@ -38,7 +38,7 @@ const products = [
   },
   {
     id: 4,
-    name: "Manual Metallographic Abrasive Cutting Machine",
+    name: "Metallographic Auto Grunder Polisher",
     img: p4,
     spec: specFile2,
     lineid: "https://lin.ee/v7Kf7rD",
