@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 import product1 from "../../assets/image/Productgoalflow/CCD-CAMERA ZOOM STEREO MICROSCOPE.png"
 import spec from "../../assets/image/spec/CCDCAMERAZOOMSTEREOMICROSCOPEspec01.png";
 import Stand from "../../assets/image/spec/CCDCAMERAZOOMSTEREOMICROSCOPEspec02.png";
-import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
-import p1 from "../../assets/image/brandsale/brand-gf.png";
+import specFile from "../../assets/image/spec/CCD-CAMERAZOOMSTEREOMICROSCOPE.pdf";
+import p1 from "../../assets/image/brandsale/gfbrand.png";
 
 
 
 const products = [
   {
     id: 1,
-    spec: "",
+    spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
   },
 ];
