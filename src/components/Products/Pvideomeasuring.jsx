@@ -7,6 +7,8 @@ import p2 from "../../assets/image/Productgoalflow/AVMM.png"
 import p3 from "../../assets/image/Productgoalflow/MVMM.png"
 
 import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
+import specFile1 from "../../assets/image/spec/VMGVideoMeasuringSystemSpec.pdf";
+import specFile2 from "../../assets/image/spec/ManualVideoMeasuringSystemspec.pdf";
 
 const products = [
     {
@@ -21,7 +23,7 @@ const products = [
         id: 2,
         name: "CNC Auto Video Measuring System(Moving Gantry)",
         img: p2,
-        spec: specFile,
+        spec: specFile1,
         lineid: "https://lin.ee/v7Kf7rD",
         url: "/ProductCncAutoVideo"
     },
@@ -29,7 +31,7 @@ const products = [
         id: 3,
         name: "Manual Video Measuring System",
         img: p3,
-        spec: specFile,
+        spec: specFile2,
         lineid: "https://lin.ee/v7Kf7rD",
         url: "/ProductManualVideo"
     },
