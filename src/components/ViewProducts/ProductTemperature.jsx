@@ -205,11 +205,11 @@ GJB 150.3, GJB 150.4, GJB 150.9</li>
           {/* 🟩 DELIVERY TAB */}
           {activeTab === "delivery" && (
             <div className="overflow-x-auto">
-              {/* <img
+              <img
                 src={Stand}
                 alt="Specification"
                 className="w-full object-contain block -mt-8 md:-mt-auto transition duration-500"
-              /> */}
+              />
             </div>
           )}
 
