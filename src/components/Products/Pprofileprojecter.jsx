@@ -6,14 +6,15 @@ import p1 from "../../assets/image/Productgoalflow/Vertical Measuring Profile Pr
 import p2 from "../../assets/image/Productgoalflow/Horizontal Measuring Profile Projector.png"
 // import p3 from "../../assets/image/Productgoalflow/MVMM.png"
 
-import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
+import specFile from "../../assets/image/spec/VerticalMeasuringProfileProjector.pdf";
+import specFile1 from "../../assets/image/spec/HorizontalMeasuringProfileProjectorSPEC.pdf";
 
 const products = [
   {
     id: 1,
     name: "Vertical Measuring Profile Projector",
     img: p1,
-    spec: "",
+    spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/ProductProfileVertical"
   },
@@ -21,7 +22,7 @@ const products = [
     id: 2,
     name: "Horizontal Measuring Profile Projector",
     img: p2,
-    spec: "",
+    spec: specFile1,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/ProductProfileHorizontal"
   },
