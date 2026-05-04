@@ -5,7 +5,7 @@ import product1 from "../../assets/image/Productgoalflow/Coordinate Measuring Ma
 import specvmm from "../../assets/image/spec/CoordinateMeasuringMachines(CMMs)spec01.png";
 import Stand from "../../assets/image/spec/CoordinateMeasuringMachines(CMMs)spec02.png";
 import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
-import p1 from "../../assets/image/brandsale/22.png";
+import p1 from "../../assets/image/brandsale/38.png";
 
 
 const products = [
