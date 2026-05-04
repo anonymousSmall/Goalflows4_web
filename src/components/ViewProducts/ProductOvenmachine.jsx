@@ -5,7 +5,7 @@ import product1 from "../../assets/image/Productgoalflow/Blower drying oven.png"
 import specvmm from "../../assets/image/spec/Blowerdryingovenspec01.png";
 import Stand from "../../assets/image/spec/SingleColumnElectronicUniversalTestingMachinespec02.png";
 import specFile from "../../assets/image/spec/Blowerdryingovenspec.pdf";
-import p1 from "../../assets/image/brandsale/brand-gf.png";
+import p1 from "../../assets/image/brandsale/gfbrand.png";
 
 
 const products = [
