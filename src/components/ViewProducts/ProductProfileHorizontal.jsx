@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import { FaSearch, FaLine } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import product1 from "../../assets/image/Productgoalflow/Horizontal Measuring Profile Projector.png"
-import specvmm from "../../assets/image/spec/auto-spec.png";
-import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
+import specvmm from "../../assets/image/spec/Horizontal Measuring Profile Projector_SPEC01.png";
+import Stand from "../../assets/image/spec/Horizontal Measuring Profile Projector_SPEC02.png";
+import specFile from "../../assets/image/spec/HorizontalMeasuringProfileProjectorSPEC.pdf";
 import p1 from "../../assets/image/brandsale/22.png";
-import Stand from "../../assets/image/spec/standard-dilivery.png";
+
 
 const products = [
   {
@@ -30,7 +31,7 @@ const ProductProfileHorizontal = () => {
       {/* 🔷 HEADER */}
       <div className="max-w-6xl mx-auto mb-10 text-center">
         <h1 className="text-2xl md:text-4xl font-bold text-[#003b6e] tracking-wide">
-          Profile Projecter Vertical Measuring
+          Horizontal Measuring Profile Projector
         </h1>
         <p className="text-gray-500 mt-2 text-sm md:text-base">
           High Precision Measurement Solution
@@ -84,7 +85,7 @@ const ProductProfileHorizontal = () => {
 
                 {/* 🔷 TITLE */}
                 <h2 className="text-lg md:text-xl font-semibold text-gray-800 leading-tight">
-                  Profile Projecter Vertical Measuring
+                  Horizontal Measuring Profile Projector
                 </h2>
 
                 {/* 🔷 LOGO */}
@@ -102,30 +103,30 @@ const ProductProfileHorizontal = () => {
               {/* Feature */}
               <div className="mb-4">
                 <div className="flex items-center grid grid-cols-2 gap-2 mb-2">
-                  <h3 className="font-semibold text-[#003b6e] mb-2">Product Feature</h3>
+                  <h3 className="font-semibold text-[#003b6e] mb-2">ออกแบบมาเพื่อการตรวจสอบและวัดขนาดชิ้นงานที่มีความละเอียดสูง โดยมีคุณสมบัติหลักดังนี้:</h3>
                   {/* <img src={p1} alt="Product Feature" className='w-auto h-32 justify-end' /> */}
                 </div>
                 <ul className="text-sm text-gray-600 space-y-1 leading-relaxed">
+                  <li>• ประเภทเครื่อง: Horizontal Profile Projector (รุ่นแนวนอน)</li>
+                  <li>• ระบบแสง: ติดตั้งเลนส์วัตถุคุณภาพสูง (High-precision optical system) ให้ภาพที่ชัดเจนและคมชัด</li>
+                  <li>• การใช้งาน: เหมาะสำหรับการตรวจสอบรูปร่างและวัดขนาดชิ้นงานทางแสง (Measuring & Inspecting</li>
+                  <li>• โครงสร้าง: เป็นส่วนหนึ่งของกลุ่มผลิตภัณฑ์เครื่องมือวัดจาก Mikrosize ซึ่งเน้นความแม่นยำสูง</li>
+                  <li>• เครื่องโปรไฟล์โปรเจคเตอร์รุ่นนี้เหมาะสำหรับงานตรวจสอบคุณภาพในสายการผลิต หรือห้องปฏิบัติการมาตรวิทยา (Metrology Lab)</li>
+                  {/* <li>• -----</li>
                   <li>• -----</li>
-                  <li>• -----</li>
-                  <li>• -----</li>
-                  <li>• -----</li>
-                  <li>• -----</li>
-                  <li>• -----</li>
-                  <li>• -----</li>
-                  <li>• -----</li>
+                  <li>• -----</li> */}
                 </ul>
               </div>
 
               {/* Application */}
-              <div className="mb-6">
+              {/* <div className="mb-6">
                 <h3 className="font-semibold text-[#003b6e] mb-2">Application</h3>
                 <ul className="text-sm text-gray-600 space-y-1">
                   <li>• -----</li>
                   <li>• -----</li>
                   <li>• -----</li>
                 </ul>
-              </div>
+              </div> */}
 
               {/* 🔷 BUTTON */}
               <div className="flex flex-col sm:flex-row gap-3">
@@ -205,22 +206,22 @@ const ProductProfileHorizontal = () => {
           {/* 🟦 SPEC TAB */}
           {activeTab === "spec" && (
             <div className="overflow-x-auto">
-              {/* <img
-                        src={specvmm}
-                        alt="Specification"
-                        className="w-full object-contain block -mt-8 md:-mt-36 transition duration-500"
-                      /> */}
+              <img
+                  src={specvmm}
+                  alt="Specification"
+                  className="w-full object-contain block -mt-8 md:-mt-36 transition duration-500"
+              />
             </div>
           )}
 
           {/* 🟩 DELIVERY TAB */}
           {activeTab === "delivery" && (
             <div className="overflow-x-auto">
-              {/* <img
+              <img
                         src={Stand}
                         alt="Specification"
                         className="w-full object-contain block -mt-8 md:-mt-30 transition duration-500"
-                      /> */}
+                      />
             </div>
           )}
 
