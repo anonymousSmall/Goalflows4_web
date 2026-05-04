@@ -18,6 +18,7 @@ import ProductCncAutoVideo from "../components/ViewProducts/ProductCncAutoVideo"
 import ProductManualVideo from "../components/ViewProducts/ProductManualVideo";
 import Pprofileprojecter from "../components/Products/Pprofileprojecter";
 import ProductProfileVertical from "../components/ViewProducts/ProductProfileVertical";
+import ProductProfileHorizontal from "../components/ViewProducts/ProductProfileHorizontal";
 import PccdCamera from "../components/Products/PccdCamera";
 import Pcoordinate from "../components/Products/Pcoordinate";
 import Pprotablecmm from "../components/Products/Pprotablecmm";
@@ -70,6 +71,7 @@ const router = createBrowserRouter([
       { path: "ProductManualVideo", element: <ProductManualVideo/> },
       { path: "Pprofileprojecter", element: <Pprofileprojecter /> },
       { path: "ProductProfileVertical", element: <ProductProfileVertical /> },
+      { path: "ProductProfileHorizontal", element: <ProductProfileHorizontal /> },
       { path: "PccdCamera", element: <PccdCamera /> },
       { path: "Pcoordinate", element: <Pcoordinate /> },
       { path: "Pprotablecmm", element: <Pprotablecmm /> },
