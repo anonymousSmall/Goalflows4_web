@@ -5,7 +5,7 @@ import product1 from "../../assets/image/Productgoalflow/Programmable Temperatur
 import specvmm from "../../assets/image/spec/ProgrammableTemperatureAndHumidityTestChamberspec01.png";
 import Stand from "../../assets/image/spec/ProgrammableTemperatureAndHumidityTestChamberspec02.png";
 import specFile from "../../assets/image/spec/ProgrammableTemperatureAndHumidityTestChamberspec.pdf";
-import p1 from "../../assets/image/brandsale/brand-gf.png";
+import p1 from "../../assets/image/brandsale/gfbrand.png";
 
 
 const products = [
