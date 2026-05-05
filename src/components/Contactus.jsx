@@ -53,7 +53,7 @@ export default function Contactus() {
             GOAL FLOW INSTRUMENT CO., LTD.
           </h2>
           <p className="text-gray-600 text-lg mt-2">
-            บริษัท โกลโฟล อินตรูเมนท์ จำกัด
+            บริษัท โกลโฟล อินสตรูเมนท์ จำกัด
           </p>
           </motion.dev>
           {/* MAIN GRID*/}
