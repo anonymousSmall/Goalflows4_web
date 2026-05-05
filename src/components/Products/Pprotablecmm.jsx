@@ -6,7 +6,7 @@ import p1 from "../../assets/image/Productgoalflow/Programmable Temperature And 
 import p2 from "../../assets/image/Productgoalflow/AbsoluteArm.png"
 // import p3 from "../../assets/image/Productgoalflow/MVMM.png"
 
-import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
+import specFile from "../../assets/image/spec/AbsoluteArm(CMMArm)spec.pdf";
 
 const products = [
   // {
