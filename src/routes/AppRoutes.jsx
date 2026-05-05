@@ -49,6 +49,7 @@ import ProductSingleColumn from "../components/ViewProducts/ProductSingleColumn"
 import ProductSaltspray from "../components/ViewProducts/ProductSaltspray";
 import ProductOvenmachine from "../components/ViewProducts/ProductOvenmachine";
 import ProductTemperature from "../components/ViewProducts/ProductTemperature";
+import ProductArm from "../components/ViewProducts/ProductArm";
 
 const router = createBrowserRouter([
   {
@@ -102,6 +103,7 @@ const router = createBrowserRouter([
       { path: "ProductSaltspray", element: <ProductSaltspray /> },
       { path: "ProductOvenmachine", element: <ProductOvenmachine /> },
       { path: "ProductTemperature", element: <ProductTemperature /> },
+      { path: "ProductArm", element: <ProductArm /> },
 
     //   { path: "details", element: <ProductDetails /> },
     //   { path: "productuser/:id", element: <ProductUser /> },
