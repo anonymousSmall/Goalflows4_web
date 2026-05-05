@@ -3,8 +3,9 @@ import { FaSearch, FaLine } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import p1 from "../../assets/image/Productgoalflow/Programmable Temperature And Humidity Test Chamber.png"
-import p2 from "../../assets/image/Productgoalflow/Absolute Arm (CMM Arm).png"
+import p2 from "../../assets/image/Productgoalflow/AbsoluteArm.png"
 // import p3 from "../../assets/image/Productgoalflow/MVMM.png"
+
 import specFile from "../../assets/image/spec/cnc-vmm-spec.pdf";
 
 const products = [
@@ -22,7 +23,7 @@ const products = [
     img: p2,
     spec: "",
     lineid: "https://lin.ee/v7Kf7rD",
-    url: "#"
+    url: "/ProductArm"
   },
 ];
 
