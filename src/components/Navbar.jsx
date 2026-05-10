@@ -178,23 +178,91 @@ export default function Navbar() {
   pointer-events-auto rounded-md
   "
                                     >
-                                        <div className="p-3 hover:bg-gray-100">Mitutoyo</div>
-                                        <div className="p-3 hover:bg-gray-100">Insize</div>
-                                        <div className="p-3 hover:bg-gray-100">Teclock</div>
-                                        <div className="p-3 hover:bg-gray-100">Peacock</div>
-                                        <div className="p-3 hover:bg-gray-100">Shinwa</div>
-                                        <div className="p-3 hover:bg-gray-100">Mitsuwa</div>
-                                        <div className="p-3 hover:bg-gray-100">Fuji Tool</div>
-                                        <div className="p-3 hover:bg-gray-100">Hunter</div>
-                                        <div className="p-3 hover:bg-gray-100">Tsk</div>
-                                        <div className="p-3 hover:bg-gray-100">Issoku</div>
-                                        <div className="p-3 hover:bg-gray-100">Eisen</div>
-                                        <div className="p-3 hover:bg-gray-100">SK</div>
-                                        <div className="p-3 hover:bg-gray-100">Elcometer</div>
-                                        <div className="p-3 hover:bg-gray-100">Defelshko</div>
-                                        <div className="p-3 hover:bg-gray-100">Vertex</div>
-                                        <div className="p-3 hover:bg-gray-100">Gin</div>
-                                        <div className="p-3 hover:bg-gray-100">Noga</div>
+                                        <div className="p-3 hover:bg-gray-100">      
+                                            <Link to="/Pmitutoyo" onClick={() => setMenuOpen(false)}>
+                                                Mitutoyo
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pinsizes" onClick={() => setMenuOpen(false)}>
+                                                Insize
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pteclocks" onClick={() => setMenuOpen(false)}>
+                                                Teclock
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Ppeacocks" onClick={() => setMenuOpen(false)}>
+                                                Peacock
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pshinnwas" onClick={() => setMenuOpen(false)}>
+                                                Shinwa
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pmitsuwas" onClick={() => setMenuOpen(false)}>
+                                                Mitsuwa
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pfujitools" onClick={() => setMenuOpen(false)}>
+                                                Fuji Tool
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Phunters" onClick={() => setMenuOpen(false)}>
+                                                Hunter
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Ptsks" onClick={() => setMenuOpen(false)}>
+                                                Tsk
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                             <Link to="/Pissokus" onClick={() => setMenuOpen(false)}>
+                                                Issoku
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Peisens" onClick={() => setMenuOpen(false)}>
+                                                Eisen
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                             <Link to="/Psk" onClick={() => setMenuOpen(false)}>
+                                                SK
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pelcometers" onClick={() => setMenuOpen(false)}>
+                                                Elcometer
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pdefelshko" onClick={() => setMenuOpen(false)}>
+                                                Defelshko
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pvertex" onClick={() => setMenuOpen(false)}>
+                                                Vertex
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pgin" onClick={() => setMenuOpen(false)}>
+                                                Gin
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/Pnoga" onClick={() => setMenuOpen(false)}>
+                                                Noga
+                                            </Link>
+                                        </div>
                                         <div className="p-3 hover:bg-gray-100">Kanetec</div>
                                         <div className="p-3 hover:bg-gray-100">Fluke</div>
                                         <div className="p-3 hover:bg-gray-100">Yamamoto</div>
@@ -432,23 +500,91 @@ export default function Navbar() {
                                 <div
                                     className={`${subMenu === "test" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
-                                    <p className="p-3 hover:bg-gray-100">Mitutoyo</p>
-                                    <p className="p-3 hover:bg-gray-100">Insize</p>
-                                    <p className="p-3 hover:bg-gray-100">Teclock</p>
-                                    <p className="p-3 hover:bg-gray-100">Peacock</p>
-                                    <p className="p-3 hover:bg-gray-100">Shinwa</p>
-                                    <p className="p-3 hover:bg-gray-100">Mitsuwa</p>
-                                    <p className="p-3 hover:bg-gray-100">Fuji Tool</p>
-                                    <p className="p-3 hover:bg-gray-100">Hunter</p>
-                                    <p className="p-3 hover:bg-gray-100">Tsk</p>
-                                    <p className="p-3 hover:bg-gray-100">Issoku</p>
-                                    <p className="p-3 hover:bg-gray-100">Eisen</p>
-                                    <p className="p-3 hover:bg-gray-100">SK</p>
-                                    <p className="p-3 hover:bg-gray-100">Elcometer</p>
-                                    <p className="p-3 hover:bg-gray-100">Defelshko</p>
-                                    <p className="p-3 hover:bg-gray-100">Vertex</p>
-                                    <p className="p-3 hover:bg-gray-100">Gin</p>
-                                    <p className="p-3 hover:bg-gray-100">Noga</p>
+                                    <p className="p-3 hover:bg-gray-100">      
+                                        <Link to="/Pmitutoyo" onClick={() => setMenuOpen(false)}>
+                                            Mitutoyo
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Pinsizes" onClick={() => setMenuOpen(false)}>
+                                            Insize
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Pteclocks" onClick={() => setMenuOpen(false)}>
+                                            Teclock
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Ppeacocks" onClick={() => setMenuOpen(false)}>
+                                            Peacock
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Pshinnwas" onClick={() => setMenuOpen(false)}>
+                                            Shinwa
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Pmitsuwas" onClick={() => setMenuOpen(false)}>
+                                            Mitsuwa
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Pfujitools" onClick={() => setMenuOpen(false)}>
+                                            Fuji Tool
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Phunters" onClick={() => setMenuOpen(false)}>
+                                            Hunter
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Ptsks" onClick={() => setMenuOpen(false)}>
+                                            Tsk
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Pissokus" onClick={() => setMenuOpen(false)}>
+                                            Issoku
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Peisens" onClick={() => setMenuOpen(false)}>
+                                            Eisen
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Psk" onClick={() => setMenuOpen(false)}>
+                                            SK
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Pelcometers" onClick={() => setMenuOpen(false)}>
+                                            Elcometer
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Pdefelshko" onClick={() => setMenuOpen(false)}>
+                                            Defelshko
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Pvertex" onClick={() => setMenuOpen(false)}>
+                                            Vertex
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Pgin" onClick={() => setMenuOpen(false)}>
+                                            Gin
+                                        </Link>
+                                    </p>
+                                    <p className="p-3 hover:bg-gray-100">
+                                        <Link to="/Pnoga" onClick={() => setMenuOpen(false)}>
+                                            Noga
+                                        </Link>
+                                    </p>
                                     <p className="p-3 hover:bg-gray-100">Kanetec</p>
                                     <p className="p-3 hover:bg-gray-100">Fluke</p>
                                     <p className="p-3 hover:bg-gray-100">Yamamoto</p>
