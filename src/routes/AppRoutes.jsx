@@ -51,6 +51,42 @@ import ProductOvenmachine from "../components/ViewProducts/ProductOvenmachine";
 import ProductTemperature from "../components/ViewProducts/ProductTemperature";
 import ProductArm from "../components/ViewProducts/ProductArm";
 
+//Start SmallTool
+import Pmitutoyo from "../components/SmallTools/Pmitutoyo";
+import PdigitalMicro103 from "../components/ProductSmalltool/PdigitalMicro103";
+import Pinsizes from "../components/SmallTools/Pinsizes";
+import Pdepthguages1147 from "../components/ProductSmalltool/Pdepthguages1147";
+import Pteclocks from "../components/SmallTools/Pteclocks";
+import Pdurometer from "../components/ProductSmalltool/Pdurometer";
+import Ppeacocks from "../components/SmallTools/Ppeacocks";
+import Pdialcaliperla2 from "../components/ProductSmalltool/Pdialcaliperla2";
+import Pshinnwas from "../components/SmallTools/Pshinnwas";
+import PRuller11215 from "../components/ProductSmalltool/PRuller11215";
+import Pmitsuwas from "../components/SmallTools/Pmitsuwas";
+import Pfeelergauge172mb from "../components/ProductSmalltool/Pfeelergauge172mb";
+import Pfujitools from "../components/SmallTools/Pfujitools";
+import Pradiusgauge178ma from "../components/ProductSmalltool/Pradiusgauge178ma";
+import Phunters from "../components/SmallTools/Phunters";
+import Pplatichammer from "../components/ProductSmalltool/Pplatichammer";
+import Ptsks from "../components/SmallTools/Ptsks";
+import Pfeellergauge100my from "../components/ProductSmalltool/Pfeellergauge100my";
+import Pissokus from "../components/SmallTools/Pissokus";
+import Ppluggaugem4 from "../components/ProductSmalltool/Ppluggaugem4";
+import Peisens from "../components/SmallTools/Peisens";
+import Ppingaugeet03 from "../components/ProductSmalltool/Ppingaugeet03";
+import Psk from "../components/SmallTools/Psk";
+import Pfeelergaugesfg005 from "../components/ProductSmalltool/Pfeelergaugesfg005";
+import Pelcometers from "../components/SmallTools/PElcometers";
+import Pthicknesselcometer456 from "../components/ProductSmalltool/Pthicknesselcometer456";
+import Pdefelshko from "../components/SmallTools/Pdefelshko";
+import Pvertex from "../components/SmallTools/Pvertex";
+import P3JawSelf from "../components/ProductSmalltool/P3JawSelf";
+import Pgin from "../components/SmallTools/Pgin";
+import Ptoolmakervise from "../components/ProductSmalltool/Ptoolmakervise";
+import Pnoga from "../components/SmallTools/Pnoga";
+import Pfineholderma61003 from "../components/ProductSmalltool/Pfineholderma61003";
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -104,6 +140,43 @@ const router = createBrowserRouter([
       { path: "ProductOvenmachine", element: <ProductOvenmachine /> },
       { path: "ProductTemperature", element: <ProductTemperature /> },
       { path: "ProductArm", element: <ProductArm /> },
+
+      //Start SmallTool
+      { path: "Pmitutoyo", element: <Pmitutoyo /> },
+      { path: "PdigitalMicro103", element: <PdigitalMicro103 /> },
+      { path: "Pinsizes", element: <Pinsizes /> },
+      { path: "Pdepthguages1147", element: <Pdepthguages1147 /> },
+      { path: "Pteclocks", element: <Pteclocks /> },
+      { path: "Pdurometer", element: <Pdurometer /> },
+      { path: "Ppeacocks", element: <Ppeacocks /> },
+      { path: "Pdialcaliperla2", element: <Pdialcaliperla2 /> },
+      { path: "Pshinnwas", element: <Pshinnwas /> },
+      { path: "PRuller11215", element: <PRuller11215 /> },
+      { path: "Pmitsuwas", element: <Pmitsuwas /> },
+      { path: "Pfeelergauge172mb", element: <Pfeelergauge172mb /> },
+      { path: "Pfujitools", element: <Pfujitools /> },
+      { path: "Pradiusgauge178ma", element: <Pradiusgauge178ma /> },
+      { path: "Phunters", element: <Phunters /> },
+      { path: "Pplatichammer", element: <Pplatichammer /> },
+      { path: "Ptsks", element: <Ptsks /> },
+      { path: "Pfeellergauge100my", element: <Pfeellergauge100my /> },
+      { path: "Pissokus", element: <Pissokus /> },
+      { path: "Ppluggaugem4", element: <Ppluggaugem4 /> },
+      { path: "Peisens", element: <Peisens /> },
+      { path: "Ppingaugeet03", element: <Ppingaugeet03 /> },
+      { path: "Psk", element: <Psk /> },
+      { path: "Pfeelergaugesfg005", element: <Pfeelergaugesfg005 /> },
+      { path: "Pelcometers", element: <Pelcometers /> },
+      { path: "Pthicknesselcometer456", element: <Pthicknesselcometer456 /> },
+      { path: "Pdefelshko", element: <Pdefelshko /> },
+      { path: "Pvertex", element: <Pvertex /> },
+      { path: "P3JawSelf", element: <P3JawSelf /> },
+      { path: "Pgin", element: <Pgin /> },
+      { path: "Ptoolmakervise", element: <Ptoolmakervise /> },
+      { path: "Pnoga", element: <Pnoga /> },
+      { path: "Pfineholderma61003", element: <Pfineholderma61003 /> },
+      //End SmallTool
+      
 
     //   { path: "details", element: <ProductDetails /> },
     //   { path: "productuser/:id", element: <ProductUser /> },
