@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../assets/image/GF-1.png";
 
+
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [openMenu, setOpenMenu] = useState(null);
