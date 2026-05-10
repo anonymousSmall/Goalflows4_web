@@ -75,7 +75,7 @@ import Peisens from "../components/SmallTools/Peisens";
 import Ppingaugeet03 from "../components/ProductSmalltool/Ppingaugeet03";
 import Psk from "../components/SmallTools/Psk";
 import Pfeelergaugesfg005 from "../components/ProductSmalltool/Pfeelergaugesfg005";
-import Pelcometers from "../components/SmallTools/PElcometers";
+import Pelcometers from "../components/SmallTools/Pelcometers";
 import Pthicknesselcometer456 from "../components/ProductSmalltool/Pthicknesselcometer456";
 import Pdefelshko from "../components/SmallTools/Pdefelshko";
 import Pvertex from "../components/SmallTools/Pvertex";
