@@ -84,6 +84,34 @@ import Pgin from "../components/SmallTools/Pgin";
 import Ptoolmakervise from "../components/ProductSmalltool/Ptoolmakervise";
 import Pnoga from "../components/SmallTools/Pnoga";
 import Pfineholderma61003 from "../components/ProductSmalltool/Pfineholderma61003";
+import Pkanetec from "../components/SmallTools/Pkanetec";
+import Pblockkya8b from "../components/ProductSmalltool/Pblockkya8b";
+import Pfluke from "../components/SmallTools/Pfluke";
+import Plasermeter414d from "../components/ProductSmalltool/Plasermeter414d";
+import Pyamamoto from "../components/SmallTools/Pyamamoto";
+import Phardnesshrc from "../components/ProductSmalltool/Phardnesshrc";
+import Pkanon from "../components/SmallTools/Pkanon";
+import Pimada from "../components/SmallTools/Pimada";
+import Paikoh from "../components/SmallTools/Paikoh";
+import Ptorgue30spk from "../components/ProductSmalltool/Ptorgue30spk";
+import Ptorquetesterdtxs from "../components/ProductSmalltool/Ptorquetesterdtxs";
+import Ppushpullgaugerze1 from "../components/ProductSmalltool/Ppushpullgaugerze1";
+import Ptohnichi from "../components/SmallTools/Ptohnichi";
+import Phanna from "../components/SmallTools/Phanna";
+import Plutron from "../components/SmallTools/Plutron";
+import Pwrenchql5n from "../components/ProductSmalltool/Pwrenchql5n";
+import Pphmeterhi6221 from "../components/ProductSmalltool/Pphmeterhi6221";
+import Pmeterht3007sd from "../components/ProductSmalltool/Pmeterht3007sd";
+import Pextech from "../components/SmallTools/Pextech";
+import Pdigicon from "../components/SmallTools/Pdigicon";
+import Pcem from "../components/SmallTools/Pcem";
+import Psmartsensor from "../components/SmallTools/Psmartsensor";
+import Pchuer from "../components/SmallTools/Pchuer";
+import Pmultimeter from "../components/ProductSmalltool/Pmultimeter";
+import Pthermoth02 from "../components/ProductSmalltool/Pthermoth02";
+import Pthicknessdt156 from "../components/ProductSmalltool/Pthicknessdt156";
+import Plasermeterar861 from "../components/ProductSmalltool/Plasermeterar861";
+import Pbrixgf10 from "../components/ProductSmalltool/Pbrixgf10";
 
 
 const router = createBrowserRouter([
@@ -174,6 +202,34 @@ const router = createBrowserRouter([
       { path: "Ptoolmakervise", element: <Ptoolmakervise /> },
       { path: "Pnoga", element: <Pnoga /> },
       { path: "Pfineholderma61003", element: <Pfineholderma61003 /> },
+      { path: "Pkanetec", element: <Pkanetec /> },
+      { path: "Pblockkya8b", element: <Pblockkya8b /> },
+      { path: "Pfluke", element: <Pfluke /> },
+      { path: "Plasermeter414d", element: <Plasermeter414d /> },
+      { path: "Pyamamoto", element: <Pyamamoto /> },
+      { path: "Phardnesshrc", element: <Phardnesshrc /> },
+      { path: "Pkanon", element: <Pkanon /> },
+      { path: "Ptorgue30spk", element: <Ptorgue30spk /> },
+      { path: "Pimada", element: <Pimada /> },
+      { path: "Ptorquetesterdtxs", element: <Ptorquetesterdtxs /> },
+      { path: "Paikoh", element: <Paikoh /> },
+      { path: "Ppushpullgaugerze1", element: <Ppushpullgaugerze1 /> },
+      { path: "Ptohnichi", element: <Ptohnichi /> },
+      { path: "Pwrenchql5n", element: <Pwrenchql5n /> },
+      { path: "Phanna", element: <Phanna /> },
+      { path: "Pphmeterhi6221", element: <Pphmeterhi6221 /> },
+      { path: "Plutron", element: <Plutron /> },
+      { path: "Pmeterht3007sd", element: <Pmeterht3007sd /> },
+      { path: "Pextech", element: <Pextech /> },
+      { path: "Pmultimeter", element: <Pmultimeter /> },
+      { path: "Pdigicon", element: <Pdigicon /> },
+      { path: "Pthermoth02", element: <Pthermoth02 /> },
+      { path: "Pcem", element: <Pcem /> },
+      { path: "Pthicknessdt156", element: <Pthicknessdt156 /> },
+      { path: "Psmartsensor", element: <Psmartsensor /> },
+      { path: "Plasermeterar861", element: <Plasermeterar861 /> },
+      { path: "Pchuer", element: <Pchuer /> },
+      { path: "Pbrixgf10", element: <Pbrixgf10 /> },
       //End SmallTool
       
 
