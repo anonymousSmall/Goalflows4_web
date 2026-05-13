@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaSearch, FaLine } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import product1 from "../../assets/image/Smalltool/HANNAHI6221-02.png"
-import specvmm from "../../assets/image/specSmalltool/LUTRONHT-3007SDSPEC01";
+import specvmm from "../../assets/image/specSmalltool/LUTRONHT-3007SDSPEC01.png";
 import Stand from "../../assets/image/specSmalltool/INSIZE1147-300spec02.png";
 import specFile from "../../assets/image/specSmalltool/LUTRONHT-3007SDSPEC.pdf";
 import p1 from "../../assets/image/brandsale/29.png";
