@@ -2,19 +2,99 @@ import React, { useState } from 'react'
 import { FaSearch, FaLine } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import p1 from "../../assets/image/Smalltool/aikohRZE-1.png"
+import p1 from "../../assets/image/hospitalbalance/DC-360.png";
+import p2 from "../../assets/image/hospitalbalance/TCS-200A-RT.png";
+import p3 from "../../assets/image/hospitalbalance/M301.png";
+import p4 from "../../assets/image/hospitalbalance/IDS851.png";
+import p5 from "../../assets/image/hospitalbalance/BW-1410XXL.png";
+import p6 from "../../assets/image/hospitalbalance/BW-5156LM.png";
+import p7 from "../../assets/image/hospitalbalance/BW-3133.png";
+import p8 from "../../assets/image/hospitalbalance/BD-590.png";
+import p9 from "../../assets/image/hospitalbalance/HD-380.png";
 
-import specFile from "../../assets/image/specSmalltool/aikohRZE-1SPEC.pdf";
+import specFile from "../../assets/image/spechospitalbalance/DC-360spec.pdf";
+import specFile1 from "../../assets/image/spechospitalbalance/TCS-200A-RTspec.pdf";
+import specFile2 from "../../assets/image/spechospitalbalance/M-301SPEC.pdf";
+import specFile3 from "../../assets/image/spechospitalbalance/IDS851PEC.pdf";
+import specFile4 from "../../assets/image/spechospitalbalance/BW-1410XXLSPEC.pdf";
+import specFile5 from "../../assets/image/spechospitalbalance/BW5156LMSPEC.pdf";
+import specFile6 from "../../assets/image/spechospitalbalance/BW-3133SPEC.pdf";
+import specFile7 from "../../assets/image/spechospitalbalance/BD-590SPEC.pdf";
+import specFile8 from "../../assets/image/spechospitalbalance/HD-380SPEC.pdf";
 
 
 const products = [
   {
     id: 1,
-    name: "Digital Push-Pull Gauge RZE-1",
+    name: "Body Composition Analyzer DC-360",
     img: p1,
     spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
-    url: "/Ppushpullgaugerze1"
+    url: "/Pdc360"
+  },
+  {
+    id: 2,
+    name: "Body SCALE TCS-200A-RT",
+    img: p2,
+    spec: specFile1,
+    lineid: "https://lin.ee/v7Kf7rD",
+    url: "/Ptcs200a"
+  },
+  {
+    id: 3,
+    name: "Body SCALE M301",
+    img: p3,
+    spec: specFile2,
+    lineid: "https://lin.ee/v7Kf7rD",
+    url: "/Pm301"
+  },
+  {
+    id: 4,
+    name: "Body SCALE IDS851",
+    img: p4,
+    spec: "",
+    lineid: "https://lin.ee/v7Kf7rD",
+    url: "/Pids851"
+  },
+  {
+    id: 5,
+    name: "Body SCALE BW-1410XXL",
+    img: p5,
+    spec: specFile4,
+    lineid: "https://lin.ee/v7Kf7rD",
+    url: "/Pbw1410xxl"
+  },
+  {
+    id: 6,
+    name: "Wheelchair Scale BW-5156LM",
+    img: p6,
+    spec: specFile5,
+    lineid: "https://lin.ee/v7Kf7rD",
+    url: "/Pbw5156lm"
+  },
+  {
+    id: 7,
+    name: "Body SCALE BW-3133",
+    img: p7,
+    spec: specFile6,
+    lineid: "https://lin.ee/v7Kf7rD",
+    url: "/Pbw3133"
+  },
+  {
+    id: 8,
+    name: "BABY SCALE BD-590",
+    img: p8,
+    spec: specFile7,
+    lineid: "https://lin.ee/v7Kf7rD",
+    url: "/Pbd590"
+  },
+  {
+    id: 9,
+    name: "BODY SCALE HD-380",
+    img: p9,
+    spec: specFile8,
+    lineid: "https://lin.ee/v7Kf7rD",
+    url: "/Phd380"
   },
 ];
 
@@ -33,10 +113,10 @@ const HospitalBalance = () => {
       {/* 🔷 HEADER */}
       <div className="max-w-7xl mx-auto mb-10 text-center">
         <h1 className="text-2xl md:text-4xl font-bold text-[#003b6e]">
-          Aikoh Brand
+          Hospital Balance
         </h1>
         <p className="text-gray-500 mt-2">
-        เครื่องมือวัดชิ้นงาน
+          เครื่องชั่งโรงพยาบาล
         </p>
       </div>
 
