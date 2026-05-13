@@ -256,9 +256,14 @@ const router = createBrowserRouter([
       { path: "Pti01series", element: <Pti01series /> },
       { path: "Ptnseries", element: <Ptnseries /> },
       { path: "Pthp03series", element: <Pthp03series /> },
-      { path: "HospitalBalance", element: <HospitalBalance /> },
-      { path: "AnimalBalance", element: <AnimalBalance /> },
       // End industrialBalance
+      // Start HospitalBalance
+      { path: "HospitalBalance", element: <HospitalBalance /> },
+      // End HospitalBalance
+      // Start AnimalBalance
+      { path: "AnimalBalance", element: <AnimalBalance /> },
+      // End AnimalBalance
+
       
 
     //   { path: "details", element: <ProductDetails /> },
