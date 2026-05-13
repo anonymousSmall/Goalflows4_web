@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import p1 from "../../assets/image/Smalltool/EXTECHEX540.png"
 
-// import specFile from "../../assets/image/specSmalltool";
+import specFile from "../../assets/image/specSmalltool/EXTECHEX540SPEC.pdf";
 
 
 const products = [
@@ -12,7 +12,7 @@ const products = [
     id: 1,
     name: "Multimeter EX540/EX542",
     img: p1,
-    spec: "",
+    spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/Pmultimeter"
   },
