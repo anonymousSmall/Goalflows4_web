@@ -103,17 +103,17 @@ const Pphmeterhi6221 = () => {
               </div>
 
               {/* Application */}
-              <div className="mb-6">
+              {/*<div className="mb-6">
                 <h3 className="font-semibold text-[#003b6e] mb-2">ประโยชน์การใช้งาน: </h3>
                 <ul className="text-sm text-gray-600 space-y-1">
                   <li>• ป้องกันน็อตขาดหรือแน่นเกินไปในงานประกอบชิ้นส่วนอิเล็กทรอนิกส์, มอเตอร์ไซค์, จักรยาน หรืออุปกรณ์ที่ต้องการแรงบิดเบา</li>
-                   {/*<li>• การตั้งค่าอุปกรณ์ประกอบ (Fixture Setup)</li>
+                   <li>• การตั้งค่าอุปกรณ์ประกอบ (Fixture Setup)</li>
                   <li>• การวัดชิ้นงานขนาดใหญ่หรือชิ้นงานที่ไม่สามารถเคลื่อนย้ายได้</li>
                   <li>Absolute Arm 7-Axis 83 series เหมาะสำหรับงานอุตสาหกรรมที่ต้องการทั้งความเร็วในการเก็บข้อมูลผ่านเลเซอร์สแกนเนอร์และความแม่นยำในการสัมผัสชิ้นงาน</li>
                   <li>• ความแม่นยำทางคอนทัวร์: มาตรฐานความแม่นยำ ±(1.2+|2H|/100) µm</li>
-                  <li>• ซอฟต์แวร์ ACCETee: ใช้งานง่าย พร้อมฟังก์ชัน teach-in programming สำหรับ CNC</li> */}
+                  <li>• ซอฟต์แวร์ ACCETee: ใช้งานง่าย พร้อมฟังก์ชัน teach-in programming สำหรับ CNC</li> 
                 </ul>
-              </div>
+              </div>*/}
 
               {/* 🔷 BUTTON */}
               <div className="flex flex-col sm:flex-row gap-3">
