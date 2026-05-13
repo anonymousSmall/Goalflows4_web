@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { FaSearch, FaLine } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
 import p1 from "../../assets/image/Smalltool/EXTECHEX540.png"
 
 import specFile from "../../assets/image/specSmalltool/EXTECHEX540SPEC.pdf";
