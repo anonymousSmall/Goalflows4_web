@@ -354,9 +354,21 @@ export default function Navbar() {
   pointer-events-auto rounded-md
   "
                                     >
-                                        <div className="p-3 hover:bg-gray-100">INDUSTRIAL BALANCE</div>
-                                        <div className="p-3 hover:bg-gray-100">HOSPITAL BALANCE</div>
-                                        <div className="p-3 hover:bg-gray-100">ANIMAL BALANCE</div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/IndustrialBalance" onClick={() => setMenuOpen(false)}>
+                                                INDUSTRIAL BALANCE
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/HospitalBalance" onClick={() => setMenuOpen(false)}>
+                                                HOSPITAL BALANCE
+                                            </Link>
+                                        </div>
+                                        <div className="p-3 hover:bg-gray-100">
+                                            <Link to="/AnimalBalance" onClick={() => setMenuOpen(false)}>
+                                                ANIMAL BALANCE 
+                                            </Link>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>
@@ -728,10 +740,14 @@ export default function Navbar() {
                                     className={`${subMenu === "test1" ? "block" : "hidden"} pl-10 bg-gray-100`}
                                 >
                                     <p className="p-3 hover:bg-gray-100">
-                                        INDUSTRIAL BALANCE
+                                        <Link to="/IndustrialBalance" onClick={() => setMenuOpen(false)}>
+                                            INDUSTRIAL BALANCE 
+                                        </Link>
                                     </p>
                                     <p className="p-3 hover:bg-gray-100">
-                                        HOSPITAL BALANCE
+                                        <Link to="/HospitalBalance" onClick={() => setMenuOpen(false)}>
+                                            HOSPITAL BALANCE 
+                                        </Link>
                                     </p>
                                     <p className="p-3 hover:bg-gray-100">
                                         ANIMAL BALANCE
