@@ -12,7 +12,7 @@ const products = [
     id: 1,
     name: "HUMIDITY/TEMP. METER HT-3007SD",
     img: p1,
-    spec: "",
+    spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/Pmeterht3007sd"
   },
