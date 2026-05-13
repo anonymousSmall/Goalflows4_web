@@ -178,11 +178,11 @@ const Ptoolmakervise = () => {
           {/* 🟦 SPEC TAB */}
           {activeTab === "spec" && (
             <div className="overflow-x-auto">
-              {/*<img
+              <img
                 src={specvmm}
                 alt="Specification"
                 className="w-full object-contain block -mt-auto md:-mt-auto transition duration-500"
-              />*/}
+              />
             </div>
           )}
 
