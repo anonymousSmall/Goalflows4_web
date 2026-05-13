@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 import product1 from "../../assets/image/Smalltool/EXTECHEX540.png"
 import specvmm from "../../assets/image/specSmalltool/EXTECHEX540SPEC01.png";
 import Stand from "../../assets/image/specSmalltool/INSIZE1147-300spec02.png";
-import specFile from "../../assets/image/specSmalltool/VERTEXVSC-6ASPEC.pdf";
+import specFile from "../../assets/image/specSmalltool/EXTECHEX540SPEC.pdf";
 import p1 from "../../assets/image/brandsale/30.png";
 
  
 const products = [
   {
     id: 1,
-    spec: "",
+    spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
   },
 ];
