@@ -7,7 +7,6 @@ import Stand from "../../assets/image/specSmalltool/INSIZE1147-300spec02.png";
 import specFile from "../../assets/image/specSmalltool/EXTECHEX540SPEC.pdf";
 import p1 from "../../assets/image/brandsale/30.png";
 
-
  
 const products = [
   {
