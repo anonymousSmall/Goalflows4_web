@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import p1 from "../../assets/image/Smalltool/LUTRONHT-3007SD.png"
 
-// import specFile from "../../assets/image/specSmalltool/l";
+import specFile from "../../assets/image/specSmalltool/LUTRONHT-3007SDSPEC.pdf";
 
 
 const products = [
