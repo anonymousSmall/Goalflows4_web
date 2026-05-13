@@ -125,6 +125,16 @@ import Pti01series from "../components/ProductIndustrialBalance/Pti01series";
 import Ptnseries from "../components/ProductIndustrialBalance/Ptnseries";
 import Pthp03series from "../components/ProductIndustrialBalance/Pthp03series";
 import AnimalBalance from "../components/AnimalBalance/AnimalBalance";
+// -----
+import Pdc360 from "../components/Producthopitalbalance/Pdc360";
+import Ptcs200a from "../components/Producthopitalbalance/Ptcs200a";
+import Pm301 from "../components/Producthopitalbalance/Pm301";
+import Pids851 from "../components/Producthopitalbalance/Pids851";
+import Pbw1410xxl from "../components/Producthopitalbalance/Pbw1410xxl";
+import Pbw5156lm from "../components/Producthopitalbalance/Pbw5156lm";
+import Pbw3133 from "../components/Producthopitalbalance/Pbw3133";
+import Pbd590 from "../components/Producthopitalbalance/Pbd590";
+import Phd380 from "../components/Producthopitalbalance/Phd380";
 
 
 const router = createBrowserRouter([
@@ -257,8 +267,17 @@ const router = createBrowserRouter([
       { path: "Ptnseries", element: <Ptnseries /> },
       { path: "Pthp03series", element: <Pthp03series /> },
       // End industrialBalance
-      // Start HospitalBalance
+       // Start HospitalBalance
       { path: "HospitalBalance", element: <HospitalBalance /> },
+      { path: "Pdc360", element: <Pdc360 /> },
+      { path: "Ptcs200a", element: <Ptcs200a /> },
+      { path: "Pm301", element: <Pm301 /> },
+      { path: "Pids851", element: <Pids851 /> },
+      { path: "Pbw1410xxl", element: <Pbw1410xxl /> },
+      { path: "Pbw5156lm", element: <Pbw5156lm /> },
+      { path: "Pbw3133", element: <Pbw3133 /> },
+      { path: "Pbd590", element: <Pbd590 /> },
+      { path: "Phd380", element: <Phd380 /> },
       // End HospitalBalance
       // Start AnimalBalance
       { path: "AnimalBalance", element: <AnimalBalance /> },
