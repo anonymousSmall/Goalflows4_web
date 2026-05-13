@@ -112,6 +112,19 @@ import Pthermoth02 from "../components/ProductSmalltool/Pthermoth02";
 import Pthicknessdt156 from "../components/ProductSmalltool/Pthicknessdt156";
 import Plasermeterar861 from "../components/ProductSmalltool/Plasermeterar861";
 import Pbrixgf10 from "../components/ProductSmalltool/Pbrixgf10";
+import IndustrialBalance from "../components/IndustrialBalance/IndustrialBalance";
+import HospitalBalance from "../components/HostpitalBalance/HospitalBalance";
+import Pbmseries from "../components/ProductIndustrialBalance/Pbmseries";
+import Papseries from "../components/ProductIndustrialBalance/Papseries";
+import Pehbseries from "../components/ProductIndustrialBalance/Pehbseries";
+import Plpbseries from "../components/ProductIndustrialBalance/Plpbseries";
+import Pbwseries from "../components/ProductIndustrialBalance/Pbwseries";
+import Ptwi700c from "../components/ProductIndustrialBalance/Ptwi700c";
+import Pt7eseries from "../components/ProductIndustrialBalance/Pt7eseries";
+import Pti01series from "../components/ProductIndustrialBalance/Pti01series";
+import Ptnseries from "../components/ProductIndustrialBalance/Ptnseries";
+import Pthp03series from "../components/ProductIndustrialBalance/Pthp03series";
+import AnimalBalance from "../components/AnimalBalance/AnimalBalance";
 
 
 const router = createBrowserRouter([
@@ -231,6 +244,21 @@ const router = createBrowserRouter([
       { path: "Pchuer", element: <Pchuer /> },
       { path: "Pbrixgf10", element: <Pbrixgf10 /> },
       //End SmallTool
+      // Start industrialBalance
+      { path: "IndustrialBalance", element: <IndustrialBalance /> },
+      { path: "Pbmseries", element: <Pbmseries /> },
+      { path: "Papseries", element: <Papseries /> },
+      { path: "Pehbseries", element: <Pehbseries /> },
+      { path: "Plpbseries", element: <Plpbseries /> },
+      { path: "Pbwseries", element: <Pbwseries /> },
+      { path: "Ptwi700c", element: <Ptwi700c /> },
+      { path: "Pt7eseries", element: <Pt7eseries /> },
+      { path: "Pti01series", element: <Pti01series /> },
+      { path: "Ptnseries", element: <Ptnseries /> },
+      { path: "Pthp03series", element: <Pthp03series /> },
+      { path: "HospitalBalance", element: <HospitalBalance /> },
+      { path: "AnimalBalance", element: <AnimalBalance /> },
+      // End industrialBalance
       
 
     //   { path: "details", element: <ProductDetails /> },
