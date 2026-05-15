@@ -135,6 +135,14 @@ import Pbw5156lm from "../components/Producthopitalbalance/Pbw5156lm";
 import Pbw3133 from "../components/Producthopitalbalance/Pbw3133";
 import Pbd590 from "../components/Producthopitalbalance/Pbd590";
 import Phd380 from "../components/Producthopitalbalance/Phd380";
+import Pbw7842 from "../components/ProductAnimalBalance/Pbw7842";
+import Ptas01 from "../components/ProductAnimalBalance/Ptas01";
+import PtcsD300 from "../components/ProductAnimalBalance/PtcsD300";
+import Pac168 from "../components/ProductAnimalBalance/Pac168";
+import Pids707 from "../components/ProductAnimalBalance/Pids707";
+import Ppf110h from "../components/ProductAnimalBalance/Ppf110h";
+import Panimalbigsize from "../components/ProductAnimalBalance/Panimalbigsize";
+import Panimalsmallsize from "../components/ProductAnimalBalance/Panimalsmallsize";
 
 
 const router = createBrowserRouter([
@@ -281,8 +289,15 @@ const router = createBrowserRouter([
       // End HospitalBalance
       // Start AnimalBalance
       { path: "AnimalBalance", element: <AnimalBalance /> },
+      { path: "Pbw7842", element: <Pbw7842 /> },
+      { path: "Ptas01", element: <Ptas01 /> },
+      { path: "PtcsD300", element: <PtcsD300 /> },
+      { path: "Pac168", element: <Pac168 /> },
+      { path: "Pids707", element: <Pids707 /> },
+      { path: "Ppf110h", element: <Ppf110h /> },
+      { path: "Panimalbigsize", element: <Panimalbigsize /> },
+      { path: "Panimalsmallsize", element: <Panimalsmallsize /> },
       // End AnimalBalance
-
       
 
     //   { path: "details", element: <ProductDetails /> },
