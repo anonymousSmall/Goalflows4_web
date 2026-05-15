@@ -3,8 +3,8 @@ import { FaSearch, FaLine } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import product1 from "../../assets/image/industrialbalance/LPB-series.png"
 import specvmm from "../../assets/image/specindustrialbalance/lpb-series1.png";
-import Stand from "../../assets/image/specindustrialbalance/lpb-series2.png";
-// import specFile from "../../assets/image/specindustrialbalance/";
+import Stand from "../../assets/image/specindustrialbalance/More Information.png";
+import specFile from "../../assets/image/specindustrialbalance/LPBSPEC.pdf";
 import p1 from "../../assets/image/brandsale/48.png";
 
  
