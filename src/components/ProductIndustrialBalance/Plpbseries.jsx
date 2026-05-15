@@ -11,7 +11,7 @@ import p1 from "../../assets/image/brandsale/48.png";
 const products = [
   {
     id: 1,
-    spec: "",
+    spec: specFile,
     lineid: "https://lin.ee/v7Kf7rD",
   },
 ];
