@@ -17,7 +17,7 @@ import p10 from "../../assets/image/industrialbalance/THP03-SERIES.png";
 import specFile from "../../assets/image/specindustrialbalance/BMSPEC.pdf";
 import specFile1 from "../../assets/image/specindustrialbalance/APSPEC.pdf";
 import specFile2 from "../../assets/image/specindustrialbalance/EHBSPEC.pdf";
-// import specFile3 from "../../assets/image/specindustrialbalance/lp";
+import specFile3 from "../../assets/image/specindustrialbalance/LPBSPEC.pdf";
 import specFile4 from "../../assets/image/specindustrialbalance/BWSPEC.pdf";
 import specFile5 from "../../assets/image/specindustrialbalance/TWI-700C-SPEC.pdf";
 import specFile6 from "../../assets/image/specindustrialbalance/T7E-spec.pdf";
@@ -55,7 +55,7 @@ const products = [
     id: 4,
     name: "Precision Balance LPB-series",
     img: p4,
-    spec: "",
+    spec: spceFile3,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/Plpbseries"
   },
