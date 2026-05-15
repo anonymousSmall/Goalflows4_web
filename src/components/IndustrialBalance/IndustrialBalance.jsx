@@ -55,7 +55,7 @@ const products = [
     id: 4,
     name: "Precision Balance LPB-series",
     img: p4,
-    spec: spceFile3,
+    spec: specFile3,
     lineid: "https://lin.ee/v7Kf7rD",
     url: "/Plpbseries"
   },
