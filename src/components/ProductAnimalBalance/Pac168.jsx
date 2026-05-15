@@ -5,7 +5,7 @@ import product1 from "../../assets/image/animalbalance/ac-168.png"
 import specvmm from "../../assets/image/specanimalbalance/ac168spce.png";
 import Stand from "../../assets/image/specanimalbalance/bw-7842spec.pdf";
 import specFile from "../../assets/image/specanimalbalance/ac168spec.pdf";
-import p1 from "../../assets/image/brandsale/56.png";
+import p1 from "../../assets/image/brandsale/brand-gf.png";
 
  
 const products = [
